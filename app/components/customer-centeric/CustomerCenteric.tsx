@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const CustomerCenteric = () => {
     return (
-        <div className="w-full px-6 md:px-24 py-32">
-            <div className="max-w-screen-2xl flex flex-col-reverse items-center lg:flex-row lg:justify-between gap-12 xl:gap-32 mx-auto relative">
-                <div className="w-full lg:w-1/2 relative">
+        <div className="w-full px-6 md:px-24 pt-32">
+            <div className="max-w-screen-2xl flex flex-col-reverse items-center lg:flex-row lg:justify-between gap-12 xl:gap-32 mx-auto">
+                <div className="w-full lg:w-1/2">
                     <Image src="/Group1.svg" width={644} height={627} priority alt="customer centric1" />
                 </div>
                 <div className="w-full lg:w-1/2">
