@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navigation = () => {
     return (
-        <nav className="h-24 border-gray-20 border-b border-primary fixed w-full top-0 bg-white px-24 z-10">
+        <nav className="h-24 border-gray-20 border-b border-primary fixed w-full top-0 bg-quaternary px-24 z-10">
             <div className="max-w-screen-2xl h-full flex flex-wrap items-center justify-between mx-auto my-auto">
                 <div className="flex gap-36">
                     <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
