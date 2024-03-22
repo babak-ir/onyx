@@ -32,7 +32,7 @@ const Navigation = () => {
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
-                <div className="hidden gap-6 md:flex">
+                <div className="hidden gap-6 lg:flex">
                     <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
                         <Image src="/telegram.svg" alt="Telegram Logo" className="dark:invert" width={24} height={24} priority />
                     </Link>
