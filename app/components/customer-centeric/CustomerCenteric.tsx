@@ -6,8 +6,7 @@ const CustomerCenteric = () => {
         <div className="w-full px-6 md:px-24 py-32">
             <div className="max-w-screen-2xl flex flex-col-reverse items-center lg:flex-row lg:justify-between gap-12 xl:gap-32 mx-auto relative">
                 <div className="w-full lg:w-1/2 relative">
-                    <Image src="/Group1.svg" width={644} height={627} priority alt="customer centric1" className="" />
-                    {/* <Image src="/Rectangle 68.svg" width={334} height={302} priority alt="customer centric2" className="absolute right-[67px] bottom-[-95px]" /> */}
+                    <Image src="/Group1.svg" width={644} height={627} priority alt="customer centric1" />
                 </div>
                 <div className="w-full lg:w-1/2">
                     <h6 className="text-2xl leading-8 font-bold text-tertiary md:text-[35px] md:leading-[45px] lg:text-[30px] lg:leading-[35px] xl:text-[45px] xl:leading-[72px]">Customer-Centric</h6>
