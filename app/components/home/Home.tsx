@@ -19,7 +19,9 @@ const Home = () => {
                     <p className="text-lg text-black">
                         At Onyx, we pride ourselves on delivering the finest quality kaolinite minerals to meet your manufacturing needs. With our dedication to excellence and commitment to customer satisfaction, we stand as your trusted partner in the industry. Explore our range of micronized kaolinite products, meticulously processed to suit diverse applications across various sectors.
                     </p>
-                    <button className="bg-tertiary text-white py-3 px-14 mt-16 text-sm">Contact Us</button>
+                    <div className="mt-6 md:mt-16">
+                        <Link href={""} className="bg-tertiary text-white py-3 px-14 text-sm">Contact Us</Link>
+                    </div>
                 </div>
                 <div>
                     <Image src="/home.svg" width={644} height={962} priority alt="home" />

@@ -14,7 +14,9 @@ const CustomerCenteric = () => {
                     <p className="text-base text-black mt-8">
                         At Onyx, our customers are at the heart of everything we do. We are committed to building long-lasting partnerships based on trust, integrity, and mutual success. Whether you are a small-scale manufacturer or a multinational corporation, we prioritize your needs and strive to exceed your expectations at every turn.
                     </p>
-                    <button className="bg-tertiary text-white py-3 px-14 mt-6 md:mt-16 text-sm">Read More</button>
+                    <div className=" mt-6 md:mt-16">
+                        <Link href={""} className="bg-tertiary text-white py-3 px-14 text-sm">Read More</Link>
+                    </div>
                 </div>
             </div>
         </div>
