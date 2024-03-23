@@ -5,7 +5,7 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background: transparent;
+  background: #e9e9e9;
 }
 
 /* body::-webkit-scrollbar-track {
@@ -13,8 +13,7 @@
 } */
 
 ::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  border-radius: 5px;
+  background-color: #1f1f1f;
 }
 
 /* :root {
