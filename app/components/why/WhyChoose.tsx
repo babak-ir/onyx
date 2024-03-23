@@ -7,9 +7,7 @@ const WhyChoose = () => {
                 <div className="w-full flex flex-col gap-4 lg:w-2/3">
                     <div className="basis-full border border-primary flex flex-col gap-4 p-4 md:p-5 md:gap-5 lg:p-6 lg:gap-6">
                         <div className="flex justify-start items-center ">
-                            <div className="p-2">
-                                <Image src="/Best Seller.svg" width={64} height={64} priority alt="Best Seller" />
-                            </div>
+                            <Image src="/Best Seller.svg" width={64} height={64} priority alt="Best Seller" />
                             <h2 className="text-[17px] leading-6 font-medium text-tertiary lg:text-xl xl:text-[22px] xl:leading-7">Unmatched Quality Assurance</h2>
                         </div>
                         <p className="text-sm leading-6 text-black font-normal xl:text-base">
@@ -19,9 +17,7 @@ const WhyChoose = () => {
                     <div className="flex flex-col gap-4 md:flex-row">
                         <div className="basis-full lg:basis-1/2 border border-primary flex flex-col gap-4 p-4 md:p-5 md:gap-5 lg:p-6 lg:gap-6">
                             <div className="flex justify-start items-center ">
-                                <div className="p-2">
-                                    <Image src="/Setting.svg" width={74} height={74} priority alt="Setting" />
-                                </div>
+                                <Image src="/Setting.svg" width={74} height={74} priority alt="Setting" />
                                 <h2 className="text-[17px] leading-6 font-medium text-tertiary lg:text-xl xl:text-[22px] xl:leading-7">Technical Expertise</h2>
                             </div>
                             <p className="text-sm leading-6 text-black font-normal xl:text-base">
@@ -30,9 +26,7 @@ const WhyChoose = () => {
                         </div>
                         <div className="basis-full lg:basis-1/2 border border-primary flex flex-col gap-4 p-4 md:p-5 md:gap-5 lg:p-6 lg:gap-6">
                             <div className="flex justify-start items-center ">
-                                <div className="p-2">
-                                    <Image src="/Middle East.svg" width={64} height={64} priority alt="Middle East" />
-                                </div>
+                                <Image src="/Middle East.svg" width={64} height={64} priority alt="Middle East" />
                                 <h2 className="text-[17px] leading-6 font-medium text-tertiary lg:text-xl xl:text-[22px] xl:leading-7">Global Reach</h2>
                             </div>
                             <p className="text-sm leading-6 text-black font-normal xl:text-base">

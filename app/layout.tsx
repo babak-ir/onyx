@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navigation from "../components/Navigation/Navigation";
 import classNames from "classnames";
+import Footer from "../components/Footer/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={classNames("max-w-full", poppins.className)}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
