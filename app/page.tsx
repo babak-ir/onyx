@@ -1,6 +1,7 @@
 import CustomerCenteric from "./components/customer-centeric/CustomerCenteric";
 import Home from "./components/home/Home";
 import Products from "./components/products/Products";
+import WhyChoose from "./components/why/WhyChoose";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Home />
       <CustomerCenteric />
       <Products />
+      <WhyChoose />
     </main>
   );
 }
