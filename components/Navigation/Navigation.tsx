@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Navigation = () => {
     return (
-        <nav className="h-24 border-gray-20 border-b border-primary fixed w-full top-0 bg-quaternary px-24 z-10">
+        <nav className="p-6 h-24 border-gray-20 border-b border-primary fixed w-full top-0 bg-quaternary md:px-12 lg:px-24 z-10">
             <div className="max-w-screen-2xl h-full flex flex-wrap items-center justify-between mx-auto my-auto">
-                <div className="flex gap-36">
-                    <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <div className="hidden md:flex gap-36">
+                    <Link href="/" className="hidden md:flex items-center space-x-3 rtl:space-x-reverse">
                         <Image src="/onyx.svg" width={140} height={48} priority alt="ONYX Logo" />
                     </Link>
                     <div className="hidden w-full my-auto md:block md:w-auto text-secondary text-base font-normal">
@@ -26,10 +26,10 @@ const Navigation = () => {
                         </ul>
                     </div>
                 </div>
-                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
+                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center bg-tertiary md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
-                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3 18V16H21V18H3ZM3 13V11H21V13H3ZM3 8V6H21V8H3Z" fill="white" />
                     </svg>
                 </button>
                 <div className="hidden gap-6 lg:flex">
