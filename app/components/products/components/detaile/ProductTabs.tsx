@@ -1,5 +1,5 @@
 import { InstanceOptions, TabItem, Tabs, TabsInterface, TabsOptions } from "flowbite";
-import { IProductCode } from "../interfaces/productInterfaces";
+import { IProductCode } from "../../interfaces/productInterfaces";
 import ProductTabContetnt from "./ProductTabContetnt";
 import { useEffect } from "react";
 

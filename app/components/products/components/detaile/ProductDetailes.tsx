@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef } from "react";
-import { IProduct } from "../interfaces/productInterfaces";
+import { IProduct } from "../../interfaces/productInterfaces";
 import { Modal, ModalOptions } from "flowbite";
-import ModelLayout from "../../../../components/Layouts/ModelLayout";
-import ProductInfoLayout from "../layouts/ProductInfoLayout";
+import ModelLayout from "../../../../../components/Layouts/ModelLayout";
+import ProductInfoLayout from "../../layouts/ProductInfoLayout";
 import ProductTabs from "./ProductTabs";
 
 interface IProp {

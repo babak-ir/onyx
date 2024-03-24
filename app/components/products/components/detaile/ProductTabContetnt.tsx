@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { IProductCode } from "../interfaces/productInterfaces";
-import ProductInfoLayout from "../layouts/ProductInfoLayout";
+import { IProductCode } from "../../interfaces/productInterfaces";
+import ProductInfoLayout from "../../layouts/ProductInfoLayout";
 
 interface IProp {
     productCodes: IProductCode

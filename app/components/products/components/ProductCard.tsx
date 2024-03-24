@@ -4,7 +4,7 @@ import Image from "next/image";
 import { IProduct } from "../interfaces/productInterfaces";
 import Link from "next/link";
 import { useState } from "react";
-import ProductDeetailes from "./ProductDetailes";
+import ProductDeetailes from "./detaile/ProductDetailes";
 
 interface IProp {
     product: IProduct
