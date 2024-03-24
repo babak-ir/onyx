@@ -16,11 +16,7 @@ export const metadata: Metadata = {
   description: "Your Source for Premium Kaolinite",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
       <body className={classNames("max-w-full", poppins.className)}>

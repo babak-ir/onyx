@@ -1,4 +1,3 @@
-import Image from "next/image";
 import productConstants from "../constants/ProductConstants";
 import ProductCard from "./ProductCard";
 

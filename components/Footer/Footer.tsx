@@ -10,7 +10,7 @@ const Footer = () => {
                         <Image src="/onyx.svg" width={215} height={74} priority alt="ONYX Logo" />
                     </Link>
                     <p className="text-secondary font-normal text-sm leading-6 lg:text-base">
-                        Ready to experience the Onyx difference? Contact us today to learn more about our products and how we can support your business. Let us be your preferred supplier of choice for premium micronized kaolinite, and together, let's elevate your manufacturing processes to new heights of excellence.
+                        Ready to experience the Onyx difference? Contact us today to learn more about our products and how we can support your business. Let us be your preferred supplier of choice for premium micronized kaolinite, and together, let&apos;s elevate your manufacturing processes to new heights of excellence.
                     </p>
                 </div>
                 <div className="flex flex-col gap-8">
