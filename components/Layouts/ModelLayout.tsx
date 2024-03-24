@@ -1,4 +1,4 @@
-import { MutableRefObject, ReactNode } from "react";
+import { MutableRefObject, ReactNode, useRef } from "react";
 
 interface Props {
     children?: ReactNode;
@@ -8,11 +8,20 @@ interface Props {
 }
 
 const ModelLayout = ({ children, reff, onClose, title }: Props) => {
+
+    const actionsRef = useRef<HTMLDivElement>(null);
+    const headerRef = useRef<HTMLDivElement>(null);
+    let maxHeight = '70vh';
+    if (actionsRef.current && headerRef.current) {
+        maxHeight = `calc(${maxHeight} - ${actionsRef.current.getBoundingClientRect().height + headerRef.current.getBoundingClientRect().height}px)`;
+    }
+
+
     return (
         <div ref={reff} className="fixed start-0 top-0 end-0 z-50 items-center justify-center hidden h-full">
-            <div className="relative w-full h-full max-w-5xl p-0 md:px-4 md:max-h-[70vh]">
-                <div className="bg-quaternary px-6">
-                    <div className="flex justify-between items-center border-b border-b-primary pt-8 pb-6 lg:pb-8">
+            <div className="relative flex justify-center items-center w-full h-full max-w-5xl p-0 md:px-4 md:max-h-[70vh]">
+                <div className="bg-quaternary px-6 h-full w-full md:h-fit md:w-fit">
+                    <div ref={headerRef} className="flex justify-between items-center border-b border-b-primary pt-8 pb-6 lg:pb-8">
                         <h3 className="text-secondary text-[17px] leading-6 font-medium lg:teaxt-[22px] lg:leading-7">{title}</h3>
                         <button className="inline-flex items-center justify-center p-2 cursor-pointer bg-tertiary" onClick={() => onClose()}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
