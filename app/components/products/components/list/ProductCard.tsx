@@ -1,10 +1,10 @@
 "use client"
 
 import Image from "next/image";
-import { IProduct } from "../interfaces/productInterfaces";
+import { IProduct } from "../../interfaces/productInterfaces";
 import Link from "next/link";
 import { useState } from "react";
-import ProductDeetailes from "./detaile/ProductDetailes";
+import ProductDeetailes from "../detaile/ProductDetailes";
 
 interface IProp {
     product: IProduct

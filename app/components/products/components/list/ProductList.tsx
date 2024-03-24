@@ -1,4 +1,4 @@
-import productConstants from "../constants/ProductConstants";
+import productConstants from "../../constants/ProductConstants";
 import ProductCard from "./ProductCard";
 
 const ProductList = () => {
