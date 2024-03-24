@@ -50,16 +50,16 @@ const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
             </div>
             <div className="flex flex-col gap-4 text-secondary font-normal px-6 pt-8">
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Home</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Home</Link>
                 </div>
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link href="#services" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#services" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</Link>
                 </div>
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link href="#about" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About Us</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#about" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About Us</Link>
                 </div>
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact Us</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact Us</Link>
                 </div>
             </div>
 

@@ -21,16 +21,16 @@ const Navigation = () => {
                         <div className="hidden w-full my-auto md:block md:w-auto text-secondary text-base font-normal">
                             <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
                                 <li>
-                                    <Link href="#" className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Home</Link>
+                                    <Link href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">Home</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</Link>
+                                    <Link href="#services" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">Services</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About Us</Link>
+                                    <Link href="#about" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">About Us</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact Us</Link>
+                                    <Link href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">Contact Us</Link>
                                 </li>
                             </ul>
                         </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WhyChoose = () => {
     return (
-        <div className="w-full px-6 md:px-24 py-32">
+        <div id="about" className="w-full px-6 md:px-24 py-32">
             <div className="max-w-screen-2xl flex flex-col-reverse items-center justify-start lg:flex-row lg:justify-between lg:items-center gap-12 xl:gap-32 mx-auto">
                 <div className="w-full flex flex-col gap-4 lg:w-2/3">
                     <div className="basis-full border border-primary flex flex-col gap-4 p-4 md:p-5 md:gap-5 lg:p-6 lg:gap-6">
