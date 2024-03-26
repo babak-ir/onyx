@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getScopedI18n } from "../../locales/server";
+import { Switch } from "../../app/[locale]/switch";
 
-const Footer = () => {
+const Footer = async () => {
+
+    const t = await getScopedI18n('footer');
+
     return (
         <div id="contact" className="w-full p-6 md:px-24 md:py-32" style={{ backgroundImage: "linear-gradient(0deg, rgba(72, 32, 25, 0.1) 0%, rgba(72, 32, 25, 0.09) 24.9%, rgba(72, 32, 25, 0.08) 47.06%, rgba(72, 32, 25, 0.07) 69.21%, rgba(255, 255, 255, 0.1) 100%)" }}>
             <div className="max-w-screen-2xl flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-start gap-12 xl:gap-32 mx-auto">
@@ -10,11 +15,12 @@ const Footer = () => {
                         <Image src="/onyx.svg" width={215} height={74} priority alt="ONYX Logo" />
                     </Link>
                     <p className="text-secondary font-normal text-sm leading-6 lg:text-base">
-                        Ready to experience the Onyx difference? Contact us today to learn more about our products and how we can support your business. Let us be your preferred supplier of choice for premium micronized kaolinite, and together, let&apos;s elevate your manufacturing processes to new heights of excellence.
+                        {t('description')}
                     </p>
+                    <Switch />
                 </div>
                 <div className="flex flex-col gap-8">
-                    <h3 className="font-medium text-[17px] leading-6 text-secondary lg:text-[22px] lg:leading-7">Contacts</h3>
+                    <h3 className="font-medium text-[17px] leading-6 text-secondary lg:text-[22px] lg:leading-7">{t('contacts')}</h3>
                     <div className="flex flex-col justify-start items-start font-normal text-sm leading-6 text-black gap-6 lg:text-base lg:flex-row lg:gap-24">
                         <div className="flex flex-col gap-6">
                             <div className="flex items-center gap-4">
@@ -34,7 +40,7 @@ const Footer = () => {
                             <Image src="/address.svg" width={20} height={20} sizes="24px" priority alt="ONYX address" />
                             <div className="flex flex-col gap-6">
                                 <p className="max-w-80">
-                                    Ardabil, administrative town in front of Enix company&apos;s construction engineering system organization
+                                    {t('address')}
                                 </p>
                                 <div className="flex gap-6">
                                     <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">

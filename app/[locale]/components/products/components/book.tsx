@@ -1,6 +1,7 @@
 import { Modal, ModalOptions } from "flowbite";
-import ModelLayout from "../../../../components/Layouts/ModelLayout";
+import ModelLayout from "../../../../../components/Layouts/ModelLayout";
 import { useEffect, useMemo, useRef } from "react";
+import { useScopedI18n } from "../../../../../locales/client";
 
 interface IProp {
     openModal: boolean;
@@ -8,6 +9,8 @@ interface IProp {
 }
 
 const BookNow = ({ openModal, onClose }: IProp) => {
+
+    const t = useScopedI18n('products.booking');
 
     const closeHandler = () => {
         (modal as Modal).hide();
@@ -33,14 +36,14 @@ const BookNow = ({ openModal, onClose }: IProp) => {
     }, [openModal, modal]);
 
     return (
-        <ModelLayout reff={modalRef} onClose={() => closeHandler()} title="‌Booking Now">
+        <ModelLayout reff={modalRef} onClose={() => closeHandler()} title={t('title')}>
             <div className="flex flex-col">
                 <div className="flex flex-col items-start gap-6">
-                    <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder="Email *" />
-                    <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder="Phone number *" />
-                    <textarea className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder="Description" />
+                    <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('email')} *`} />
+                    <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('phone')} *`} />
+                    <textarea className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('description')} *`} />
                 </div>
-                <button className="text-white w-full bg-tertiary text-sm font-normal py-3 px-14 mt-28 mb-8" onClick={() => closeHandler()}>Submit</button>
+                <button className="text-white w-full bg-tertiary text-sm font-normal py-3 px-14 mt-28 mb-8" onClick={() => closeHandler()}>{t('submit')}</button>
             </div>
         </ModelLayout >
     );

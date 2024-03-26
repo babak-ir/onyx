@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { IProduct } from "../../interfaces/productInterfaces";
 import { Modal, ModalOptions } from "flowbite";
-import ModelLayout from "../../../../../components/Layouts/ModelLayout";
+import ModelLayout from "../../../../../../components/Layouts/ModelLayout";
 import ProductInfoLayout from "../../layouts/ProductInfoLayout";
 import ProductTabs from "./ProductTabs";
 import BookNow from "../book";
+import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
 
 interface IProp {
     product: IProduct | undefined;
@@ -12,6 +13,9 @@ interface IProp {
 }
 
 const ProductDeetailes = ({ product, onClose }: IProp) => {
+
+    const locale = useCurrentLocale();
+    const t = useScopedI18n('products.detaile');
 
     const [openBookingModal, setOpenBookingModal] = useState(false);
 
@@ -45,9 +49,9 @@ const ProductDeetailes = ({ product, onClose }: IProp) => {
 
     return (
         <>
-            <ModelLayout reff={modalRef} onClose={() => modal?.hide()} title={product?.title}>
+            <ModelLayout reff={modalRef} onClose={() => modal?.hide()} title={product?.title[locale]}>
                 <div className="flex flex-col items-start gap-4">
-                    <ProductInfoLayout title="Analyze" classList="justify-between">
+                    <ProductInfoLayout title={t('analyze')} classList="justify-between">
                         {
                             product &&
                             Object.entries(product.detailes.analyze).map(([key, value]) => (
@@ -58,24 +62,24 @@ const ProductDeetailes = ({ product, onClose }: IProp) => {
                             ))
                         }
                     </ProductInfoLayout>
-                    <ProductInfoLayout title="Attributes" classList="gap-x-0 gap-y-2 flex-col lg:flex-row">
+                    <ProductInfoLayout title={t('attributes')} classList="gap-x-0 gap-y-2 flex-col lg:flex-row">
                         {
                             product &&
                             product.detailes.attributes.map((item, index) => (
                                 <div key={index} className="flex flex-none w-full items-start text-sm font-normal leading-6 text-secondary md:text-base md:font-bold lg:w-1/2">
                                     <span>{index + 1}-</span>
-                                    <span>{item}</span>
+                                    <span>{item[locale]}</span>
                                 </div>
                             ))
                         }
                     </ProductInfoLayout>
-                    <ProductInfoLayout title="Uses" classList="gap-x-0 gap-y-2 flex-col lg:flex-row">
+                    <ProductInfoLayout title={t('uses')} classList="gap-x-0 gap-y-2 flex-col lg:flex-row">
                         {
                             product &&
                             product.detailes.uses.map((item, index) => (
                                 <div key={index} className="flex flex-none w-full items-start text-sm font-normal leading-6 text-secondary md:text-base md:font-bold lg:w-1/2">
                                     <span>{index + 1}-</span>
-                                    <span>{item}</span>
+                                    <span>{item[locale]}</span>
                                 </div>
                             ))
                         }
@@ -85,7 +89,7 @@ const ProductDeetailes = ({ product, onClose }: IProp) => {
                         <ProductTabs productCodes={product.detailes.productCodes} />
                     }
 
-                    <button onClick={() => openBookingModalHandler()} className="w-full bg-tertiary text-white py-3 px-14 text-sm mb-8">Book Now</button>
+                    <button onClick={() => openBookingModalHandler()} className="w-full bg-tertiary text-white py-3 px-14 text-sm mb-8">{t('bookNow')}</button>
 
                 </div>
             </ModelLayout>

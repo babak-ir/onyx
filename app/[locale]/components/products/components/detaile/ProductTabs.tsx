@@ -2,12 +2,15 @@ import { InstanceOptions, TabItem, Tabs, TabsInterface, TabsOptions } from "flow
 import { IProductCode } from "../../interfaces/productInterfaces";
 import ProductTabContetnt from "./ProductTabContetnt";
 import { useEffect } from "react";
+import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
 
 interface IProp {
     productCodes: IProductCode[]
 }
 
 const ProductTabs = ({ productCodes }: IProp) => {
+
+    const locale = useCurrentLocale();
 
     useEffect(() => {
 
@@ -53,7 +56,7 @@ const ProductTabs = ({ productCodes }: IProp) => {
 
                             <li key={index} className="px-4">
                                 <button type="button" id={`${item.code}-tirgger`} className="inline-flex items-center justify-center py-[14px] mb-[1px] font-normal hover:text-gray-600 text-xs md:text-sm">
-                                    {item.name}
+                                    {item.name[locale]}
                                 </button>
                             </li>
 

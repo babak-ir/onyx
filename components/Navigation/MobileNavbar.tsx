@@ -2,6 +2,7 @@ import { Drawer, DrawerOptions } from "flowbite";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef } from "react";
+import { useScopedI18n } from "../../locales/client";
 
 interface IProp {
     openDrawer: boolean;
@@ -9,6 +10,8 @@ interface IProp {
 }
 
 const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
+
+    const t = useScopedI18n('navbar');
 
     const navbarRef = useRef(null);
     const drawerOptions: DrawerOptions = useMemo(() => {
@@ -18,7 +21,7 @@ const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
             bodyScrolling: false,
             edge: false,
             edgeOffset: '',
-            backdropClasses: 'bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-30',
+            backdropClasses: 'bg-gray-900 bg-opacity-50 fixed inset-0 z-30',
             onHide: () => {
                 onClose();
             },
@@ -37,7 +40,7 @@ const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
 
 
     return (
-        <div ref={navbarRef} id="drawer-contact" className="fixed top-0 left-0 z-40 h-screen transition-transform -translate-x-full bg-white w-full md:w-[20rem] dark:bg-gray-800" tabIndex={-1}>
+        <div ref={navbarRef} id="drawer-contact" className="fixed top-0 left-0 z-40 h-screen transition-transform -translate-x-full bg-white w-full md:w-[20rem]" tabIndex={-1}>
             <div className="flex justify-between items-start px-6 pt-12">
                 <Link href="/" className="md:flex items-center rtl:space-x-reverse">
                     <Image src="/onyx.svg" width={160} height={54} priority alt="ONYX Logo" />
@@ -48,18 +51,18 @@ const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
                     </svg>
                 </button>
             </div>
-            <div className="flex flex-col gap-4 text-secondary font-normal px-6 pt-8">
+            <div className="flex flex-col gap-4 text-secondary font-normal px-6 pt-8 min-h-fit h-full overflow-y-auto">
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Home</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">{t('home')}</Link>
                 </div>
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#services" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#services" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">{t('services')}</Link>
                 </div>
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#about" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About Us</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#about" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">{t('about')}</Link>
                 </div>
                 <div className="border-b border-gray-light px-4 py-2">
-                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact Us</Link>
+                    <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">{t('contact')}</Link>
                 </div>
             </div>
 

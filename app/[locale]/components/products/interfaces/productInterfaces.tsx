@@ -2,21 +2,26 @@ import { StaticImageData } from "next/image";
 
 export interface IProduct {
     id: number;
-    title: string;
-    disc: string;
+    title: ILocale;
+    disc: ILocale;
     image: StaticImageData;
     detailes: {
         analyze: { [key: string]: string },
-        attributes: string[],
-        uses: string[],
+        attributes: ILocale[],
+        uses: ILocale[],
         productCodes: IProductCode[]
     }
 }
 
 export interface IProductCode {
-    name: string,
+    name: ILocale;
     code: string;
-    chemical: { [key: string]: string },
-    physical: string[],
-    image: StaticImageData
+    chemical: { [key: string]: string };
+    physical: ILocale[];
+    image: StaticImageData;
+}
+
+export interface ILocale {
+    en: string;
+    fa: string;
 }

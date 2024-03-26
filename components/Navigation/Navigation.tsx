@@ -4,11 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
+import { useScopedI18n } from "../../locales/client";
 
 const Navigation = () => {
 
     const [openMobileNavbarDrawer, setOpenMobileNavbarDrawer] = useState(false);
 
+    const t = useScopedI18n('navbar');
 
     return (
         <>
@@ -21,16 +23,16 @@ const Navigation = () => {
                         <div className="hidden w-full my-auto md:block md:w-auto text-secondary text-base font-normal">
                             <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
                                 <li>
-                                    <Link href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">Home</Link>
+                                    <Link href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">{t('home')}</Link>
                                 </li>
                                 <li>
-                                    <Link href="#services" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">Services</Link>
+                                    <Link href="#services" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">{t('services')}</Link>
                                 </li>
                                 <li>
-                                    <Link href="#about" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">About Us</Link>
+                                    <Link href="#about" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">{t('about')}</Link>
                                 </li>
                                 <li>
-                                    <Link href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">Contact Us</Link>
+                                    <Link href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">{t('contact')}</Link>
                                 </li>
                             </ul>
                         </div>

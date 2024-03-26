@@ -4,6 +4,8 @@ import Image from "next/image";
 import { IProduct } from "../../interfaces/productInterfaces";
 import { useState } from "react";
 import ProductDeetailes from "../detaile/ProductDetailes";
+import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
+import SubLayout from "../../../../client/layout";
 
 interface IProp {
     product: IProduct
@@ -13,6 +15,8 @@ const ProductCard = ({ product }: IProp) => {
 
     const [modalData, setModalData] = useState<IProduct | undefined>(undefined);
 
+    const t = useScopedI18n('products');
+    const locale = useCurrentLocale();
 
     return (
         <>
@@ -22,15 +26,17 @@ const ProductCard = ({ product }: IProp) => {
                 </div>
                 <div className="w-full h-full p-6 flex flex-col justify-between items-end">
                     <div className="flex flex-col gap-4">
-                        <h6 className="text-[17px] font-medium leading-6 text-white md:text-[22px] md:leading-7">{product.title}</h6>
+                        <h6 className="text-[17px] font-medium leading-6 text-white md:text-[22px] md:leading-7">{product.title[locale]}</h6>
                         <p className="text-xs md:text-sm font-normal text-white">
-                            {product.disc}
+                            {product.disc[locale]}
                         </p>
                     </div>
-                    <button onClick={() => setModalData(product)} className="text-sm font-medium text-tertiary py-2 px-10 bg-white">Read More</button>
+                    <button onClick={() => setModalData(product)} className="text-sm font-medium text-tertiary py-2 px-10 bg-white">{t('readMore')}</button>
                 </div>
             </div>
-            <ProductDeetailes product={modalData} onClose={() => setModalData(undefined)} />
+            <SubLayout params={{ locale }}>
+                <ProductDeetailes product={modalData} onClose={() => setModalData(undefined)} />
+            </SubLayout>
         </>
     );
 }
