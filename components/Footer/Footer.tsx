@@ -25,15 +25,15 @@ const Footer = async () => {
                         <div className="flex flex-col gap-6">
                             <div className="flex items-center gap-4">
                                 <Image src="/cellPhone.svg" width={16} height={16} sizes="24px" priority alt="ONYX cellPhone" />
-                                <span>+989143586995</span>
+                                <span dir="ltr">+989143586995</span>
                             </div>
                             <div className="flex items-center gap-4">
                                 <Image src="/phone.svg" width={16} height={16} sizes="24px" priority alt="ONYX phone" />
-                                <span>+9804533751147</span>
+                                <span dir="ltr">+9804533751147</span>
                             </div>
                             <div className="flex items-center gap-4">
                                 <Image src="/fax.svg" width={16} height={16} sizes="24px" priority alt="ONYX fax" />
-                                <span>+9804533751147</span>
+                                <span dir="ltr">+9804533751147</span>
                             </div>
                         </div>
                         <div className="flex justify-start items-start gap-4">
