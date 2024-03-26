@@ -24,7 +24,7 @@ const Footer = async () => {
                     <div className="flex flex-col justify-start items-start font-normal text-sm leading-6 text-black gap-6 lg:text-base lg:flex-row lg:gap-24">
                         <div className="flex flex-col gap-6">
                             <div className="flex items-center gap-4">
-                                <Image src="/cellPhone.svg" width={16} height={16} sizes="24px" priority alt="ONYX cellPhone" />
+                                <Image src="/cellPhone.svg" width={14} height={14} sizes="24px" priority alt="ONYX cellPhone" />
                                 <span dir="ltr">+989143586995</span>
                             </div>
                             <div className="flex items-center gap-4">
