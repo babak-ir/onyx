@@ -24,6 +24,10 @@ const config: Config = {
         "deactivate": "#4C4C4C",
         "gray-light": "#CAC4D0",
       },
+      fontFamily: {
+        sans: ['var(--font-vazir)'],
+        mono: ['var(--font-poppins)'],
+      },
     },
   },
   plugins: [
