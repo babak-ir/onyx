@@ -13,11 +13,13 @@ export function SwitchLocal() {
         <>
             <form className="">
                 <select id="countries" onChange={(event) => changeLocale(event.target.value)} className="bg-quaternary border-primary text-gray-900 text-sm rounded-lg focus:ring-blue-500 block w-24 p-2">
-                    <option value="en" className="flex flex-row gap-2" selected={local === 'en'}>
-                        <span> 🇺🇸 </span>
-                        <span>En</span>
+                    <option value='en' selected={local === 'en'}>
+                        <div className="flex flex-row gap-2">
+                            <span> 🇺🇸 </span>
+                            <span>En</span>
+                        </div>
                     </option>
-                    <option value="fa" selected={local === 'fa'}>
+                    <option value='fa' selected={local === 'fa'}>
                         <div className="inline-flex items-center justify-between">
                             <span> 🇮🇷 </span>
                             <span>Fa</span>
