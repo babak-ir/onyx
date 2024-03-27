@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getScopedI18n } from "../../locales/server";
-import { Switch } from "../../app/[locale]/switch";
+import { SwitchLocal } from "../../app/[locale]/switch";
 
 const Footer = async () => {
 
@@ -17,7 +17,7 @@ const Footer = async () => {
                     <p className="text-secondary font-normal text-sm leading-6 lg:text-base">
                         {t('description')}
                     </p>
-                    <Switch />
+                    <SwitchLocal />
                 </div>
                 <div className="flex flex-col gap-8">
                     <h3 className="font-medium text-[17px] leading-6 text-secondary lg:text-[22px] lg:leading-7">{t('contacts')}</h3>

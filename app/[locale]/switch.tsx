@@ -1,19 +1,30 @@
 'use client';
 
-import { useChangeLocale } from '../../locales/client';
+import { useChangeLocale, useCurrentLocale } from '../../locales/client';
 
-export function Switch() {
+export function SwitchLocal() {
+
     // Uncomment to preserve the search params. Don't forget to also uncomment the Suspense in the layout
     const changeLocale = useChangeLocale(/* { preserveSearchParams: true } */);
 
+    const local = useCurrentLocale();
+
     return (
         <>
-            <button type="button" onClick={() => changeLocale('en')}>
-                EN
-            </button>
-            <button type="button" onClick={() => changeLocale('fa')}>
-                FA
-            </button>
+            <form className="">
+                <select id="countries" onChange={(event) => changeLocale(event.target.value)} className="bg-quaternary border-primary text-gray-900 text-sm rounded-lg focus:ring-blue-500 block w-24 p-2">
+                    <option value="en" className="flex flex-row gap-2" selected={local === 'en'}>
+                        <span> 🇺🇸 </span>
+                        <span>En</span>
+                    </option>
+                    <option value="fa" selected={local === 'fa'}>
+                        <div className="inline-flex items-center justify-between">
+                            <span> 🇮🇷 </span>
+                            <span>Fa</span>
+                        </div>
+                    </option>
+                </select>
+            </form>
         </>
     );
 }

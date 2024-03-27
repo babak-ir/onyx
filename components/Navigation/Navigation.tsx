@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
 import { useScopedI18n } from "../../locales/client";
+import { SwitchLocal } from "../../app/[locale]/switch";
 
 const Navigation = () => {
 
@@ -52,6 +53,7 @@ const Navigation = () => {
                         <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                             <Image src="/instagram.svg" alt="Instagram Logo" className="dark:invert" width={24} height={24} priority />
                         </Link>
+                        <SwitchLocal />
                     </div>
                 </div>
             </nav>
