@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef } from "react";
 import { useScopedI18n } from "../../locales/client";
+import { SwitchLocal } from "../../app/[locale]/switch";
 
 interface IProp {
     openDrawer: boolean;
@@ -64,8 +65,10 @@ const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
                 <div className="border-b border-gray-light px-4 py-2">
                     <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">{t('contact')}</Link>
                 </div>
+                <div className="px-7 py-4">
+                    <SwitchLocal />
+                </div>
             </div>
-
         </div>
     );
 }
