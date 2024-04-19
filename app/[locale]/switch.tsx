@@ -9,19 +9,35 @@ export function SwitchLocal() {
 
     const local = useCurrentLocale();
 
+    const changeLocaleHandler = (event: React.ChangeEvent<HTMLSelectElement>) => {
+
+        switch (event.target.value) {
+            case 'en':
+                changeLocale('en');
+                break;
+            case 'fa':
+                changeLocale('fa');
+                break;
+            default:
+                changeLocale('en')
+                break;
+        }
+
+    }
+
     return (
         <>
             <form className="">
-                <select id="countries" onChange={(event) => changeLocale(event.target.value)} className="bg-quaternary border-primary text-gray-900 text-sm rounded-lg focus:ring-blue-500 block w-24 p-2">
-                    <option value="en" className="flex flex-row gap-2" selected={local === 'en'}>
-                        <span> 🇺🇸 </span>
-                        <span>En</span>
+                <select id="countries" onChange={changeLocaleHandler} className="bg-quaternary border-primary text-gray-900 text-sm rounded-lg focus:ring-blue-500 block w-24 p-2">
+                    <option value='en' selected={local === 'en'}>
+                        <span className="flex flex-row gap-2">
+                            🇺🇸   En
+                        </span>
                     </option>
-                    <option value="fa" selected={local === 'fa'}>
-                        <div className="inline-flex items-center justify-between">
-                            <span> 🇮🇷 </span>
-                            <span>Fa</span>
-                        </div>
+                    <option value='fa' selected={local === 'fa'}>
+                        <span className="inline-flex items-center justify-between">
+                            🇮🇷   Fa
+                        </span>
                     </option>
                 </select>
             </form>
