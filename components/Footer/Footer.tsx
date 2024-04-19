@@ -42,7 +42,7 @@ const Footer = async () => {
                                 <p className="max-w-80">
                                     {t('address')}
                                 </p>
-                                <div className="flex gap-6">
+                                {/* <div className="flex gap-6">
                                     <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
                                         <Image src="/telegram.svg" alt="Telegram Logo" width={20} height={20} sizes="24px" priority />
                                     </Link>
@@ -52,7 +52,7 @@ const Footer = async () => {
                                     <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                                         <Image src="/instagram.svg" alt="Instagram Logo" width={20} height={20} sizes="24px" priority />
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

@@ -44,7 +44,7 @@ const Navigation = () => {
                         </svg>
                     </button>
                     <div className="hidden gap-6 lg:flex">
-                        <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
+                        {/* <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
                             <Image src="/telegram.svg" alt="Telegram Logo" className="dark:invert" width={24} height={24} priority />
                         </Link>
                         <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
@@ -52,7 +52,7 @@ const Navigation = () => {
                         </Link>
                         <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                             <Image src="/instagram.svg" alt="Instagram Logo" className="dark:invert" width={24} height={24} priority />
-                        </Link>
+                        </Link> */}
                         <SwitchLocal />
                     </div>
                 </div>
