@@ -3,16 +3,16 @@ import { IProduct } from "../../interfaces/productInterfaces";
 import { Modal, ModalOptions } from "flowbite";
 import ModelLayout from "../../../../../../components/Layouts/ModelLayout";
 import ProductInfoLayout from "../../layouts/ProductInfoLayout";
-import ProductTabs from "./ProductTabs";
 import BookNow from "../book";
 import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
+import ProductTabContetnt from "./ProductTabContetnt";
 
 interface IProp {
     product: IProduct | undefined;
     onClose: () => void;
 }
 
-const ProductDeetailes = ({ product, onClose }: IProp) => {
+const ProductDetailes = ({ product, onClose }: IProp) => {
 
     const locale = useCurrentLocale();
     const t = useScopedI18n('products.detaile');
@@ -49,12 +49,12 @@ const ProductDeetailes = ({ product, onClose }: IProp) => {
 
     return (
         <>
-            <ModelLayout reff={modalRef} onClose={() => modal?.hide()} title={product?.title[locale]}>
+            <ModelLayout reff={modalRef} onClose={() => modal?.hide()} title={product?.title[locale]} subTitle={product?.detailes.productCodes.code}>
                 <div className="flex flex-col items-start gap-4">
                     <ProductInfoLayout title={t('analyze')} classList="justify-between">
                         {
                             product &&
-                            Object.entries(product.detailes.analyze).map(([key, value]) => (
+                            Object.entries(product.detailes.productCodes.chemical).map(([key, value]) => (
                                 <div key={key} className="flex flex-col gap-2 items-start text-sm leading-6 text-secondary">
                                     <span className="font-normal">{key}</span>
                                     <span className="font-bold md:text-base">{value}</span>
@@ -86,7 +86,8 @@ const ProductDeetailes = ({ product, onClose }: IProp) => {
                     </ProductInfoLayout>
                     {
                         product &&
-                        <ProductTabs productCodes={product.detailes.productCodes} />
+                        <ProductTabContetnt productCodes={product.detailes.productCodes} />
+                        // <ProductTabs productCodes={product.detailes.productCodes} />
                     }
 
                     <button onClick={() => openBookingModalHandler()} className="w-full bg-tertiary text-white py-3 px-14 text-sm mb-8">{t('bookNow')}</button>
@@ -99,4 +100,4 @@ const ProductDeetailes = ({ product, onClose }: IProp) => {
     );
 }
 
-export default ProductDeetailes;
+export default ProductDetailes;

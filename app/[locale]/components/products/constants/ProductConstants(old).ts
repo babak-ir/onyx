@@ -3,7 +3,7 @@ import unmatched from "../../../../../public/unmatched.png";
 import kgR from "../../../../../public/kg-r-300x142.jpg";
 import kgW from "../../../../../public/kg-w-300x155.jpg";
 
-import { IProduct } from "../interfaces/productInterfaces";
+import { IProduct } from "../interfaces/productInterfaces(old)";
 
 const productConstants: IProduct[] = [
     {
@@ -18,6 +18,7 @@ const productConstants: IProduct[] = [
         },
         image: unmatched,
         detailes: {
+            analyze: { "SiO2": "76", "Al2O3": "14.7", "Fe2O3": "0.7", "Cao": "0.6", "K2O": "2.9", "Na2O": "0.14", "Mgo": "0.1", "Bao": "-", "P2O5": "0", "SO3": "-", "TiO2": "0.05", "L.O.I": "4.8" },
             attributes: [
                 {
                     en: "Baking temperature 1100 degrees Celsius",
@@ -46,7 +47,29 @@ const productConstants: IProduct[] = [
                     fa: "آجر نسوز نما"
                 }
             ],
-            productCodes: {
+            productCodes: [{
+                name: {
+                    en: "Product code: KG-R",
+                    fa: "کد محصول: KG-R",
+                },
+                code: "KG-R",
+                chemical: { "SiO2": "68.3", "Al2O3": "17.5", "Fe2O3": "1.6", "Cao": "1.3", "K2O": "2.4", "Na2O": "2.7", "Mgo": "0.9", "Bao": "0", "P2O5": "0", "SO3": "0", "TiO2": "0.4", "L.O.I": "4.9" },
+                physical: [
+                    {
+                        en: "Baking temperature 1050 degrees",
+                        fa: "دمای پخت 1050 درجه سانتی گراد",
+                    },
+                    {
+                        en: "Red baking color",
+                        fa: "رنگ پخت قرمز پر رنگ",
+                    },
+                    {
+                        en: "The shape of the product is a soft lump with a cooking shrinkage of 0.5%",
+                        fa: "شکل محصول کلوخ فله نرم انقباض پخت ۰/۵ درصد",
+                    }
+                ],
+                image: kgR
+            }, {
                 name: {
                     en: "Product code: KG-W",
                     fa: "کد محصول: KG-W",
@@ -69,7 +92,7 @@ const productConstants: IProduct[] = [
 
                 ],
                 image: kgW
-            }
+            }]
         }
     },
     {
@@ -84,6 +107,7 @@ const productConstants: IProduct[] = [
         },
         image: kaolinite,
         detailes: {
+            analyze: { "SiO2": "76", "Al2O3": "14.7", "Fe2O3": "0.7", "Cao": "0.6", "K2O": "2.9", "Na2O": "0.14", "Mgo": "0.1", "Bao": "-", "P2O5": "0", "SO3": "-", "TiO2": "0.05", "L.O.I": "4.8" },
             attributes: [
                 {
                     en: "Baking temperature 1100 degrees Celsius",
@@ -112,13 +136,13 @@ const productConstants: IProduct[] = [
                     fa: "آجر نسوز نما"
                 }
             ],
-            productCodes: {
+            productCodes: [{
                 name: {
                     en: "Product code: KG-R",
                     fa: "کد محصول: KG-R",
                 },
                 code: "KG-R",
-                chemical: { "SiO2": "76", "Al2O3": "14.7", "Fe2O3": "0.7", "Cao": "0.6", "K2O": "2.9", "Na2O": "0.14", "Mgo": "0.1", "Bao": "-", "P2O5": "0", "SO3": "-", "TiO2": "0.05", "L.O.I": "4.8" },
+                chemical: { "SiO2": "68.3", "Al2O3": "17.5", "Fe2O3": "1.6", "Cao": "1.3", "K2O": "2.4", "Na2O": "2.7", "Mgo": "0.9", "Bao": "0", "P2O5": "0", "SO3": "0", "TiO2": "0.4", "L.O.I": "4.9" },
                 physical: [
                     {
                         en: "Baking temperature 1050 degrees",
@@ -134,7 +158,30 @@ const productConstants: IProduct[] = [
                     }
                 ],
                 image: kgR
-            }
+            }, {
+                name: {
+                    en: "Product code: KG-W",
+                    fa: "کد محصول: KG-W",
+                },
+                code: "KG-W",
+                chemical: { "SiO2": "68.3", "Al2O3": "17.5", "Fe2O3": "1.6", "Cao": "1.3", "K2O": "2.4", "Na2O": "2.7", "Mgo": "0.9", "Bao": "0", "P2O5": "0", "SO3": "0", "TiO2": "0.4", "L.O.I": "4.9" },
+                physical: [
+                    {
+                        en: "Baking temperature 1050 degrees",
+                        fa: "دمای پخت بالای ۱۴۰۰ درجه",
+                    },
+                    {
+                        en: "Red baking color",
+                        fa: "رنگ پخت سفید",
+                    },
+                    {
+                        en: "The shape of the product is a soft lump with a cooking shrinkage of 0.5%",
+                        fa: "شکل محصول کلوخ فله نرم انقباض پخت ۰/۵ درصد",
+                    }
+
+                ],
+                image: kgW
+            }]
         }
     }
 ];

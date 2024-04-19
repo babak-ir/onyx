@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { IProduct } from "../../interfaces/productInterfaces";
 import { useState } from "react";
-import ProductDeetailes from "../detaile/ProductDetailes";
+import ProductDetailes from "../detaile/ProductDetailes";
 import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
 import SubLayout from "../../../../client/layout";
 
@@ -35,7 +35,7 @@ const ProductCard = ({ product }: IProp) => {
                 </div>
             </div>
             <SubLayout params={{ locale }}>
-                <ProductDeetailes product={modalData} onClose={() => setModalData(undefined)} />
+                <ProductDetailes product={modalData} onClose={() => setModalData(undefined)} />
             </SubLayout>
         </>
     );

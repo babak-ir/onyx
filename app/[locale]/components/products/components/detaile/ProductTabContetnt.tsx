@@ -14,7 +14,7 @@ const ProductTabContetnt = ({ productCodes }: IProp) => {
 
     return (
         <div className="flex flex-col gap-6 py-6">
-            <ProductInfoLayout title={t('chemical')} classList="justify-between">
+            {/* <ProductInfoLayout title={t('chemical')} classList="justify-between">
                 {
                     productCodes &&
                     Object.entries(productCodes.chemical).map(([key, value]) => (
@@ -24,7 +24,7 @@ const ProductTabContetnt = ({ productCodes }: IProp) => {
                         </div>
                     ))
                 }
-            </ProductInfoLayout>
+            </ProductInfoLayout> */}
             <ProductInfoLayout title={t('physical')}>
                 <div className="w-full flex flex-col justify-between lg:flex-row">
                     <div className="flex flex-col justify-center gap-4">
