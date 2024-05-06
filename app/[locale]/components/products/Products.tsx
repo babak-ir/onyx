@@ -14,7 +14,7 @@ const Products = async () => {
                         {t('description')}
                     </p>
                 </div>
-                <div className="w-full ps-6 md:ps-0 lg:w-2/3">
+                <div className="w-full ps-0 md:ps-0 lg:w-2/3">
                     <ProductList />
                 </div>
             </div>
