@@ -37,11 +37,11 @@ const BookNow = ({ openModal, onClose }: IProp) => {
 
     return (
         <ModelLayout reff={modalRef} onClose={() => closeHandler()} title={t('title')}>
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-between h-full lg:w-[40rem]">
                 <div className="flex flex-col items-start gap-6">
                     <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('email')} *`} />
                     <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('phone')} *`} />
-                    <textarea className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('description')} *`} />
+                    <textarea className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" rows={6} placeholder={`${t('description')} *`} />
                 </div>
                 <button className="text-white w-full bg-tertiary text-sm font-normal py-3 px-14 mt-28 mb-8" onClick={() => closeHandler()}>{t('submit')}</button>
             </div>
