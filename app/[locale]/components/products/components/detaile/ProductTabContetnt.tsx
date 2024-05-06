@@ -13,7 +13,7 @@ const ProductTabContetnt = ({ productCodes }: IProp) => {
     const t = useScopedI18n('products.detaile');
 
     return (
-        <div className="flex flex-col gap-6 py-6">
+        <div className="flex flex-col gap-6 py-6 w-full">
             {/* <ProductInfoLayout title={t('chemical')} classList="justify-between">
                 {
                     productCodes &&
