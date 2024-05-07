@@ -1,5 +1,4 @@
 import { Drawer, DrawerOptions } from "flowbite";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef } from "react";
 import { useScopedI18n } from "../../locales/client";

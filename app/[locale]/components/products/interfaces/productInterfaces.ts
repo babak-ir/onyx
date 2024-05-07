@@ -4,7 +4,7 @@ export interface IProduct {
     id: number;
     title: ILocale;
     disc: ILocale;
-    image: StaticImageData;
+    image: string;
     detailes: {
         attributes: ILocale[],
         uses: ILocale[],
@@ -17,7 +17,7 @@ export interface IProductCode {
     code: string;
     chemical: { [key: string]: string };
     physical: ILocale[];
-    image: StaticImageData;
+    image: string;
 }
 
 export interface ILocale {

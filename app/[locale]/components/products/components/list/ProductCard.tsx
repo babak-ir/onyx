@@ -1,11 +1,10 @@
 "use client"
-
-import Image from "next/image";
 import { IProduct } from "../../interfaces/productInterfaces";
 import { useState } from "react";
 import ProductDetailes from "../detaile/ProductDetailes";
 import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
 import SubLayout from "../../../../client/layout";
+import Shimmer from "../../../../../../components/img/Shimmer";
 
 interface IProp {
     product: IProduct
@@ -21,7 +20,7 @@ const ProductCard = ({ product }: IProp) => {
     return (
         <div className="min-w-[20rem] sm:min-w-[25rem] max-w-[367px] flex flex-col justify-start items-start bg-tertiary first:ms-6 last:me-6">
             <div className="w-full">
-                <Image src={product.image} width={644} height={627} priority alt="customer centric1" />
+                <Shimmer src={product.image} width={644} height={627} alt="customer centric1" />
             </div>
             <div className="w-full h-full p-4 gap-8 lg:p-6 flex flex-col justify-between items-end">
                 <div className="flex flex-col gap-4">

@@ -1,7 +1,7 @@
-import kaolinite from "../../../../../public/kaolinite.png";
-import unmatched from "../../../../../public/unmatched.png";
-import kgR from "../../../../../public/kg-r-300x142.jpg";
-import kgW from "../../../../../public/kg-w-300x155.jpg";
+// import kaolinite from "../../../../../public/kaolinite.png";
+// import unmatched from "../../../../../public/unmatched.png";
+// import kgR from "../../../../../public/kg-r-300x142.jpg";
+// import kgW from "../../../../../public/kg-w-300x155.jpg";
 
 import { IProduct } from "../interfaces/productInterfaces";
 
@@ -16,7 +16,7 @@ const productConstants: IProduct[] = [
             en: "Ideal for a wide array of industrial applications, our standard micronized kaolinite boasts unparalleled purity and consistency. From ceramics to plastics, it serves as the cornerstone for achieving exceptional results in your manufacturing processes.",
             fa: "ایده آل برای طیف گسترده ای از کاربردهای صنعتی، کائولینیت میکرونیزه استاندارد ما دارای خلوص و قوام بی نظیر است. از سرامیک گرفته تا پلاستیک، به عنوان سنگ بنای دستیابی به نتایج عالی در فرآیندهای تولید شما عمل می کند.",
         },
-        image: unmatched,
+        image: '/unmatched.png',
         detailes: {
             attributes: [
                 {
@@ -68,7 +68,7 @@ const productConstants: IProduct[] = [
                     }
 
                 ],
-                image: kgW
+                image: '/kg-w-300x155.jpg'
             }
         }
     },
@@ -82,7 +82,7 @@ const productConstants: IProduct[] = [
             en: "Tailored to meet the unique demands of specialized industries, our specialty micronized kaolinite offers enhanced properties to optimize performance in niche applications. Whether you require precise particle size distribution or specific surface modifications, we deliver solutions that exceed expectations.",
             fa: "کائولینیت میکرونیزه ویژه ما که برای پاسخگویی به نیازهای منحصر به فرد صنایع تخصصی طراحی شده است، خواص بهبود یافته ای را برای بهینه سازی عملکرد در کاربردهای خاص ارائه می دهد. اگر به توزیع دقیق اندازه ذرات یا تغییرات سطحی خاص نیاز داشته باشید، ما راه حل هایی ارائه می دهیم که فراتر از انتظارات است.",
         },
-        image: kaolinite,
+        image: '/kaolinite.png',
         detailes: {
             attributes: [
                 {
@@ -133,7 +133,7 @@ const productConstants: IProduct[] = [
                         fa: "شکل محصول کلوخ فله نرم انقباض پخت ۰/۵ درصد",
                     }
                 ],
-                image: kgR
+                image: '/kg-r-300x142.jpg'
             }
         }
     }

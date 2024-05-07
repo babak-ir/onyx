@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { getScopedI18n } from "../../locales/server";
 import { SwitchLocal } from "../../app/[locale]/switch";
@@ -42,7 +41,6 @@ const Footer = async () => {
                             </div>
                         </div>
                         <div className="flex justify-start items-start gap-4">
-                            {/* <Image src="/address.svg" width={20} height={20} sizes="24px" priority alt="ONYX address" /> */}
                             <AddressSVG width={20} height={20} />
                             <div className="flex flex-col gap-6">
                                 <p className="max-w-80">

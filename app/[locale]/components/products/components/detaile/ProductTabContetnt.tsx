@@ -1,7 +1,7 @@
-import Image from "next/image";
 import { IProductCode } from "../../interfaces/productInterfaces";
 import ProductInfoLayout from "../../layouts/ProductInfoLayout";
 import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
+import Shimmer from "../../../../../../components/img/Shimmer";
 
 interface IProp {
     productCodes: IProductCode
@@ -39,7 +39,7 @@ const ProductTabContetnt = ({ productCodes }: IProp) => {
 
                         }
                     </div>
-                    <Image src={productCodes.image} width={300} height={142} priority alt={productCodes.name[locale]} />
+                    <Shimmer src={productCodes.image} width={300} height={142} alt={productCodes.name[locale]} />
                 </div>
             </ProductInfoLayout>
         </div>
