@@ -28,16 +28,12 @@ export function SwitchLocal() {
     return (
         <>
             <form className="">
-                <select id="countries" onChange={changeLocaleHandler} className="bg-quaternary border-primary text-gray-900 text-sm rounded-lg focus:ring-blue-500 block w-24 p-2">
-                    <option value='en' selected={local === 'en'}>
-                        <span className="flex flex-row gap-2">
-                            🇺🇸   En
-                        </span>
+                <select id="countries" value={local} onChange={changeLocaleHandler} className="bg-quaternary border-primary text-gray-900 text-sm rounded-lg focus:ring-blue-500 block w-24 p-2">
+                    <option value='en' className="inline-flex items-center justify-between">
+                        🇺🇸   En
                     </option>
-                    <option value='fa' selected={local === 'fa'}>
-                        <span className="inline-flex items-center justify-between">
-                            🇮🇷   Fa
-                        </span>
+                    <option value='fa' className="inline-flex items-center justify-between">
+                        🇮🇷   Fa
                     </option>
                 </select>
             </form>

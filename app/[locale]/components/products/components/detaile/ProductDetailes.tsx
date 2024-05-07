@@ -50,7 +50,7 @@ const ProductDetailes = ({ product, onClose }: IProp) => {
     return (
         <>
             <ModelLayout reff={modalRef} onClose={() => modal?.hide()} title={product?.title[locale]} subTitle={product?.detailes.productCodes.code}>
-                <div className="flex flex-col items-start gap-4">
+                <div className="flex flex-col items-start gap-4 min-h-[70rem] md:min-h-fit">
                     <ProductInfoLayout title={t('analyze')} classList="justify-between">
                         {
                             product &&

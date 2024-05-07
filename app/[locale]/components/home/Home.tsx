@@ -18,7 +18,7 @@ const Home = async () => {
                         <div className="w-fit flex flex-col">
                             <h6 className="text-[32px] leading-[48px] w-fit font-bold text-tertiary md:text-[55px] md:leading-[76px]">{t('kaolinite')}</h6>
                             <svg xmlns="http://www.w3.org/2000/svg" width="261" height="15" viewBox="0 0 261 15" fill="none" className="w-[147px] md:w-[252px]">
-                                <path d="M258 12C205.469 4.56608 175.404 2.58761 122.265 3.06776C75.539 3.48996 49.191 5.46327 3 12" stroke="#482019" stroke-width="6" stroke-linecap="round" />
+                                <path d="M258 12C205.469 4.56608 175.404 2.58761 122.265 3.06776C75.539 3.48996 49.191 5.46327 3 12" stroke="#482019" strokeWidth="6" strokeLinecap="round" />
                             </svg>
                         </div>
                     </div>

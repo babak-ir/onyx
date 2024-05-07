@@ -36,7 +36,7 @@ const ModelLayout = ({ children, reff, onClose, title, subTitle }: Props) => {
                             </svg>
                         </button>
                     </div>
-                    <div className="overflow-y-auto h-full max-h-[90vh] md:max-h-[70vh] pt-4 pe-4">
+                    <div className="overflow-y-auto h-full md:max-h-[70vh] pt-4 pe-4">
                         {children}
                     </div>
                 </div>
