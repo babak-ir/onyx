@@ -6,6 +6,7 @@ import { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
 import { useScopedI18n } from "../../locales/client";
 import { SwitchLocal } from "../../app/[locale]/switch";
+import LogoSVG from "../svg/Logo.SVG";
 
 const Navigation = () => {
 
@@ -19,7 +20,7 @@ const Navigation = () => {
                 <div className="max-w-screen-2xl h-full flex flex-wrap items-center justify-between mx-auto my-auto">
                     <div className="hidden md:flex gap-36">
                         <Link href="/" className="hidden md:flex items-center space-x-3 rtl:space-x-reverse">
-                            <Image src="/onyx.svg" width={140} height={48} priority alt="ONYX Logo" />
+                            <LogoSVG width={140} height={48} />
                         </Link>
                         <div className="hidden w-full my-auto md:block md:w-auto text-secondary text-base font-normal">
                             <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
@@ -45,13 +46,13 @@ const Navigation = () => {
                     </button>
                     <div className="hidden gap-6 lg:flex">
                         {/* <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/telegram.svg" alt="Telegram Logo" className="dark:invert" width={24} height={24} priority />
+                            <TelegramSVG width={24} height={24} />
                         </Link>
                         <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/whatsapp.svg" alt="Whatsapp Logo" className="dark:invert" width={24} height={24} priority />
+                            <WhatsappSVG width={24} height={24} />
                         </Link>
                         <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/instagram.svg" alt="Instagram Logo" className="dark:invert" width={24} height={24} priority />
+                            <InstagramSVG width={24} height={24} />
                         </Link> */}
                         <SwitchLocal />
                     </div>

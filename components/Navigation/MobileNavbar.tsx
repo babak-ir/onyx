@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef } from "react";
 import { useScopedI18n } from "../../locales/client";
 import { SwitchLocal } from "../../app/[locale]/switch";
+import LogoSVG from "../svg/Logo.SVG";
 
 interface IProp {
     openDrawer: boolean;
@@ -44,7 +45,7 @@ const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
         <div ref={navbarRef} id="drawer-contact" className="fixed top-0 left-0 z-40 h-screen transition-transform -translate-x-full bg-white w-full md:w-[20rem]" tabIndex={-1}>
             <div className="flex justify-between items-start px-6 pt-12">
                 <Link href="/" className="md:flex items-center rtl:space-x-reverse">
-                    <Image src="/onyx.svg" width={160} height={54} priority alt="ONYX Logo" />
+                    <LogoSVG width={160} height={54} />
                 </Link>
                 <button className="inline-flex items-center justify-center p-2 cursor-pointer bg-tertiary" onClick={() => (mobileNavbarDrawer as Drawer).hide()} >
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">

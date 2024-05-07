@@ -1,5 +1,8 @@
 import Image from "next/image";
 import { getScopedI18n } from "../../../../locales/server";
+import BestSellerSVG from "../../../../components/svg/BestSeller.SVG";
+import SettingSVG from "../../../../components/svg/Setting.SVG";
+import MiddleEastSVG from "../../../../components/svg/MiddleEast.SVG";
 
 const WhyChoose = async () => {
 
@@ -11,7 +14,7 @@ const WhyChoose = async () => {
                 <div className="w-full flex flex-col gap-4 lg:w-2/3">
                     <div className="basis-full border border-primary flex flex-col gap-4 p-4 md:p-5 md:gap-5 lg:p-6 lg:gap-6">
                         <div className="flex justify-start items-center ">
-                            <Image src="/Best Seller.svg" width={64} height={64} priority alt="Best Seller" />
+                            <BestSellerSVG width={64} height={64} />
                             <h2 className="text-[17px] leading-6 font-medium text-tertiary lg:text-xl xl:text-[22px] xl:leading-7">{t('quality.title')}</h2>
                         </div>
                         <p className="text-sm leading-6 text-black font-normal xl:text-base">
@@ -21,7 +24,7 @@ const WhyChoose = async () => {
                     <div className="flex flex-col gap-4 md:flex-row">
                         <div className="basis-full lg:basis-1/2 border border-primary flex flex-col gap-4 p-4 md:p-5 md:gap-5 lg:p-6 lg:gap-6">
                             <div className="flex justify-start items-center ">
-                                <Image src="/Setting.svg" width={74} height={74} priority alt="Setting" />
+                                <SettingSVG width={74} height={74} />
                                 <h2 className="text-[17px] leading-6 font-medium text-tertiary lg:text-xl xl:text-[22px] xl:leading-7">{t('technical.title')}</h2>
                             </div>
                             <p className="text-sm leading-6 text-black font-normal xl:text-base">
@@ -30,7 +33,7 @@ const WhyChoose = async () => {
                         </div>
                         <div className="basis-full lg:basis-1/2 border border-primary flex flex-col gap-4 p-4 md:p-5 md:gap-5 lg:p-6 lg:gap-6">
                             <div className="flex justify-start items-center ">
-                                <Image src="/Middle East.svg" width={64} height={64} priority alt="Middle East" />
+                                <MiddleEastSVG width={64} height={64} />
                                 <h2 className="text-[17px] leading-6 font-medium text-tertiary lg:text-xl xl:text-[22px] xl:leading-7">{t('global.title')}</h2>
                             </div>
                             <p className="text-sm leading-6 text-black font-normal xl:text-base">

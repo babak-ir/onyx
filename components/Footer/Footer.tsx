@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { getScopedI18n } from "../../locales/server";
 import { SwitchLocal } from "../../app/[locale]/switch";
+import AddressSVG from "../svg/Address.SVG";
+import CellPhoneSVG from "../svg/CellPhone.SVG";
+import FaxSVG from "../svg/Fax.SVG";
+import LogoSVG from "../svg/Logo.SVG";
+import PhoneSVG from "../svg/Phone.SVG";
 
 const Footer = async () => {
 
@@ -12,7 +17,7 @@ const Footer = async () => {
             <div className="max-w-screen-2xl flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-start gap-12 xl:gap-32 mx-auto">
                 <div className="flex flex-col gap-4 w-full lg:w-1/3">
                     <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <Image src="/onyx.svg" width={215} height={74} priority alt="ONYX Logo" />
+                        <LogoSVG width={215} height={74} />
                     </Link>
                     <p className="text-secondary font-normal text-sm leading-6 lg:text-base">
                         {t('description')}
@@ -24,33 +29,34 @@ const Footer = async () => {
                     <div className="flex flex-col justify-start items-start font-normal text-sm leading-6 text-black gap-6 lg:text-base lg:flex-row lg:gap-24">
                         <div className="flex flex-col gap-6">
                             <div className="flex items-center gap-4">
-                                <Image src="/cellPhone.svg" width={14} height={14} sizes="24px" priority alt="ONYX cellPhone" />
+                                <CellPhoneSVG width={14} height={14} />
                                 <span dir="ltr">+989143586995</span>
                             </div>
                             <div className="flex items-center gap-4">
-                                <Image src="/phone.svg" width={16} height={16} sizes="24px" priority alt="ONYX phone" />
+                                <PhoneSVG width={16} height={16} />
                                 <span dir="ltr">+9804533751147</span>
                             </div>
                             <div className="flex items-center gap-4">
-                                <Image src="/fax.svg" width={16} height={16} sizes="24px" priority alt="ONYX fax" />
+                                <FaxSVG width={16} height={16} />
                                 <span dir="ltr">+9804533751147</span>
                             </div>
                         </div>
                         <div className="flex justify-start items-start gap-4">
-                            <Image src="/address.svg" width={20} height={20} sizes="24px" priority alt="ONYX address" />
+                            {/* <Image src="/address.svg" width={20} height={20} sizes="24px" priority alt="ONYX address" /> */}
+                            <AddressSVG width={20} height={20} />
                             <div className="flex flex-col gap-6">
                                 <p className="max-w-80">
                                     {t('address')}
                                 </p>
                                 {/* <div className="flex gap-6">
-                                    <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
-                                        <Image src="/telegram.svg" alt="Telegram Logo" width={20} height={20} sizes="24px" priority />
+                                    <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
+                                        <TelegramSVG width={24} height={24} />
                                     </Link>
-                                    <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                                        <Image src="/whatsapp.svg" alt="Whatsapp Logo" width={20} height={20} sizes="24px" priority />
+                                    <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                                        <WhatsappSVG width={24} height={24} />
                                     </Link>
-                                    <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                                        <Image src="/instagram.svg" alt="Instagram Logo" width={20} height={20} sizes="24px" priority />
+                                    <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                        <InstagramSVG width={24} height={24} />
                                     </Link>
                                 </div> */}
                             </div>

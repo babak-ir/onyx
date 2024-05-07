@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getScopedI18n } from "../../../../locales/server";
+import ArrowSVG from "../../../../components/svg/Arrow.SVG";
 
 const Home = async () => {
 
@@ -34,7 +35,7 @@ const Home = async () => {
                         <div className="flex justify-between items-center">
                             <span className="text-sm font-bold md:text-base">{t("linkTo.stmk.title")}</span>
                             <Link href="#services" className="flex justify-center items-center bg-tertiary h-8 w-8">
-                                <Image src="/arrow.svg" width={14} height={14} priority alt="home" />
+                                <ArrowSVG width={14} height={14} />
                             </Link>
                         </div>
                         <span className="text-sm md:text-base font-normal">
@@ -45,7 +46,7 @@ const Home = async () => {
                         <div className="flex justify-between items-center">
                             <span className="text-sm font-bold md:text-base">{t("linkTo.stmk2.title")}</span>
                             <Link href="#services" className="flex justify-center items-center bg-tertiary h-8 w-8">
-                                <Image src="/arrow.svg" width={14} height={14} priority alt="home" />
+                                <ArrowSVG width={14} height={14} />
                             </Link>
                         </div>
                         <span className="text-sm md:text-base font-normal">
