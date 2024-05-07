@@ -37,13 +37,13 @@ const BookNow = ({ openModal, onClose }: IProp) => {
 
     return (
         <ModelLayout reff={modalRef} onClose={() => closeHandler()} title={t('title')}>
-            <div className="flex flex-col justify-between min-h-fit h-[90%] md:min-h-fit md:w-[40rem]">
+            <div className="flex flex-col justify-between min-h-[82dvh] md:min-h-fit md:h-fit md:w-[40rem]">
                 <div className="flex flex-col items-start gap-6 h-fit">
                     <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('email')} *`} />
                     <input type="text" className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" placeholder={`${t('phone')} *`} />
                     <textarea className="w-full border border-primary rounded-[4px] text-deactivate text-base font-normal p-4" rows={6} placeholder={`${t('description')} *`} />
                 </div>
-                <button type="button" className="text-white w-full bg-tertiary text-sm font-normal py-3 px-14 my-8 justify-self-end" onClick={() => closeHandler()}>{t('submit')}</button>
+                <button type="button" className="text-white w-full bg-tertiary text-sm font-normal py-3 px-14 justify-self-end mt-8 mb-4" onClick={() => closeHandler()}>{t('submit')}</button>
                 {/* <div className="flex flex-col justify-end w-full">
                         
                     </div> */}

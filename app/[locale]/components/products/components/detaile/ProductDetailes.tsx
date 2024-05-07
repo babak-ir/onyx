@@ -90,7 +90,7 @@ const ProductDetailes = ({ product, onClose }: IProp) => {
                         // <ProductTabs productCodes={product.detailes.productCodes} />
                     }
 
-                    <button onClick={() => openBookingModalHandler()} className="w-full bg-tertiary text-white py-3 px-14 text-sm mb-8">{t('bookNow')}</button>
+                    <button onClick={() => openBookingModalHandler()} className="w-full bg-tertiary text-white py-3 px-14 text-sm mb-4">{t('bookNow')}</button>
 
                 </div>
             </ModelLayout>
