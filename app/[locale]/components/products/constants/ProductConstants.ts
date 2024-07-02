@@ -20,16 +20,16 @@ const productConstants: IProduct[] = [
         detailes: {
             attributes: [
                 {
-                    en: "Baking temperature 1100 degrees Celsius",
-                    fa: "دمای پخت 1100 درجه سانتی گراد",
+                    en: "Baking temperature 1200 degrees Celsius",
+                    fa: "دمای پخت 1200 درجه سانتی گراد",
                 },
                 {
                     en: "Dry flexural strength (MOR): 220 kg/cm",
-                    fa: "استحکام خمشی (MOR) خشک: kg/cm220",
+                    fa: "استحکام خمشی (MOR) خشک: 220 kg/cm",
                 },
                 {
                     en: "Cream baking color",
-                    fa: "رنگ پخت کرم",
+                    fa: "رنگ پخت سفید",
                 },
                 {
                     en: "0.5% firing shrinkage",
@@ -49,22 +49,26 @@ const productConstants: IProduct[] = [
             productCodes: {
                 name: {
                     en: "Product code: KG-W",
-                    fa: "کد محصول: KG-W",
+                    fa: "کد محصول: KG-W3",
                 },
-                code: "KG-W",
-                chemical: { "SiO2": "68.3", "Al2O3": "17.5", "Fe2O3": "1.6", "Cao": "1.3", "K2O": "2.4", "Na2O": "2.7", "Mgo": "0.9", "Bao": "0", "P2O5": "0", "SO3": "0", "TiO2": "0.4", "L.O.I": "4.9" },
+                code: "KG-W3",
+                chemical: { "SiO2": "64.55", "Al2O3": "22.9", "Fe2O3": "0.35", "Cao": "0.2", "K2O": "1.15", "Na2O": "0.3", "MgO": "0.05", "BaO": "0.1", "P2O5": "0.4", "SO3": "0.3", "TiO2": "0.6", "L.O.I": "8.9" },
                 physical: [
                     {
                         en: "Baking temperature 1050 degrees",
-                        fa: "دمای پخت بالای ۱۴۰۰ درجه",
+                        fa: "دمای پخت: 1200 درجه",
                     },
                     {
-                        en: "Red baking color",
-                        fa: "رنگ پخت سفید",
+                        en: "Baking color: white",
+                        fa: "رنگ پخت: سفید",
                     },
                     {
-                        en: "The shape of the product is a soft lump with a cooking shrinkage of 0.5%",
-                        fa: "شکل محصول کلوخ فله نرم انقباض پخت ۰/۵ درصد",
+                        en: "Product type: bulk lump",
+                        fa: "نوع محصول: کلوخ فله",
+                    },
+                    {
+                        en: "Product lump density: 2kg/cm3",
+                        fa: "دانسیته کلوخ محصول: 2kg/cm3",
                     }
 
                 ],
@@ -86,16 +90,16 @@ const productConstants: IProduct[] = [
         detailes: {
             attributes: [
                 {
-                    en: "Baking temperature 1100 degrees Celsius",
-                    fa: "دمای پخت 1100 درجه سانتی گراد",
+                    en: "Baking temperature 1050 degrees Celsius",
+                    fa: "دمای پخت 1050 درجه سانتی گراد",
                 },
                 {
                     en: "Dry flexural strength (MOR): 220 kg/cm",
-                    fa: "استحکام خمشی (MOR) خشک: kg/cm220",
+                    fa: "استحکام خمشی (MOR) kg/cm خشک: 220",
                 },
                 {
                     en: "Cream baking color",
-                    fa: "رنگ پخت کرم",
+                    fa: "رنگ پخت قرمز پر رنگ",
                 },
                 {
                     en: "0.5% firing shrinkage",
@@ -118,19 +122,23 @@ const productConstants: IProduct[] = [
                     fa: "کد محصول: KG-R",
                 },
                 code: "KG-R",
-                chemical: { "SiO2": "76", "Al2O3": "14.7", "Fe2O3": "0.7", "Cao": "0.6", "K2O": "2.9", "Na2O": "0.14", "Mgo": "0.1", "Bao": "-", "P2O5": "0", "SO3": "-", "TiO2": "0.05", "L.O.I": "4.8" },
+                chemical: { "SiO2": "65.85", "Al2O3": "14.03", "Fe2O3": "1.9", "CaO": "3.02", "K2O": "4.35", "Na2O": "1.54", "MgO": "0.92", "BaO": "0.08", "P2O5": "0.18", "SO3": "0.64", "TiO2": "0.41", "L.O.I": "7.09" },
                 physical: [
                     {
-                        en: "Baking temperature 1050 degrees",
-                        fa: "دمای پخت 1050 درجه سانتی گراد",
+                        en: "Firing temperature: 1050 degrees Celsius",
+                        fa: "دمای پخت: 1050 درجه سانتی گراد",
                     },
                     {
-                        en: "Red baking color",
-                        fa: "رنگ پخت قرمز پر رنگ",
+                        en: "Baking color: deep red",
+                        fa: "رنگ پخت: قرمز پر رنگ",
                     },
                     {
-                        en: "The shape of the product is a soft lump with a cooking shrinkage of 0.5%",
-                        fa: "شکل محصول کلوخ فله نرم انقباض پخت ۰/۵ درصد",
+                        en: "Product type: soft lump",
+                        fa: "نوع محصول: کلوخ فله نرم",
+                    },
+                    {
+                        en: "Baking shrinkage: 0.5%",
+                        fa: "انقباض پخت: ۰/۵ درصد",
                     }
                 ],
                 image: '/kg-r-300x142.jpg'
