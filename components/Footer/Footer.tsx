@@ -6,6 +6,8 @@ import CellPhoneSVG from "../svg/CellPhone.SVG";
 import FaxSVG from "../svg/Fax.SVG";
 import LogoSVG from "../svg/Logo.SVG";
 import PhoneSVG from "../svg/Phone.SVG";
+import TelegramSVG from "../svg/Telegram.SVG";
+import WhatsappSVG from "../svg/Whatsapp.SVG";
 
 const Footer = async () => {
 
@@ -29,7 +31,7 @@ const Footer = async () => {
                         <div className="flex flex-col gap-6">
                             <div className="flex items-center gap-4">
                                 <CellPhoneSVG width={14} height={14} />
-                                <span dir="ltr">+989143586995</span>
+                                <span dir="ltr">+989140098583</span>
                             </div>
                             <div className="flex items-center gap-4">
                                 <PhoneSVG width={16} height={16} />
@@ -46,17 +48,17 @@ const Footer = async () => {
                                 <p className="max-w-80">
                                     {t('address')}
                                 </p>
-                                {/* <div className="flex gap-6">
-                                    <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
+                                <div className="flex gap-4">
+                                    <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://t.me/onyx_bam" target="_blank" rel="noopener noreferrer">
                                         <TelegramSVG width={24} height={24} />
                                     </Link>
-                                    <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                                    <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://wa.me/989140098583" target="_blank" rel="noopener noreferrer">
                                         <WhatsappSVG width={24} height={24} />
                                     </Link>
-                                    <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                    {/* <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                                         <InstagramSVG width={24} height={24} />
-                                    </Link>
-                                </div> */}
+                                    </Link> */}
+                                </div>
                             </div>
                         </div>
                     </div>

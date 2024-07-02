@@ -4,6 +4,8 @@ import { useEffect, useMemo, useRef } from "react";
 import { useScopedI18n } from "../../locales/client";
 import { SwitchLocal } from "../../app/[locale]/switch";
 import LogoSVG from "../svg/Logo.SVG";
+import TelegramSVG from "../svg/Telegram.SVG";
+import WhatsappSVG from "../svg/Whatsapp.SVG";
 
 interface IProp {
     openDrawer: boolean;
@@ -65,7 +67,18 @@ const MobileNavbar = ({ openDrawer = false, onClose }: IProp) => {
                 <div className="border-b border-gray-light px-4 py-2">
                     <Link onClick={() => (mobileNavbarDrawer as Drawer).hide()} href="#contact" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">{t('contact')}</Link>
                 </div>
-                <div className="px-7 py-4">
+                <div className="flex gap-4 px-7 py-4">
+                    <div className="flex gap-4">
+                        <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://t.me/onyx_bam" target="_blank" rel="noopener noreferrer">
+                            <TelegramSVG width={24} height={24} />
+                        </Link>
+                        <Link className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0" href="https://wa.me/989140098583" target="_blank" rel="noopener noreferrer">
+                            <WhatsappSVG width={24} height={24} />
+                        </Link>
+                        {/* <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                <InstagramSVG width={24} height={24} />
+                            </Link> */}
+                    </div>
                     <SwitchLocal />
                 </div>
             </div>

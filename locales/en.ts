@@ -68,6 +68,6 @@ export default {
     footer: {
         description: "Ready to experience the Onyx difference? Contact us today to learn more about our products and how we can support your business. Let us be your preferred supplier of choice for premium micronized kaolinite, and together, let's elevate your manufacturing processes to new heights of excellence.",
         contacts: 'Contacts',
-        address: "Ardabil, administrative town in front of Enix company's construction engineering system organization",
+        address: "Ardabil, next to the airport of Industrial Town 2",
     }
 } as const;
