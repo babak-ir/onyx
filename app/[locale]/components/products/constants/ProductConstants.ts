@@ -55,7 +55,7 @@ const productConstants: IProduct[] = [
                 chemical: { "SiO2": "64.55", "Al2O3": "22.9", "Fe2O3": "0.35", "Cao": "0.2", "K2O": "1.15", "Na2O": "0.3", "MgO": "0.05", "BaO": "0.1", "P2O5": "0.4", "SO3": "0.3", "TiO2": "0.6", "L.O.I": "8.9" },
                 physical: [
                     {
-                        en: "Baking temperature 1050 degrees",
+                        en: "Baking temperature 1200 degrees",
                         fa: "دمای پخت: 1200 درجه",
                     },
                     {
