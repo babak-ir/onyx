@@ -17,6 +17,89 @@ const productConstants: IProduct[] = [
             fa: "ایده آل برای طیف گسترده ای از کاربردهای صنعتی، کائولینیت میکرونیزه استاندارد ما دارای خلوص و قوام بی نظیر است. از سرامیک گرفته تا پلاستیک، به عنوان سنگ بنای دستیابی به نتایج عالی در فرآیندهای تولید شما عمل می کند.",
         },
         image: '/unmatched.png',
+
+        detailes: {
+            attributes: [
+                {
+                    en: "Baking temperature 1050 degrees Celsius",
+                    fa: "دمای پخت 1050 درجه سانتی گراد",
+                },
+                {
+                    en: "Dry flexural strength (MOR): 220 kg/cm",
+                    fa: "استحکام خمشی (MOR) kg/cm خشک: 220",
+                },
+                {
+                    en: "Cream baking color",
+                    fa: "رنگ پخت قرمز پر رنگ",
+                },
+                {
+                    en: "0.5% firing shrinkage",
+                    fa: "انقباض پخت 0.5 درصد",
+                }
+            ],
+            uses: [
+                {
+                    en: "The body of porcelain white ceramic tiles",
+                    fa: "بدنه کاشی و سرامیک سفید پخت و پرسلانی",
+                },
+                {
+                    en: "Fire brick facade",
+                    fa: "آجر نسوز نما"
+                }
+            ],
+            productCodes: {
+                name: {
+                    en: "Product code: KG-R",
+                    fa: "کد محصول: KG-R",
+                },
+                code: "KG-R",
+                chemical: {
+                    "L.O.I": "7.09",
+                    "TiO2": "0.41",
+                    "SO3": "0.64",
+                    "P2O5": "0.18",
+                    "BaO": "0.08",
+                    "MgO": "0.92",
+                    "Na2O": "1.54",
+                    "K2O": "4.35",
+                    "CaO": "3.02",
+                    "Fe2O3": "1.9",
+                    "Al2O3": "14.03",
+                    "SiO2": "65.85"
+                },
+                physical: [
+                    {
+                        en: "Firing temperature: 1050 degrees Celsius",
+                        fa: "دمای پخت: 1050 درجه سانتی گراد",
+                    },
+                    {
+                        en: "Baking color: deep red",
+                        fa: "رنگ پخت: قرمز پر رنگ",
+                    },
+                    {
+                        en: "Product type: soft lump",
+                        fa: "نوع محصول: کلوخ فله نرم",
+                    },
+                    {
+                        en: "Baking shrinkage: 0.5%",
+                        fa: "انقباض پخت: ۰/۵ درصد",
+                    }
+                ],
+                image: '/kg-r-300x142.jpg'
+            }
+        }
+    },
+    {
+        id: 2,
+        title: {
+            en: "Specialty Micronized Kaolinite",
+            fa: "کائولینیت میکرونیزه مخصوص",
+        },
+        disc: {
+            en: "Tailored to meet the unique demands of specialized industries, our specialty micronized kaolinite offers enhanced properties to optimize performance in niche applications. Whether you require precise particle size distribution or specific surface modifications, we deliver solutions that exceed expectations.",
+            fa: "کائولینیت میکرونیزه ویژه ما که برای پاسخگویی به نیازهای منحصر به فرد صنایع تخصصی طراحی شده است، خواص بهبود یافته ای را برای بهینه سازی عملکرد در کاربردهای خاص ارائه می دهد. اگر به توزیع دقیق اندازه ذرات یا تغییرات سطحی خاص نیاز داشته باشید، ما راه حل هایی ارائه می دهیم که فراتر از انتظارات است.",
+        },
+        image: '/kaolinite.png',
         detailes: {
             attributes: [
                 {
@@ -86,88 +169,6 @@ const productConstants: IProduct[] = [
 
                 ],
                 image: '/kg-w-300x155.jpg'
-            }
-        }
-    },
-    {
-        id: 2,
-        title: {
-            en: "Specialty Micronized Kaolinite",
-            fa: "کائولینیت میکرونیزه مخصوص",
-        },
-        disc: {
-            en: "Tailored to meet the unique demands of specialized industries, our specialty micronized kaolinite offers enhanced properties to optimize performance in niche applications. Whether you require precise particle size distribution or specific surface modifications, we deliver solutions that exceed expectations.",
-            fa: "کائولینیت میکرونیزه ویژه ما که برای پاسخگویی به نیازهای منحصر به فرد صنایع تخصصی طراحی شده است، خواص بهبود یافته ای را برای بهینه سازی عملکرد در کاربردهای خاص ارائه می دهد. اگر به توزیع دقیق اندازه ذرات یا تغییرات سطحی خاص نیاز داشته باشید، ما راه حل هایی ارائه می دهیم که فراتر از انتظارات است.",
-        },
-        image: '/kaolinite.png',
-        detailes: {
-            attributes: [
-                {
-                    en: "Baking temperature 1050 degrees Celsius",
-                    fa: "دمای پخت 1050 درجه سانتی گراد",
-                },
-                {
-                    en: "Dry flexural strength (MOR): 220 kg/cm",
-                    fa: "استحکام خمشی (MOR) kg/cm خشک: 220",
-                },
-                {
-                    en: "Cream baking color",
-                    fa: "رنگ پخت قرمز پر رنگ",
-                },
-                {
-                    en: "0.5% firing shrinkage",
-                    fa: "انقباض پخت 0.5 درصد",
-                }
-            ],
-            uses: [
-                {
-                    en: "The body of porcelain white ceramic tiles",
-                    fa: "بدنه کاشی و سرامیک سفید پخت و پرسلانی",
-                },
-                {
-                    en: "Fire brick facade",
-                    fa: "آجر نسوز نما"
-                }
-            ],
-            productCodes: {
-                name: {
-                    en: "Product code: KG-R",
-                    fa: "کد محصول: KG-R",
-                },
-                code: "KG-R",
-                chemical: {
-                    "L.O.I": "7.09",
-                    "TiO2": "0.41",
-                    "SO3": "0.64",
-                    "P2O5": "0.18",
-                    "BaO": "0.08",
-                    "MgO": "0.92",
-                    "Na2O": "1.54",
-                    "K2O": "4.35",
-                    "CaO": "3.02",
-                    "Fe2O3": "1.9",
-                    "Al2O3": "14.03",
-                    "SiO2": "65.85"
-                },
-                physical: [
-                    {
-                        en: "Firing temperature: 1050 degrees Celsius",
-                        fa: "دمای پخت: 1050 درجه سانتی گراد",
-                    },
-                    {
-                        en: "Baking color: deep red",
-                        fa: "رنگ پخت: قرمز پر رنگ",
-                    },
-                    {
-                        en: "Product type: soft lump",
-                        fa: "نوع محصول: کلوخ فله نرم",
-                    },
-                    {
-                        en: "Baking shrinkage: 0.5%",
-                        fa: "انقباض پخت: ۰/۵ درصد",
-                    }
-                ],
-                image: '/kg-r-300x142.jpg'
             }
         }
     }
