@@ -52,7 +52,20 @@ const productConstants: IProduct[] = [
                     fa: "کد محصول: KG-W3",
                 },
                 code: "KG-W3",
-                chemical: { "SiO2": "64.55", "Al2O3": "22.9", "Fe2O3": "0.35", "Cao": "0.2", "K2O": "1.15", "Na2O": "0.3", "MgO": "0.05", "BaO": "0.1", "P2O5": "0.4", "SO3": "0.3", "TiO2": "0.6", "L.O.I": "8.9" },
+                chemical: {
+                    "L.O.I": "8.9",
+                    "TiO2": "0.6",
+                    "SO3": "0.3",
+                    "P2O5": "0.4",
+                    "BaO": "0.1",
+                    "MgO": "0.05",
+                    "Na2O": "0.3",
+                    "K2O": "1.15",
+                    "CaO": "0.2",
+                    "Fe2O3": "0.35",
+                    "Al2O3": "22.9",
+                    "SiO2": "64.55"
+                },
                 physical: [
                     {
                         en: "Baking temperature 1200 degrees",
@@ -122,7 +135,20 @@ const productConstants: IProduct[] = [
                     fa: "کد محصول: KG-R",
                 },
                 code: "KG-R",
-                chemical: { "SiO2": "65.85", "Al2O3": "14.03", "Fe2O3": "1.9", "CaO": "3.02", "K2O": "4.35", "Na2O": "1.54", "MgO": "0.92", "BaO": "0.08", "P2O5": "0.18", "SO3": "0.64", "TiO2": "0.41", "L.O.I": "7.09" },
+                chemical: {
+                    "L.O.I": "7.09",
+                    "TiO2": "0.41",
+                    "SO3": "0.64",
+                    "P2O5": "0.18",
+                    "BaO": "0.08",
+                    "MgO": "0.92",
+                    "Na2O": "1.54",
+                    "K2O": "4.35",
+                    "CaO": "3.02",
+                    "Fe2O3": "1.9",
+                    "Al2O3": "14.03",
+                    "SiO2": "65.85"
+                },
                 physical: [
                     {
                         en: "Firing temperature: 1050 degrees Celsius",

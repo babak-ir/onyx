@@ -51,11 +51,11 @@ const ProductDetailes = ({ product, onClose }: IProp) => {
         <>
             <ModelLayout reff={modalRef} onClose={() => modal?.hide()} title={product?.title[locale]} subTitle={product?.detailes.productCodes.code}>
                 <div className="flex flex-col items-start gap-4 min-h-[70rem] md:min-h-fit">
-                    <ProductInfoLayout title={t('analyze')} classList="justify-between">
+                    <ProductInfoLayout title={t('analyze')} classList="justify-between ltr:flex-row-reverse">
                         {
                             product &&
                             Object.entries(product.detailes.productCodes.chemical).map(([key, value]) => (
-                                <div key={key} className="flex flex-col gap-2 items-start text-sm leading-6 text-secondary">
+                                <div key={key} className="flex flex-col gap-2 items-center text-sm leading-6 text-secondary">
                                     <span className="font-normal">{key}</span>
                                     <span className="font-bold md:text-base">{value}</span>
                                 </div>
