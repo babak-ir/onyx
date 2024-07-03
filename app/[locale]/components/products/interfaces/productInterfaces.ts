@@ -23,4 +23,6 @@ export interface IProductCode {
 export interface ILocale {
     en: string;
     fa: string;
+    zh: string;
+    ru: string;
 }
