@@ -25,4 +25,6 @@ export interface ILocale {
     fa: string;
     zh: string;
     ru: string;
+    tr: string;
+    hi: string;
 }
