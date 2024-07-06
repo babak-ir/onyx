@@ -20,6 +20,14 @@ export const { useI18n, useScopedI18n, I18nProviderClient, useChangeLocale, defi
                 await new Promise(resolve => setTimeout(resolve, 100));
                 return import('./ru');
             },
+            tr: async () => {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                return import('./tr');
+            },
+            hi: async () => {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                return import('./hi');
+            },
         },
         {
             // Uncomment to set base path

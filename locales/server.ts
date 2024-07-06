@@ -7,6 +7,8 @@ export const { getI18n, getScopedI18n, getCurrentLocale, getStaticParams } = cre
         fa: () => import('./fa'),
         zh: () => import('./zh'),
         ru: () => import('./ru'),
+        tr: () => import('./tr'),
+        hi: () => import('./hi'),
     },
     {
         // Uncomment to use custom segment name

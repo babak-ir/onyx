@@ -24,6 +24,12 @@ export function SwitchLocal() {
             case 'ru':
                 changeLocale('ru');
                 break;
+            case 'tr':
+                changeLocale('tr');
+                break;
+            case 'hi':
+                changeLocale('hi');
+                break;
             default:
                 changeLocale('en')
                 break;
@@ -46,6 +52,12 @@ export function SwitchLocal() {
                     </option>
                     <option value='ru' className="inline-flex items-center justify-between">
                         Ru
+                    </option>
+                    <option value='tr' className="inline-flex items-center justify-between">
+                        Tr
+                    </option>
+                    <option value='hi' className="inline-flex items-center justify-between">
+                        Hi
                     </option>
                 </select>
             </form>
