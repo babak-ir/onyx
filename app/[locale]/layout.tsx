@@ -8,6 +8,7 @@ import classNames from "classnames";
 import Footer from "../../components/Footer/Footer";
 import Locale from 'intl-locale-textinfo-polyfill';
 import SubLayout from "./client/layout";
+import { Toaster } from "react-hot-toast";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -51,6 +52,7 @@ export default function RootLayout({ children, params: { locale } }: Readonly<{ 
         </SubLayout>
         {children}
         <Footer />
+        <Toaster position="top-left" />
       </body>
     </html>
   );
