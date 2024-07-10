@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from 'next/font/local';
 
-import "./globals.css";
-import Navigation from "../../components/Navigation/Navigation";
+import "../globals.css";
+import Navigation from "../../../components/Navigation/Navigation";
 import classNames from "classnames";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../../components/Footer/Footer";
 import Locale from 'intl-locale-textinfo-polyfill';
-import SubLayout from "./client/layout";
+import SubLayout from "../client/layout";
 import { Toaster } from "react-hot-toast";
 
 const poppins = Poppins({
@@ -20,12 +20,12 @@ const poppins = Poppins({
 const vazir = localFont({
   src: [
     {
-      path: '../../public/fonts/vazir/Farsi-Digits/Vazir-Light-FD.woff2',
+      path: '../../../public/fonts/vazir/Farsi-Digits/Vazir-Light-FD.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/vazir/Farsi-Digits/Vazir-Bold-FD.woff2',
+      path: '../../../public/fonts/vazir/Farsi-Digits/Vazir-Bold-FD.woff2',
       weight: '700',
       style: 'normal',
     },

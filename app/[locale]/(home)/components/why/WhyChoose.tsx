@@ -1,7 +1,7 @@
-import { getScopedI18n } from "../../../../locales/server";
-import BestSellerSVG from "../../../../components/svg/BestSeller.SVG";
-import SettingSVG from "../../../../components/svg/Setting.SVG";
-import MiddleEastSVG from "../../../../components/svg/MiddleEast.SVG";
+import { getScopedI18n } from "../../../../../locales/server";
+import BestSellerSVG from "../../../../../components/svg/BestSeller.SVG";
+import SettingSVG from "../../../../../components/svg/Setting.SVG";
+import MiddleEastSVG from "../../../../../components/svg/MiddleEast.SVG";
 
 const WhyChoose = async () => {
 

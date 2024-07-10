@@ -1,7 +1,7 @@
 import { Modal, ModalOptions } from "flowbite";
-import ModelLayout from "../../../../../components/Layouts/ModelLayout";
+import ModelLayout from "../../../../../../components/Layouts/ModelLayout";
 import { useEffect, useMemo, useRef } from "react";
-import { useScopedI18n } from "../../../../../locales/client";
+import { useScopedI18n } from "../../../../../../locales/client";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { createBooking } from "./book.services";
 

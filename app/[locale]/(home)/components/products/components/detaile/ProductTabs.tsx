@@ -2,7 +2,7 @@ import { InstanceOptions, TabItem, Tabs, TabsInterface, TabsOptions } from "flow
 import { IProductCode } from "../../interfaces/productInterfaces";
 import ProductTabContetnt from "./ProductTabContetnt";
 import { useEffect } from "react";
-import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
+import { useCurrentLocale, useScopedI18n } from "../../../../../../../locales/client";
 
 interface IProp {
     productCodes: IProductCode[]

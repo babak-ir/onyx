@@ -21,9 +21,9 @@ export default function RootLayout({ children, params: { locale } }: Readonly<{ 
   return (
     <html lang={locale}>
       <body className={classNames("max-w-full", poppins.className)}>
-        <Navigation />
+        {/* <Navigation /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

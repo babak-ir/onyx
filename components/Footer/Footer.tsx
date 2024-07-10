@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getScopedI18n } from "../../locales/server";
-import { SwitchLocal } from "../../app/[locale]/switch";
+import { SwitchLocal } from "../../app/[locale]/(home)/switch";
 import AddressSVG from "../svg/Address.SVG";
 import CellPhoneSVG from "../svg/CellPhone.SVG";
 import FaxSVG from "../svg/Fax.SVG";

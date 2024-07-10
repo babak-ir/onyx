@@ -1,7 +1,7 @@
 import { IProductCode } from "../../interfaces/productInterfaces";
 import ProductInfoLayout from "../../layouts/ProductInfoLayout";
-import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
-import Shimmer from "../../../../../../components/img/Shimmer";
+import { useCurrentLocale, useScopedI18n } from "../../../../../../../locales/client";
+import Shimmer from "../../../../../../../components/img/Shimmer";
 
 interface IProp {
     productCodes: IProductCode

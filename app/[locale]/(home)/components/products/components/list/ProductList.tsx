@@ -1,5 +1,5 @@
-import { getCurrentLocale } from "../../../../../../locales/server";
-import SubLayout from "../../../../client/layout";
+import { getCurrentLocale } from "../../../../../../../locales/server";
+import SubLayout from "../../../../../client/layout";
 import productConstants from "../../constants/ProductConstants";
 import ProductCard from "./ProductCard";
 

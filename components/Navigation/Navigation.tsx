@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
 import { useScopedI18n } from "../../locales/client";
-import { SwitchLocal } from "../../app/[locale]/switch";
+import { SwitchLocal } from "../../app/[locale]/(home)/switch";
 import LogoSVG from "../svg/Logo.SVG";
 import TelegramSVG from "../svg/Telegram.SVG";
 import WhatsappSVG from "../svg/Whatsapp.SVG";

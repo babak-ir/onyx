@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { getScopedI18n } from "../../../../locales/server";
-import ArrowSVG from "../../../../components/svg/Arrow.SVG";
-import Shimmer from "../../../../components/img/Shimmer";
+import { getScopedI18n } from "../../../../../locales/server";
+import ArrowSVG from "../../../../../components/svg/Arrow.SVG";
+import Shimmer from "../../../../../components/img/Shimmer";
 
 const Home = async () => {
 
