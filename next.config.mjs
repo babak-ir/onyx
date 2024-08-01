@@ -5,15 +5,15 @@ const isProduction = process.env.NODE_ENV === "production";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	async rewrites() {
-		if(isProduction) return [];
-		return [
-			{
-				source: '/api/:path*',
-				destination: `${API_URL}/:path*`,
-			},
-		]
-	},
+	// async rewrites() {
+	// 	if(isProduction) return [];
+	// 	return [
+	// 		{
+	// 			source: '/api/:path*',
+	// 			destination: `${API_URL}/:path*`,
+	// 		},
+	// 	]
+	// },
 }
 
 export default nextConfig
