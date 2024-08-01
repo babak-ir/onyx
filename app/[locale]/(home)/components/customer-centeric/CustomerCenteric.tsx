@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { getScopedI18n } from "../../../../locales/server";
-import Shimmer from "../../../../components/img/Shimmer";
+import { getScopedI18n } from "../../../../../locales/server";
+import Shimmer from "../../../../../components/img/Shimmer";
 
 const CustomerCenteric = async () => {
 

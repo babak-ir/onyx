@@ -2,9 +2,9 @@
 import { IProduct } from "../../interfaces/productInterfaces";
 import { useState } from "react";
 import ProductDetailes from "../detaile/ProductDetailes";
-import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
-import SubLayout from "../../../../client/layout";
-import Shimmer from "../../../../../../components/img/Shimmer";
+import { useCurrentLocale, useScopedI18n } from "../../../../../../../locales/client";
+import SubLayout from "../../../../../client/layout";
+import Shimmer from "../../../../../../../components/img/Shimmer";
 
 interface IProp {
     product: IProduct

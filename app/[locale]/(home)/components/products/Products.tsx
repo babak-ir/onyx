@@ -1,4 +1,4 @@
-import { getScopedI18n } from "../../../../locales/server";
+import { getScopedI18n } from "../../../../../locales/server";
 import ProductList from "./components/list/ProductList";
 
 const Products = async () => {

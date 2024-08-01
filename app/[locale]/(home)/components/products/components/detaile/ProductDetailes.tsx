@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { IProduct } from "../../interfaces/productInterfaces";
 import { Modal, ModalOptions } from "flowbite";
-import ModelLayout from "../../../../../../components/Layouts/ModelLayout";
+import ModelLayout from "../../../../../../../components/Layouts/ModelLayout";
 import ProductInfoLayout from "../../layouts/ProductInfoLayout";
 import BookNow from "../book";
-import { useCurrentLocale, useScopedI18n } from "../../../../../../locales/client";
+import { useCurrentLocale, useScopedI18n } from "../../../../../../../locales/client";
 import ProductTabContetnt from "./ProductTabContetnt";
 
 interface IProp {
