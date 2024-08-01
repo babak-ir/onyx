@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
-const API_URL = process.env.API_URL
+const API_URL = process.env.API_URL;
+
+const isProduction = process.env.NODE_ENV === "production";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	async rewrites() {
+		if(isProduction) return [];
 		return [
 			{
 				source: '/api/:path*',
