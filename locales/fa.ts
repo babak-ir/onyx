@@ -35,8 +35,8 @@ export default {
         readMore: 'ادامه مطلب',
         detaile: {
             analyze: "تجزیه و تحلیل",
-            attributes: 'ویژگی های',
-            uses: 'مورد استفاده',
+            attributes: 'ویژگی های محصول',
+            uses:'موارد استفاده',
             chemical: 'تجزیه و تحلیل شیمیایی',
             physical: 'خصوصیات فیزیکی',
             bookNow: 'ثبت درخواست'

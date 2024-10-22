@@ -35,8 +35,8 @@ export default {
         readMore: '阅读更多',
         detaile: {
             analyze: "分析",
-            attributes: '属性',
-            uses: '用途',
+            attributes: '产品特点',
+            uses: '使用案例',
             chemical: '化学分析',
             physical: '物理特性',
             bookNow: '立即预订'

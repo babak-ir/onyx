@@ -35,8 +35,8 @@ export default {
         readMore: 'Daha Fazla Oku',
         detaile: {
             analyze: "Analiz",
-            attributes: 'Özellikler',
-            uses: 'Kullanımlar',
+            attributes: 'Ürün özellikleri',
+            uses: 'Kullanım örnekleri',
             chemical: 'Kimyasal analiz',
             physical: 'Fiziksel özellikler',
             bookNow: 'Şimdi Rezervasyon Yap'

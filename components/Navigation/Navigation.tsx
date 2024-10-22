@@ -50,7 +50,7 @@ const Navigation = () => {
                             <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://t.me/onyx_bam" target="_blank" rel="noopener noreferrer">
                                 <TelegramSVG width={24} height={24} />
                             </Link>
-                            <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://wa.me/989140098583" target="_blank" rel="noopener noreferrer">
+                            <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://wa.me/989143506580" target="_blank" rel="noopener noreferrer">
                                 <WhatsappSVG width={24} height={24} />
                             </Link>
                             {/* <Link className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">

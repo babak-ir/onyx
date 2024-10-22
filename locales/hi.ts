@@ -35,8 +35,8 @@ export default {
         readMore: 'और पढ़ें',
         detaile: {
             analyze: "विश्लेषण",
-            attributes: 'गुण',
-            uses: 'उपयोग',
+            attributes: 'उत्पाद की विशेषताएँ',
+            uses: 'मामलों का प्रयोग करें',
             chemical: 'रासायनिक विश्लेषण',
             physical: 'भौतिक विशेषताएँ',
             bookNow: 'अभी बुक करें'

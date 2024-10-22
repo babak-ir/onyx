@@ -35,8 +35,8 @@ export default {
         readMore: 'Read More',
         detaile: {
             analyze: "Analyze",
-            attributes: 'Attributes',
-            uses: 'Uses',
+            attributes: 'Product features',
+            uses: 'Use cases',
             chemical: 'Chemical analysis',
             physical: 'Physical characteristics',
             bookNow: 'Book Now'

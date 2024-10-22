@@ -35,8 +35,8 @@ export default {
         readMore: 'Читать далее',
         detaile: {
             analyze: "Анализ",
-            attributes: 'Характеристики',
-            uses: 'Применение',
+            attributes: 'Особенности продукта',
+            uses: 'Варианты использования',
             chemical: 'Химический анализ',
             physical: 'Физические характеристики',
             bookNow: 'Забронировать сейчас'
