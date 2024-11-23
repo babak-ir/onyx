@@ -10,17 +10,17 @@ const FooterSection: FunctionComponent<FooterSection> = () => {
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="text-center lg:text-left mb-10 lg:mb-0">
             <div className="flex justify-center lg:justify-start mb-5">
-              <Image
+              {/* <Image
                 src="/image/footer-logo.png"
                 alt="Image"
                 width={200}
                 height={57}
-              />
+              /> */}
             </div>
 
-            <p className="font-light text-gray-400 text-xl mb-10">
+            {/* <p className="font-light text-gray-400 text-xl mb-10">
               Get your dream house with D’house
-            </p>
+            </p> */}
 
             <div className="flex items-center justify-center lg:justify-start space-x-5">
               <a

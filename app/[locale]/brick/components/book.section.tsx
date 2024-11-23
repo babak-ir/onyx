@@ -14,7 +14,7 @@ const BookSection: FunctionComponent<BookSectionProps> = () => {
             </h1>
 
             <p className="font-normal text-white text-md md:text-xl">
-              Need more time to discuss? Don't worry, we're here to help. You
+              Need more time to discuss? Don&apos;t worry, we&apos;re here to help. You
               can fill in the form on the right to schedule a meeting with
               us—completely free.
             </p>
