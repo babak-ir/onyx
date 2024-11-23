@@ -18,14 +18,14 @@ const toBase64 = (str: string) => typeof window === "undefined" ? Buffer.from(st
 
 
 interface IProp {
-    width: number;
-    height: number;
+    width?: number;
+    height?: number;
     src: string;
     alt?: string;
 }
 
 
-const Shimmer = ({ width, height, src, alt }: IProp = { width: 700, height: 475, src: "/mountains.jpg", alt: "" }) => {
+const Shimmer = ({ width, height, src, alt }: IProp = { width, height, src: "/mountains.jpg", alt: "" }) => {
     return (
         <Image
             alt={alt || ''}
@@ -33,6 +33,7 @@ const Shimmer = ({ width, height, src, alt }: IProp = { width: 700, height: 475,
             placeholder={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
             width={width}
             height={height}
+            // fill={true}
             style={{
                 maxWidth: "100%",
                 height: "auto",
