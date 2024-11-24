@@ -5,7 +5,7 @@ interface HomeSectionProps {}
 
 const HomeSection: FunctionComponent<HomeSectionProps> = () => {
   return (
-    <div className="flex items-center justify-center xl:justify-start">
+    <div className="flex flex-col-reverse lg:flex-row items-center justify-center xl:justify-start mt-40">
       <div className="mt-28 text-center xl:text-left">
         <h1 className="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6">
           Heat-Resistant Refractory Bricks

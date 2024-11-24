@@ -24,7 +24,7 @@ const BookSection: FunctionComponent<BookSectionProps> = () => {
             <Image src="/image/book.png" alt="Image" width={638} height={689} />
           </div>
 
-          <div className="hidden md:block bg-white xl:relative px-6 py-3 rounded-3xl">
+          <div className="bg-white xl:relative px-6 py-3 rounded-3xl">
             <div className="py-3">
               <h3 className="font-semibold text-gray-900 text-3xl">
                 Book a meeting

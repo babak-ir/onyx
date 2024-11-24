@@ -3,14 +3,11 @@ import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 
 import "../globals.css";
-import Navigation from "../../../components/Navigation/Navigation";
 import classNames from "classnames";
-import Footer from "../../../components/Footer/Footer";
 import Locale from "intl-locale-textinfo-polyfill";
-import SubLayout from "../client/layout";
 import { Toaster } from "react-hot-toast";
-import { Navbar } from "flowbite-react";
 import NabvarMenu from "./components/navbar";
+import SubLayout from "../client/layout";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -55,7 +52,10 @@ export default function RootLayout({
           locale == "fa" ? vazir.className : poppins.className,
         )}
       >
+        <SubLayout params={{ locale }}>
+         
         <NabvarMenu />
+        </SubLayout>
         {children}
         <Toaster position="top-left" />
       </body>
