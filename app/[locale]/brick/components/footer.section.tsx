@@ -6,8 +6,8 @@ interface FooterSection {}
 const FooterSection: FunctionComponent<FooterSection> = () => {
   return (
     <footer className="bg-white py-10 md:py-16">
-      <div className="container max-w-screen-xl mx-auto px-4">
-        <div className="flex flex-col lg:flex-row justify-between">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row justify-between w-full gap-8">
           <div className="text-center lg:text-left mb-10 lg:mb-0">
             <div className="flex justify-center lg:justify-start mb-5">
               {/* <Image

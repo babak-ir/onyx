@@ -32,8 +32,22 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
             </p>
 
             <div className="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
-              <div className="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
-                <i data-feather="check-circle" className=" text-green-900"></i>
+              <div className="px-8 h-20 mx-auto md:mx-0 bg-gray rounded-lg flex items-center justify-center mb-5 md:mb-0">
+                <svg
+                  className="w-6 h-6 text-green-900"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm13.707-1.293a1 1 0 0 0-1.414-1.414L11 12.586l-1.793-1.793a1 1 0 0 0-1.414 1.414l2.5 2.5a1 1 0 0 0 1.414 0l4-4Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
               </div>
 
               <div className="text-center md:text-left">
@@ -48,8 +62,22 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
             </div>
 
             <div className="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
-              <div className="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
-                <i data-feather="lock" className=" text-green-900"></i>
+              <div className="px-8 h-20 mx-auto md:mx-0 bg-gray rounded-lg flex items-center justify-center mb-5 md:mb-0">
+                <svg
+                  className="w-6 h-6 text-green-900"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 10V7a4 4 0 1 1 8 0v3h1a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h1Zm2-3a2 2 0 1 1 4 0v3h-4V7Zm2 6a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0v-3a1 1 0 0 1 1-1Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
               </div>
 
               <div className="text-center md:text-left">
@@ -64,8 +92,27 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
             </div>
 
             <div className="flex flex-col md:flex-row justify-center xl:justify-start space-x-4">
-              <div className="px-8 h-20 mx-auto md:mx-0 bg-gray-200 rounded-lg flex items-center justify-center mb-5 md:mb-0">
-                <i data-feather="credit-card" className=" text-green-900"></i>
+              <div className="px-8 h-20 mx-auto md:mx-0 bg-gray rounded-lg flex items-center justify-center mb-5 md:mb-0">
+                <svg
+                  className="w-6 h-6 text-green-900"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H4Zm0 6h16v6H4v-6Z"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M5 14a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Zm5 0a1 1 0 0 1 1-1h5a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
               </div>
 
               <div className="text-center md:text-left">

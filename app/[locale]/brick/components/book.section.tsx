@@ -7,7 +7,7 @@ const BookSection: FunctionComponent<BookSectionProps> = () => {
   return (
     <section className="bg-white py-10 md:py-16">
       <div className="container max-w-screen-xl xl:relative">
-        <div className="bg-green-800 flex flex-col lg:flex-row items-center justify-evenly py-14 px-8 rounded-3xl">
+        <div className="bg-green-800 flex flex-col gap-4 lg:flex-row items-center justify-evenly py-14 px-8 rounded-3xl">
           <div className="text-center lg:text-left mb-10 lg:mb-0">
             <h1 className="font-semibold text-white text-4xl md:text-5xl lg:text-7xl leading-normal mb-4">
               Talk to us to discuss
@@ -20,7 +20,7 @@ const BookSection: FunctionComponent<BookSectionProps> = () => {
             </p>
           </div>
 
-          <div className="right-0">
+          <div className="hidden xl:block xl:absolute right-0">
             <Image src="/image/book.png" alt="Image" width={638} height={689} />
           </div>
 
@@ -31,11 +31,11 @@ const BookSection: FunctionComponent<BookSectionProps> = () => {
               </h3>
             </div>
 
-            <div className="py-3">
+            <div className="py-3 w-full md:w-96">
               <input
                 type="text"
                 placeholder="Full Name"
-                className="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
+                className="px-4 py-4 w-full bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               />
             </div>
 
@@ -43,7 +43,7 @@ const BookSection: FunctionComponent<BookSectionProps> = () => {
               <input
                 type="text"
                 placeholder="Email"
-                className="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
+                className="px-4 py-4 w-full bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               />
             </div>
 
@@ -51,24 +51,24 @@ const BookSection: FunctionComponent<BookSectionProps> = () => {
               <input
                 type="text"
                 placeholder="Date"
-                className="px-4 py-4 w-96 bg-gray-100 font-normal text-lg placeholder-gray-400 rounded-xl outline-none"
+                className="px-4 py-4 w-full bg-gray-100 font-normal text-lg placeholder-gray-400 rounded-xl outline-none"
               />
 
-              <div className="inset-y-0 left-80 ml-6 flex items-center text-xl text-gray-600">
+              {/* <div className="inset-y-0 left-80 ml-6 flex items-center text-xl text-gray-600">
                 <i data-feather="calendar"></i>
-              </div>
+              </div> */}
             </div>
 
             <div className="py-3 relative">
               <input
                 type="text"
                 placeholder="Virtual Meeting"
-                className="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
+                className="px-4 py-4 w-full bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               />
 
-              <div className="inset-y-0 left-80 ml-6 flex items-center text-xl text-gray-600">
+              {/* <div className="inset-y-0 left-80 ml-6 flex items-center text-xl text-gray-600">
                 <i data-feather="chevron-down"></i>
-              </div>
+              </div> */}
             </div>
 
             <div className="py-3">

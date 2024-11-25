@@ -34,7 +34,7 @@ const TestimoniSction: FunctionComponent<TestimoniSctionProps> = () => {
         </div>
 
         <div className="flex flex-col md:flex-row md:items-center justify-center md:space-x-8 lg:space-x-12 mb-10 md:mb-20">
-          <div className="bg-gray-100 rounded-lg mb-10 md:mb-0">
+          <div className="bg-gray rounded-lg mb-10 md:mb-0">
             <Image
               src="/image/testimoni-3.png"
               alt="Image"
@@ -62,7 +62,7 @@ const TestimoniSction: FunctionComponent<TestimoniSctionProps> = () => {
             </h3>
           </div>
 
-          <div className="bg-gray-100 rounded-lg">
+          <div className="bg-gray rounded-lg">
             <Image
               src="/image/testimoni-4.png"
               alt="Image"
