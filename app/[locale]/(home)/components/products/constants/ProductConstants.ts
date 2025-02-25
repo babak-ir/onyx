@@ -1,8 +1,3 @@
-// import kaolinite from "../../../../../public/kaolinite.png";
-// import unmatched from "../../../../../public/unmatched.png";
-// import kgR from "../../../../../public/kg-r-300x142.jpg";
-// import kgW from "../../../../../public/kg-w-300x155.jpg";
-
 import { IProduct } from "../interfaces/productInterfaces";
 
 const productConstants: IProduct[] = [

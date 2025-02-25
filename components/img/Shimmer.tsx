@@ -24,14 +24,16 @@ interface IProp {
   height: number;
   src: string;
   alt?: string;
+  className?: string;
 }
 
 const Shimmer = (
-  { width, height, src, alt }: IProp = {
+  { width, height, src, alt, className }: IProp = {
     width: 700,
     height: 475,
     src: "/mountains.jpg",
     alt: "",
+    className: "",
   },
 ) => {
   return (
@@ -46,6 +48,7 @@ const Shimmer = (
         maxWidth: "100%",
         height: "auto",
       }}
+      className={className || ""}
     />
   );
 };

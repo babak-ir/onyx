@@ -52,7 +52,6 @@ const BookNow = ({ openModal, onClose }: IProp) => {
     } = useForm<TBooking>();
 
     const onSubmit: SubmitHandler<TBooking> = (data) => createBooking(data).then((res) => {
-        console.log(res);
         closeHandler();
     });
 
