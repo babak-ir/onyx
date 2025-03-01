@@ -1,7 +1,7 @@
 "use client";
 import { FunctionComponent } from "react";
 import { IBricksProduct } from "../brickProduct.interfaces";
-import brickProductList from "../products/brick.product.constant";
+import brickProductList from "../constants/brick.product.constant";
 import Shimmer from "@/components/img/Shimmer";
 import { useCurrentLocale } from "@/locales/client";
 import { useRouter } from "next/navigation";
