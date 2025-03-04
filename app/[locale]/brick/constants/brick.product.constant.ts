@@ -12,6 +12,7 @@ const brickProductList: IBricksProduct[] = [
       tr: "Ateş tuğlası cephe",
     },
     imageUrl: "/image/bricks/heavy_refractory_bricks/small.jpg",
+    url: "/refractory-bricks",
   },
   {
     id: 1,
@@ -24,6 +25,7 @@ const brickProductList: IBricksProduct[] = [
       tr: "Ateş tuğlası cephe",
     },
     imageUrl: "/image/bricks/refractory_bricks/small.jpg",
+    url: "/refractory-insulating-bricks",
   },
   {
     id: 2,
@@ -36,6 +38,7 @@ const brickProductList: IBricksProduct[] = [
       tr: "Ön üretim parçaları",
     },
     imageUrl: "/image/bricks/prefabricated_parts/small.jpg",
+    url: "/prefabricated-parts",
   },
   {
     id: 3,
@@ -48,6 +51,7 @@ const brickProductList: IBricksProduct[] = [
       tr: "Ateş tuğlası cephe",
     },
     imageUrl: "/image/bricks/refractory_masses/small.jpg",
+    url: "/refractory-masses",
   },
   {
     id: 4,
@@ -60,6 +64,7 @@ const brickProductList: IBricksProduct[] = [
       tr: "Harçlar",
     },
     imageUrl: "/image/bricks/mortars/small.jpg",
+    url: "/mortars",
   },
   {
     id: 5,
@@ -72,6 +77,7 @@ const brickProductList: IBricksProduct[] = [
       tr: "Mastik",
     },
     imageUrl: "/image/bricks/mastic/small.jpg",
+    url: "/mastic",
   },
   {
     id: 6,
@@ -84,6 +90,7 @@ const brickProductList: IBricksProduct[] = [
       tr: "Temel malzemeler",
     },
     imageUrl: "/image/bricks/raw_materials/small.jpg",
+    url: "/raw-materials",
   },
 ];
 

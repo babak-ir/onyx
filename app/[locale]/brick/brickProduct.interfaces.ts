@@ -1,5 +1,7 @@
+import { ILocale } from "../(home)/components/products/interfaces/productInterfaces";
+
 export interface IBricksProduct {
-  id: number;
+  path: string;
   title: {
     en: string;
     fa: string;
@@ -13,4 +15,8 @@ export interface IBricksProduct {
 
 export interface IGetProductList {
   products: IBricksProduct[];
+}
+
+export interface IBrickProductDetailes {
+  title: ILocale;
 }

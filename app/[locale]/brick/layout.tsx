@@ -8,6 +8,11 @@ import Locale from "intl-locale-textinfo-polyfill";
 import { Toaster } from "react-hot-toast";
 import NabvarMenu from "./components/navbar";
 import SubLayout from "../client/layout";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Suspense } from "react";
+import Providers from "./providers";
+
+const queryClient = new QueryClient();
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -52,12 +57,15 @@ export default function RootLayout({
           locale == "fa" ? vazir.className : poppins.className,
         )}
       >
-        <SubLayout params={{ locale }}>
-         
-        <NabvarMenu />
-        </SubLayout>
-        {children}
-        <Toaster position="top-left" />
+        <Suspense>
+          <Providers>
+            <SubLayout params={{ locale }}>
+              <NabvarMenu />
+            </SubLayout>
+            {children}
+            <Toaster position="top-left" />
+          </Providers>
+        </Suspense>
       </body>
     </html>
   );

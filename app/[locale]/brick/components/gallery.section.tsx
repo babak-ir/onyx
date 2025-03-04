@@ -1,10 +1,11 @@
 "use client";
 import { FunctionComponent } from "react";
 import { IBricksProduct } from "../brickProduct.interfaces";
-import brickProductList from "../constants/brick.product.constant";
 import Shimmer from "@/components/img/Shimmer";
 import { useCurrentLocale } from "@/locales/client";
 import { useRouter } from "next/navigation";
+import { useQuery } from "@tanstack/react-query";
+import { getBricksList } from "../bricks.api";
 
 interface GallerySectionProps {}
 
@@ -12,9 +13,18 @@ const GallerySection: FunctionComponent<GallerySectionProps> = () => {
   const router = useRouter();
   const locale = useCurrentLocale();
 
-  const goToDetailes = (id: number) => {
-    router.push("/");
+  const goToDetailes = (patch: string) => {
+    router.push(`/brick/products/${patch}`);
   };
+
+  const bricksList = useQuery({
+    queryKey: ["bricksProductsList"],
+    queryFn: async () => {
+      const list = await getBricksList();
+      console.log(list);
+      return list;
+    },
+  });
 
   return (
     <section className="bg-white py-10 md:py-16">
@@ -24,11 +34,11 @@ const GallerySection: FunctionComponent<GallerySectionProps> = () => {
         </h1>
 
         <div className="flex flex-wrap justify-center">
-          {brickProductList?.map((product: IBricksProduct) => (
+          {bricksList.data?.map((product: IBricksProduct) => (
             <div
-              onClick={() => goToDetailes(product.id)}
+              onClick={() => goToDetailes(product.path)}
               className="w-full flex flex-col justify-center items-center sm:w-1/2 md:w-1/3 p-4 cursor-pointer"
-              key={product.id}
+              key={product.path}
             >
               <Shimmer
                 src={product.imageUrl}
