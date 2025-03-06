@@ -1,0 +1,57 @@
+{
+  "title": {
+    "fa": "آجرهای نسوز سنگین",
+    "en": "heavy Refractory Bricks",
+    "zh": "重炉耐火砖",
+    "ru": "Огнеупорные кирпичи",
+    "hi": "अग्नि ईंट मुखौटे",
+    "tr": "Ateş tuğlası cephe"
+  },
+  "imageUrl": "/bricks/heavy_refractory_bricks/large.jpg",
+  "content": [
+    {
+      "title": {
+        "fa": "",
+        "en": "",
+        "zh": "",
+        "ru": "",
+        "hi": "",
+        "tr": ""
+      },
+      "text": {
+        "fa": "",
+        "en": "",
+        "zh": "",
+        "ru": "",
+        "hi": "",
+        "tr": ""
+      },
+      "bullets": [
+        {
+          "fa": "",
+          "en": "",
+          "zh": "",
+          "ru": "",
+          "hi": "",
+          "tr": ""
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "title": "",
+      "content": [
+        {
+          "title": "",
+          "properties": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

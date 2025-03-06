@@ -62,7 +62,7 @@ export default function RootLayout({
             <SubLayout params={{ locale }}>
               <NabvarMenu />
             </SubLayout>
-            {children}
+            <div className="flex min-h-screen flex-col items-center justify-between mt-32">{children}</div>
             <Toaster position="top-left" />
           </Providers>
         </Suspense>

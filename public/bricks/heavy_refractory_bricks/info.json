@@ -1,11 +1,1509 @@
 {
   "title": {
-    "en": "heavy Refractory Bricks",
     "fa": "آجرهای نسوز سنگین",
+    "en": "heavy Refractory Bricks",
     "zh": "重炉耐火砖",
     "ru": "Огнеупорные кирпичи",
     "hi": "अग्नि ईंट मुखौटे",
     "tr": "Ateş tuğlası cephe"
   },
-  "imageUrl": "/bricks/heavy_refractory_bricks/large.jpg"
+  "imageUrl": "/bricks/heavy_refractory_bricks/large.jpg",
+  "content": [
+    {
+      "title": {
+        "fa": "آجرهای نسوز سنگین",
+        "en": "Heavy refractory bricks",
+        "zh": "重炉耐火砖",
+        "ru": "Огнеупорные кирпичи",
+        "hi": "अग्नि ईंट मुखौटे",
+        "tr": "Ateş tuğlası cephe"
+      },
+      "text": {
+        "fa": "جرم های نسوز، دیرگدازهای بی شکل (مونولیتیک) هستند که در سالهای اخیر به دسته ای از مواد دیرگداز تبدیل شده‌اند که کارکرد خوبی داشته و مقرون به صرفه‌تر از نسوزهای شکل‌دار هستند. دلیل افرایش بازار برای این دسته از دیرگدازها در مقایسه با نوع شکلدار تولید و نصب ساده، ارزان‌تر و صرفه جویی در انرژی است. جرم‌های نسوز با قابلیت شکل‌پذیری و مقاومت بالا، در تعمیر و نگهداری کوره‌های صنایع آهک و قند و دیگر صنایع مورد استفاده قرار می‌گیرند.",
+        "en": "Heavy refractory bricks are shaped refractory products that can withstand high temperatures and simultaneously resist physical, chemical, and mechanical changes at high temperatures. Heavy refractory bricks, with their high temperature tolerance and thermal shock resistance, are widely used in industrial furnaces, especially in the steel and cement industries. One of the most widely used types of refractory bricks is aluminosilicate bricks, which have a high density due to the use of high alumina raw materials and are therefore classified as heavy bricks. Types of aluminosilicate refractory bricks are classified according to their composition and alumina percentage as follows:",
+        "zh": "重质耐火砖是耐高温且能同时抵抗高温下物理、化学和机械变化的定型耐火制品。重型耐火砖具有耐高温、抗热震性强等特点，广泛应用于工业炉，特别是钢铁、水泥工业。其中应用最为广泛的一种耐火砖是铝硅酸盐砖，由于采用高铝原料，所以密度较大，因而被归类为重砖。铝硅酸盐耐火砖的种类按其成分和氧化铝含量可分为以下几种：",
+        "ru": "Тяжелые огнеупорные кирпичи — это фасонные огнеупорные изделия, способные выдерживать высокие температуры и одновременно противостоять физическим, химическим и механическим изменениям при высоких температурах. Тяжелые огнеупорные кирпичи, способные выдерживать высокие температуры и противостоять тепловым ударам, широко используются в промышленных печах, особенно в сталелитейной и цементной промышленности. Одним из наиболее распространенных видов огнеупорного кирпича является алюмосиликатный кирпич, который имеет высокую плотность за счет использования высокоглиноземистого сырья и поэтому относится к тяжелым кирпичам. Виды алюмосиликатных огнеупорных кирпичей классифицируются в зависимости от состава и процентного содержания глинозема следующим образом:",
+        "hi": "भारी आग रोक ईंटें आकार वाले आग रोक उत्पाद हैं जो उच्च तापमान को सहन कर सकते हैं और साथ ही उच्च तापमान पर भौतिक, रासायनिक और यांत्रिक परिवर्तनों का विरोध कर सकते हैं। भारी आग रोक ईंटों का उपयोग, उच्च तापमान को झेलने और तापीय आघात को रोकने की उनकी क्षमता के कारण, औद्योगिक भट्टियों में, विशेष रूप से इस्पात और सीमेंट उद्योगों में, व्यापक रूप से किया जाता है। सबसे व्यापक रूप से प्रयुक्त आग रोक ईंटों में से एक एल्युमिनोसिलिकेट ईंटें हैं, जिनमें उच्च एल्युमिना कच्चे माल के उपयोग के कारण उच्च घनत्व होता है और इसलिए इन्हें भारी ईंटों के रूप में वर्गीकृत किया जाता है। एल्युमिनोसिलिकेट दुर्दम्य ईंटों के प्रकारों को उनकी संरचना और एल्युमिना प्रतिशत के अनुसार निम्नानुसार वर्गीकृत किया गया है:",
+        "tr": "Ağır refrakter tuğlalar, yüksek sıcaklıklara dayanabilen ve aynı zamanda yüksek sıcaklıklardaki fiziksel, kimyasal ve mekanik değişimlere direnç gösterebilen şekillendirilmiş refrakter ürünlerdir. Yüksek sıcaklıklara dayanımları ve termal şoklara dirençleri nedeniyle ağır refrakter tuğlalar, özellikle çelik ve çimento sanayinde endüstriyel fırınlarda yaygın olarak kullanılmaktadır. En yaygın kullanılan refrakter tuğla çeşitlerinden biri olan alüminosilikat tuğlalar, yüksek alümina içerikli hammadde kullanılması nedeniyle yüksek yoğunluğa sahip olup bu nedenle ağır tuğlalar sınıfına girmektedir. Alüminosilikat refrakter tuğlaların çeşitleri, bileşimlerine ve alümina yüzdesine göre aşağıdaki şekilde sınıflandırılır:"
+      },
+      "bullets": [
+        {
+          "fa": "آجرهای شاموتی Al2O3  25%-45%",
+          "en": "Al2O3 25%-45% fireclay bricks",
+          "zh": "Al2O3 25%-45%粘土砖",
+          "ru": "Шамотный кирпич Al2O3 25%-45%",
+          "hi": "Al2O3 25%-45% फायरक्ले ईंटें",
+          "tr": "Al2O3 %25-%45 şamot tuğlaları"
+        },
+        {
+          "fa": "آجرهای سیلیمانیتی Al2O3  45%-65%",
+          "en": "Sillimanite bricks Al2O3 45%-65%",
+          "zh": "硅线石砖 Al2O3 45%-65%",
+          "ru": "Силлиманитовые кирпичи Al2O3 45%-65%",
+          "hi": "सिलिमेनाइट ईंटें Al2O3 45%-65%",
+          "tr": "Sillimanit tuğlaları Al2O3 %45-65%"
+        },
+        {
+          "fa": "آجرهای مولایتی Al2O3  65%-75%",
+          "en": "Molait bricks Al2O3 65%-75%",
+          "zh": "Molait bricks Al2O3 65%-75%",
+          "ru": "Молайтовые кирпичи Al2O3 65%-75%",
+          "hi": "मोलाइट ईंटें Al2O3 65%-75%",
+          "tr": "Molait tuğlaları Al2O3 %65-75%"
+        },
+        {
+          "fa": "آجرهای بوکسیتی Al2O3  75%-90%",
+          "en": "Boxit bricks Al2O3 75%-90%",
+          "zh": "Boxit bricks Al2O3 75%-90%",
+          "ru": "Бокситовые кирпичи Al2O3 75%-90%",
+          "hi": "बॉक्सिट ईंटें Al2O3 75%-90%",
+          "tr": "Boxit tuğlaları Al2O3 %75-90%"
+        },
+        {
+          "fa": "آجرهای کوراندومی Al2O3  90%-100%",
+          "en": "Korandome bricks Al2O3 90%-100%",
+          "zh": "Korandome bricks Al2O3 90%-100%",
+          "ru": "Корандомовые кирпичи Al2O3 90%-100%",
+          "hi": "कोरांडोम ईंटें Al2O3 90%-100%",
+          "tr": "Korandome tuğlaları Al2O3 %90-100%"
+        }
+      ]
+    },
+    {
+      "title": {
+        "fa": "مواد اولیه آجرهای نسوز سنگین",
+        "en": "Raw materials for heavy refractory bricks",
+        "zh": "重炉耐火砖原材料",
+        "ru": "Сырье для огнеупорных кирпичей",
+        "hi": "अग्नि ईंट मुखौटे के लिए ग्राहक सामग्री",
+        "tr": "Ateş tuğlası cephe için sırma malzeme"
+      },
+      "text": {
+        "fa": "مواد اولیه آجرهای نسوز سنگین از محدوده وسیعی از کانی‌ها مانند بوکسیت، آندولوزیت، شاموت، مولایت و انواع آلومینا تشکیل شده که با افزایش درصد آلومینای آجر، خواص حرارتی و مکانیکی آن بهبود پیدا می‌کند. از موارد پراهمیت در چگونگی عملکرد آجر نسوز سنگین در کوره و بعد از نصب، ترکیب شیمیایی و نوع باند اتصالی آجر می‌باشد. نوع مواد اولیه مورد استفاده در ترکیب شیمیایی آجر و بالتبع آن در انواع خواص مکانیکی، حرارتی، مقاومت به خوردگی و سایش تاثیرگذار می‌باشد. به لحاظ باند اتصالی نیز باند سرامیکی ایجادی به واسطه زینتر شدن و ایجاد باند شیمیایی به وسیله سخت شدن با واکنش شیمیایی از مهمترین نوع اتصال در آجرهای نسوز آلومینوسیلیکاتی می‌باشند. اتصالات سرامیکی در هنگام فرآیند پخت بوجود آمده و می‌توانند به صورت فاز شیشه‌ای و یا بلوری باشند. استفاده از افزودنی‌های کمک زینتر نیز به واسطه ایجاد فاز مایع سبب بهبود زینترینگ می‌شوند. سیلیکا سل، آلومینا سل، آب شیشه و بایندر فسفاتی از نمونه بایندرهای شیمیایی هستند. اتصال دهنده های فسفاتی مانند اسید فسفریک، نمکهای فسفاتی و آلومینیوم فسفات بیشترین استفاده را در ایجاد باند شیمیایی این نوع اجرهای نسوز دارند. استفاده از باندهای شیمیایی مانند بایندر فسفاتی سبب ایجاد استحکام خام بالا در اجر نسوز شده و امکان جابجایی و نقل و انتقال به مراتب راحت تر صورت می‌گیرد. همچنین اجرها با باند فسفاتی در دماهای پایین تری نسبت به آجرهای باند سرامیکی سینتر می‌شوند.",
+        "en": "The raw materials of heavy refractory bricks consist of a wide range of minerals such as bauxite, andalusite, chamotte, mullite and various types of alumina, and as the percentage of alumina in the brick increases, its thermal and mechanical properties improve. The chemical composition and type of bonding bond of the brick are of great importance in how heavy refractory bricks perform in the kiln and after installation. The type of raw materials used in the chemical composition of the brick and consequently in various mechanical, thermal, corrosion and wear properties are effective. In terms of bonding, ceramic bonding created by sintering and chemical bonding created by hardening with chemical reaction are the most important types of bonding in aluminosilicate refractory bricks. Ceramic bonds are formed during the firing process and can be in the form of a glassy or crystalline phase. The use of sintering aids also improves sintering by creating a liquid phase. Silica sol, alumina sol, water glass and phosphate binder are examples of chemical binders. Phosphate binders such as phosphoric acid, phosphate salts, and aluminum phosphate are most commonly used to chemically bond these types of refractory bricks. The use of chemical bonds such as phosphate binders provides high raw strength to the refractory brick, making it much easier to handle and transport. Phosphate-bonded bricks are also sintered at lower temperatures than ceramic-bonded bricks.",
+        "zh": "重质耐火砖的原料包括多种矿物，例如铝土矿、红柱石、熟料、莫来石和各种类型的氧化铝。增加砖的氧化铝百分比可改善其热性能和机械性能。重型耐火砖在窑中和安装后的性能如何，最重要的因素之一是砖的化学成分和粘结类型。所用原材料的类型对砖的化学成分以及其机械、热、腐蚀和耐磨性能都有影响。从结合方式上讲，通过烧结产生的陶瓷结合和通过化学反应硬化产生的化学结合是铝硅酸盐耐火砖最主要的结合类型。陶瓷结合剂是在烧制过程中形成的，可以呈玻璃态或结晶态。使用烧结助剂也能通过产生液相来改善烧结。硅溶胶、氧化铝溶胶、水玻璃和磷酸盐粘合剂都是化学粘合剂的例子。磷酸、磷酸盐和磷酸铝等磷酸盐粘合剂最常用于在这些类型的耐火砖中形成化学键。磷酸盐粘合剂等化学键的使用使耐火砖具有较高的原始强度，使得处理和运输变得更加容易。此外，磷酸盐结合砖的烧结温度比陶瓷结合砖的烧结温度低。",
+        "ru": "Сырье для тяжелых огнеупорных кирпичей состоит из широкого спектра минералов, таких как боксит, андалузит, шамот, муллит и различные виды глинозема. Увеличение процента глинозема в кирпиче улучшает его термические и механические свойства. Одним из важнейших факторов, определяющих поведение тяжелого огнеупорного кирпича в печи и после установки, является химический состав и тип связки кирпича. Тип сырья, используемого в химическом составе кирпича, и, следовательно, его механические, термические, коррозионные и износостойкие свойства имеют большое значение. С точки зрения сцепления, важнейшими типами сцепления в алюмосиликатных огнеупорных кирпичах являются керамическая связь, создаваемая спеканием, и химическая связь, создаваемая затвердеванием в результате химической реакции. Керамические связи образуются в процессе обжига и могут иметь форму стекловидной или кристаллической фазы. Использование спекающих добавок также улучшает спекание за счет создания жидкой фазы. Примерами химических связующих веществ являются силикатный золь, алюмотазоль, жидкое стекло и фосфатное связующее. Для создания химических связей в огнеупорных кирпичах такого типа чаще всего используются фосфатные связующие вещества, такие как фосфорная кислота, фосфатные соли и фосфат алюминия. Использование химических связей, таких как фосфатные связующие, обеспечивает высокую прочность огнеупорных кирпичей, что значительно облегчает их обработку и транспортировку. Кроме того, кирпичи на фосфатной связке спекаются при более низких температурах, чем кирпичи на керамической связке.",
+        "hi": "भारी आग रोक ईंटों के कच्चे माल में विभिन्न प्रकार के खनिज शामिल होते हैं, जैसे बॉक्साइट, एण्डालूसाइट, चामोट, मुलाइट, तथा विभिन्न प्रकार के एल्यूमिना, तथा जैसे-जैसे ईंट में एल्यूमिना का प्रतिशत बढ़ता है, इसके तापीय तथा यांत्रिक गुणों में सुधार होता है। भट्ठे में और स्थापना के बाद भारी आग रोक ईंटों का प्रदर्शन कैसा होगा, इसमें सबसे महत्वपूर्ण कारकों में से एक ईंट की रासायनिक संरचना और बंधन का प्रकार है। ईंट की रासायनिक संरचना में प्रयुक्त कच्चे माल का प्रकार और फलस्वरूप इसके यांत्रिक, तापीय, संक्षारण और घिसाव प्रतिरोधक गुण प्रभावशाली होते हैं। बंधन के संदर्भ में, सिंटरिंग द्वारा निर्मित सिरेमिक बंधन और रासायनिक प्रतिक्रिया के माध्यम से सख्त करके निर्मित रासायनिक बंधन, एल्युमिनोसिलिकेट दुर्दम्य ईंटों में बंधन के सबसे महत्वपूर्ण प्रकार हैं। सिरेमिक बंध फायरिंग प्रक्रिया के दौरान बनते हैं और कांच जैसे या क्रिस्टलीय चरण के रूप में हो सकते हैं। सिंटरिंग सहायक उपकरणों के उपयोग से भी तरल चरण का निर्माण करके सिंटरिंग में सुधार होता है। सिलिका सोल, एल्यूमिना सोल, वाटर ग्लास और फॉस्फेट बाइंडर रासायनिक बाइंडर के उदाहरण हैं। फॉस्फोरिक एसिड, फॉस्फेट लवण और एल्यूमीनियम फॉस्फेट जैसे फॉस्फेट बाइंडरों का उपयोग आमतौर पर इस प्रकार की आग रोक ईंटों में रासायनिक बंधन बनाने के लिए किया जाता है। फॉस्फेट बाइंडर जैसे रासायनिक बंधों के प्रयोग से आग रोक ईंटों में उच्च कच्ची शक्ति उत्पन्न होती है, जिससे उनका रख-रखाव और परिवहन बहुत आसान हो जाता है। इसके अलावा, फॉस्फेट-बंधित ईंटों को सिरेमिक-बंधित ईंटों की तुलना में कम तापमान पर सिन्टर किया जाता है।",
+        "tr": "Ağır refrakter tuğlaların hammaddeleri boksit, andalusit, şamot, mullit ve çeşitli alümina türleri gibi çok çeşitli minerallerden oluşmakta olup, tuğlanın alümina yüzdesi arttıkça termal ve mekanik özellikleri iyileşmektedir. Ağır refrakter tuğlaların fırında ve montaj sonrasında nasıl performans göstereceğini belirleyen en önemli faktörlerden biri tuğlanın kimyasal bileşimi ve bağ türüdür. Tuğlanın kimyasal bileşiminde kullanılan hammaddenin türü ve buna bağlı olarak mekanik, termal, korozyon ve aşınma dayanım özellikleri etkilidir. Bağlanma açısından bakıldığında, alüminosilikat refrakter tuğlalarda en önemli bağlama tipleri, sinterleme ile oluşturulan seramik bağlama ve kimyasal reaksiyonla sertleştirme ile oluşturulan kimyasal bağlamadır. Seramik bağlar pişirme işlemi sırasında oluşur ve camsı veya kristal faz şeklinde olabilir. Sinterleme yardımcılarının kullanımı aynı zamanda sıvı bir faz oluşturarak sinterlemeyi iyileştirir. Silisyum çözeltisi, alüminyum oksit çözeltisi, su camı ve fosfat bağlayıcı kimyasal bağlayıcılara örnektir. Bu tip refrakter tuğlalarda kimyasal bağlar oluşturmak için en sık fosforik asit, fosfat tuzları ve alüminyum fosfat gibi fosfat bağlayıcılar kullanılır. Fosfat bağlayıcılar gibi kimyasal bağların kullanımı refrakter tuğlalarda yüksek ham mukavemet oluşturarak elleçleme ve nakliyeyi çok daha kolay hale getirir. Ayrıca fosfatla bağlanmış tuğlalar, seramikle bağlanmış tuğlalara göre daha düşük sıcaklıklarda sinterlenir."
+      },
+      "bullets": []
+    },
+    {
+      "title": {
+        "fa": "شرکت ONYX تولید کننده انواع آجر نسوز",
+        "en": "ONYX manufacturer of refractory bricks",
+        "zh": "ONYX生产重炉耐火砖",
+        "ru": "ONYX производитель огнеупорных кирпичей",
+        "hi": "ONYX निर्माता अग्नि ईंट मुखौटे",
+        "tr": "ONYX tuğlası cephe ureticisi"
+      },
+      "text": {
+        "fa": "شرکت ONYX تولید کننده انواع آجر نسوز آلومینوسیلیکاتی با درصد آلومینای 90%-30% در انواع اشکال ساده و پیچیده (براساس نقشه) با دانسیته و دمای کاری متفاوت براساس نوع سفارش می باشد. آجرها با روش پرس تولید شده و ترکیب شیمیایی انها عمدتا متشکل از  Al2O3و SiO2 می باشد.",
+        "en": "ONYX Company produces a variety of aluminosilicate refractory bricks with alumina percentages of 30%-90% in a variety of simple and complex shapes (based on drawings) with different densities and working temperatures based on the type of order. The bricks are produced by pressing and their chemical composition mainly consists of Al2O3 and SiO2.",
+        "zh": "ONYX公司生产各种氧化铝含量为30%-90%的铝硅酸盐耐火砖，有各种简单和复杂的形状（根据图纸），根据订单类型具有不同的密度和工作温度。砖是通过压制制成的，其化学成分主要由Al2O3和SiO2组成。",
+        "ru": "Компания ONYX производит широкий ассортимент огнеупорного алюмосиликатного кирпича с содержанием глинозема от 30% до 90%, различных простых и сложных форм (по чертежам), различной плотности и рабочей температуры в зависимости от типа заказа. Кирпичи производятся методом прессования, их химический состав в основном состоит из Al2O3 и SiO2.",
+        "hi": "ओनिक्स कंपनी विभिन्न प्रकार के एल्युमिना सिलिकेट रिफ्रैक्टरी ईंटों का उत्पादन करती है, जिनमें एल्युमिना प्रतिशत 30%-90% होता है। यह ईंटें विभिन्न सरल और जटिल आकृतियों (चित्रों के आधार पर) में होती हैं, तथा इनका उत्पादन ऑर्डर के प्रकार के आधार पर अलग-अलग घनत्व और कार्य तापमान के साथ होता है। ईंटों का निर्माण दबाव द्वारा किया जाता है और उनकी रासायनिक संरचना मुख्य रूप से Al2O3 और SiO2 से बनी होती है।",
+        "tr": "ONYX Şirketi, sipariş türüne göre farklı yoğunluklarda ve çalışma sıcaklıklarında, çeşitli basit ve karmaşık şekillerde (çizimlere göre) %30-%90 alümina yüzdesine sahip çeşitli alüminosilikat refrakter tuğlalar üretmektedir. Tuğlalar presleme yöntemiyle üretilir ve kimyasal yapısı çoğunlukla Al2O3 ve SiO2’den oluşur."
+      },
+      "bullets": []
+    }
+  ],
+  "tabs": [
+    {
+      "title": "ARB-SF20",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Siliceous Fireclay Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Kaolinite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "20"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "77"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.45-0.55"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "1.80-2.00"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "12-17"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "200-300"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1520"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1220"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "10-15"
+            },
+            {
+              "key": "Solution in Acid (w%)",
+              "value": "0.50-1.50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-30",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Fireclay Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "30"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "64"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.45-0.55"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "1.90-2.10"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "18-23"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "250-350"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1540"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "10-20"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1260-1280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-40",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Duty Fireclay Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "40"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "53"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.6-0.7"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.00-2.15"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "300-400"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1600"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1300-1320"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "15-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-S40",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Super Duty Fireclay Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "40"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "51.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.6-0.7"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.20-2.30"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "350-450"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1700"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1320-1340"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "15-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL50",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Alumina Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "50"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "41"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.6-0.7"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.25-2.35"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "370-470"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1720"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1340-1360"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "20-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL65",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "65"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "28"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.65-0.75"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.40-2.50"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "17-21"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "450-650"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1760"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1380-1400"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL70",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "23"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.65-0.75"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.50-2.60"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "500-700"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1800"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1380-1400"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL75",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "75"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "16.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.65-0.75"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.55-2.65"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "500-700"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1800"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1380-1400"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL80",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "79"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "14.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.65-2.75"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "600-800"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1830"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1410-1430"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL85",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "83"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "10.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.75-2.85"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "700-900"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1860"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1430-1450"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL90",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Ceramic"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "90"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "7.8"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.80-0.90"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.85-3.05"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "900-1100"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1900"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1445-1465"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "30-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL70SP",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "P2O5 (%)",
+              "value": "2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "20.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.60-2.70"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "17-21"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "700-900"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1800"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1370-1390"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL70SPB",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "P2O5 (%)",
+              "value": "2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "22"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1.4"
+            },
+            {
+              "key": "BaO (%)",
+              "value": "4.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.50-2.70"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-18"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "800-1000"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1640"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1050-1070"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL75SP",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "75"
+            },
+            {
+              "key": "P2O5 (%)",
+              "value": "2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "15.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.65-2.75"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "17-21"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "750-950"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1820"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1390-1410"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL80SP",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "80"
+            },
+            {
+              "key": "P2O5 (%)",
+              "value": "2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "11.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.70-2.80"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "800-1000"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1830"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1410-1430"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL85SP",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3(%)+P2O5(%)",
+              "value": "82"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "12"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.70-2.80"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "800-1000"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1830"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1410-1430"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL85SPS",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "83"
+            },
+            {
+              "key": "P2O5 (%)",
+              "value": "2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "9"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.80-2.90"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "15-18"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "850-1050"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1880"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1430-1450"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL85SPBF",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "83"
+            },
+            {
+              "key": "P2O5 (%)",
+              "value": "2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "10"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.70-0.80"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.85-2.95"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "1000-1200"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1880"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": ">1450"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "25-35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ARB-AL90SP",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Phosphate bonded Brick"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Type of Bond",
+              "value": "Chemical"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "90"
+            },
+            {
+              "key": "P2O5 (%)",
+              "value": "2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "7.8"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Reversible Thermal Expansion at 1000 °C (%)",
+              "value": "0.80-0.90"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.8-3.00"
+            },
+            {
+              "key": "Apparent Porosity (%)",
+              "value": "16-20"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "900-1100"
+            },
+            {
+              "key": "Refractoriness (°C)",
+              "value": "1900"
+            },
+            {
+              "key": "Refractoriness Under Load (°C)",
+              "value": "1440-1460"
+            },
+            {
+              "key": "Thermal Shock at 1000 °C (cycle)",
+              "value": "30-35"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
