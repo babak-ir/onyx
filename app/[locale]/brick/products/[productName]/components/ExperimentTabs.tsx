@@ -26,7 +26,7 @@ const ExperimentTabs = ({ brickExperiments }: IProp) => {
 
             const options: TabsOptions = {
                 defaultTabId: brickExperiments[0].id.toString(),
-                activeClasses: "font-semibold bg-tertiary text-white",
+                activeClasses: "font-semibold bg-tertiary text-white rounded-t-lg",
                 inactiveClasses: "text-deactivate hover:text-gray-600 hover:border-gray-300",
                 onShow: () => { },
             };
