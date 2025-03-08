@@ -25,7 +25,10 @@ const ExperimentTabsContetnt = ({ brickExperiments }: IProp) => {
                   </div>
                   <div className="w-full h-full p-4 gap-8 lg:p-6 flex flex-col justify-between items-end">
                     {experiment.properties.map((property, index) => (
-                      <div className="flex justify-between gap-4 w-full">
+                      <div
+                        key={index}
+                        className="flex justify-between gap-4 w-full"
+                      >
                         <span className="font-medium">{property.key}</span>
                         <span className="text-xs md:text-sm font-normal">
                           {property.value}

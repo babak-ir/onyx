@@ -37,8 +37,8 @@ export default function ProductPage({ params }: Props) {
           alt="customer centric1 w-full"
           className="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500 w-full h-full object-cover"
         />
-        {product.data?.content.map((content: IContent) => (
-          <div className="flex flex-col gap-2">
+        {product.data?.content.map((content: IContent, index) => (
+          <div className="flex flex-col gap-2" key={index}>
             <h1 className="text-2xl font-semibold">{content.title[locale]}</h1>
             <p>{content.text[locale]}</p>
           </div>
