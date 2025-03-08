@@ -23,7 +23,6 @@ export default async function brick() {
 
         <BookSection />
 
-        <FooterSection />
       </main>
     </>
   );

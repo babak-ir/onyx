@@ -11,6 +11,7 @@ import SubLayout from "../client/layout";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Suspense } from "react";
 import Providers from "./providers";
+import FooterSection from "./components/footer.section";
 
 const queryClient = new QueryClient();
 
@@ -62,8 +63,11 @@ export default function RootLayout({
             <SubLayout params={{ locale }}>
               <NabvarMenu />
             </SubLayout>
-            <div className="flex min-h-screen flex-col items-center justify-between mt-32">{children}</div>
+            <div className="flex min-h-screen flex-col items-center justify-between mt-32">
+              {children}
+            </div>
             <Toaster position="top-left" />
+            <FooterSection />
           </Providers>
         </Suspense>
       </body>
