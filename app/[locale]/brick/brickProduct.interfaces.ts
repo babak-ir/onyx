@@ -17,6 +17,29 @@ export interface IGetProductList {
   products: IBricksProduct[];
 }
 
-export interface IBrickProductDetailes {
+// export interface IBrickProductDetailes {
+//   title: ILocale;
+// }
+
+export interface IBrickProductDetail {
   title: ILocale;
+  imageUrl: string;
+  content: IContent[];
+  experiments: IBrickExperiment[];
+}
+export interface IContent {
+  title: ILocale;
+  text: ILocale;
+  bullets: ILocale[];
+}
+
+export interface IBrickExperiment {
+  title: string;
+  content: IExperimentContent[];
+  id: number;
+}
+
+export interface IExperimentContent {
+  title: string;
+  properties: { key: string; value: string }[];
 }
