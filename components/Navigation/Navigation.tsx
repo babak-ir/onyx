@@ -20,11 +20,11 @@ const Navigation = () => {
             <nav className="p-6 h-24 border-gray-20 border-b border-primary fixed w-full top-0 bg-quaternary md:px-12 lg:px-24 z-10">
                 <div className="max-w-screen-2xl h-full flex flex-wrap items-center justify-between mx-auto my-auto">
                     <div className="hidden md:flex gap-36">
-                        <Link href="/" className="hidden md:flex items-center space-x-3 rtl:space-x-reverse">
+                        <Link href="/" className="hidden md:flex items-center gap-3 rtl:space-x-reverse">
                             <LogoSVG width={140} height={48} />
                         </Link>
                         <div className="hidden w-full my-auto md:block md:w-auto text-secondary text-base font-normal">
-                            <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
+                            <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:flex-row md:gap-8 rtl:space-x-reverse md:mt-0">
                                 <li>
                                     <Link href="#home" className="block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent md:p-0">{t('home')}</Link>
                                 </li>

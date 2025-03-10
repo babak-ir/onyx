@@ -17,7 +17,7 @@ const Footer = async () => {
         <div id="contact" className="w-full p-6 md:px-24 md:py-32" style={{ backgroundImage: "linear-gradient(0deg, rgba(72, 32, 25, 0.1) 0%, rgba(72, 32, 25, 0.09) 24.9%, rgba(72, 32, 25, 0.08) 47.06%, rgba(72, 32, 25, 0.07) 69.21%, rgba(255, 255, 255, 0.1) 100%)" }}>
             <div className="max-w-screen-2xl flex flex-col items-start justify-start lg:flex-row lg:justify-between lg:items-start gap-12 xl:gap-32 mx-auto">
                 <div className="flex flex-col gap-4 w-full lg:w-1/3">
-                    <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Link href="/" className="flex items-center gap-3 rtl:space-x-reverse">
                         <LogoSVG width={215} height={74} />
                     </Link>
                     <p className="text-secondary font-normal text-sm leading-6 lg:text-base">

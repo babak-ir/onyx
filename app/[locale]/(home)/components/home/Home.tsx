@@ -32,7 +32,7 @@ const Home = async () => {
                 </div>
                 <div className="w-full inline-flex items-center justify-center relative xl:w-1/2">
                     <Shimmer src="/home.webp" width={644} height={962} alt="home" />
-                    <div className="w-fit sm:w-80 absolute h-fit flex flex-col gap-2 md:gap-4 p-4 md:p-6 bg-quaternary mx-auto top-4 -right-2 lg:top-32 md:-right-12 md:w-96">
+                    <div className="w-fit sm:w-80 absolute h-fit flex flex-col gap-2 md:gap-4 p-4 md:p-6 bg-quaternary mx-auto top-4 -start-2 lg:top-32 md:-start-12 md:w-96">
                         <div className="flex justify-between items-center">
                             <span className="text-sm font-bold md:text-base">{t("linkTo.stmk.title")}</span>
                             <Link href="#services" className="flex justify-center items-center bg-tertiary h-8 w-8">
@@ -43,7 +43,7 @@ const Home = async () => {
                             {t("linkTo.stmk.description")}
                         </span>
                     </div>
-                    <div className="w-fit sm:w-80 absolute h-fit flex flex-col gap-2 md:gap-4 p-4 md:p-6 bg-quaternary mx-auto bottom-8 left-0 lx:left-0 lx:right-0 md:w-96">
+                    <div className="w-fit sm:w-80 absolute h-fit flex flex-col gap-2 md:gap-4 p-4 md:p-6 bg-quaternary mx-auto bottom-8 end-0 lx:end-0 lx:start-0 md:w-96">
                         <div className="flex justify-between items-center">
                             <span className="text-sm font-bold md:text-base">{t("linkTo.stmk2.title")}</span>
                             <Link href="#services" className="flex justify-center items-center bg-tertiary h-8 w-8">

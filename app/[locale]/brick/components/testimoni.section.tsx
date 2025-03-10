@@ -35,7 +35,7 @@ const TestimoniSction: FunctionComponent<TestimoniSctionProps> = async () => {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row md:items-center justify-center md:space-x-8 lg:space-x-12 mb-10 md:mb-20">
+        <div className="flex flex-col md:flex-row md:items-center justify-center md:gap-8 lg:gap-12 mb-10 md:mb-20">
           <div className="bg-gray rounded-lg mb-10 md:mb-0">
             <Image
               src="/image/testimoni-3.png"

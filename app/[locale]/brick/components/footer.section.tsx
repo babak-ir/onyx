@@ -9,7 +9,7 @@ const FooterSection: FunctionComponent<FooterSection> = async () => {
     <footer className="bg-white py-10 md:py-16">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-between w-full gap-8">
-          {/* <div className="text-center lg:text-left mb-10 lg:mb-0">
+          {/* <div className="text-center lg:text-start mb-10 lg:mb-0">
             <div className="flex justify-center lg:justify-start mb-5">
               <Image
                 src="/image/footer-logo.png"
@@ -23,7 +23,7 @@ const FooterSection: FunctionComponent<FooterSection> = async () => {
               Get your dream house with D’house
             </p>
 
-            <div className="flex items-center justify-center lg:justify-start space-x-5">
+            <div className="flex items-center justify-center lg:justify-start gap-5">
               <a
                 href="#"
                 className="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-green-800 hover:text-white transition ease-in-out duration-500"
@@ -47,7 +47,7 @@ const FooterSection: FunctionComponent<FooterSection> = async () => {
             </div>
           </div> */}
 
-          <div className="text-center lg:text-left mb-10 lg:mb-0">
+          <div className="text-center lg:text-start mb-10 lg:mb-0">
             <h4 className="font-semibold text-gray-900 text-2xl mb-6">
               {t("sitemap")}
             </h4>
@@ -88,7 +88,7 @@ const FooterSection: FunctionComponent<FooterSection> = async () => {
             </a>
           </div>
 
-          <div className="text-center lg:text-left mb-10 lg:mb-0">
+          <div className="text-center lg:text-start mb-10 lg:mb-0">
             <h4 className="font-semibold text-gray-900 text-2xl mb-6">
               {t("landing")}
             </h4>
@@ -108,7 +108,7 @@ const FooterSection: FunctionComponent<FooterSection> = async () => {
             </a>
           </div>
 
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-start">
             <h4 className="font-semibold text-gray-900 text-2xl mb-6">
               {t("utility")}
             </h4>

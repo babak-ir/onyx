@@ -11,7 +11,7 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
     <section className="bg-white py-10 md:py-16 xl:relative">
       <div className="container max-w-screen-xl mx-auto px-4">
         <div className="flex flex-col xl:flex-row justify-end gap-8">
-          <div className="left-0 bottom-0 w-full flex justify-center items-center">
+          <div className="end-0 bottom-0 w-full flex justify-center items-center">
             {/* <Shimmer src="/image/feature-img.png" alt="Feature img" /> */}
             <Image
               src="/image/bricks.webp"
@@ -30,7 +30,7 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
               {t("header.p")}
             </p>
 
-            <div className="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
+            <div className="flex flex-col md:flex-row justify-center xl:justify-start gap-4 mb-20">
               <div className="px-8 h-20 mx-auto md:mx-0 bg-gray rounded-lg flex items-center justify-center mb-5 md:mb-0">
                 <svg
                   className="w-6 h-6 text-green-900"
@@ -49,7 +49,7 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
                 </svg>
               </div>
 
-              <div className="text-center md:text-left">
+              <div className="text-center md:text-start">
                 <h4 className="font-semibold text-gray-900 text-2xl mb-2">
                   {t("best_refactory.h1")}
                 </h4>
@@ -59,7 +59,7 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
+            <div className="flex flex-col md:flex-row justify-center xl:justify-start gap-4 mb-20">
               <div className="px-8 h-20 mx-auto md:mx-0 bg-gray rounded-lg flex items-center justify-center mb-5 md:mb-0">
                 <svg
                   className="w-6 h-6 text-green-900"
@@ -78,7 +78,7 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
                 </svg>
               </div>
 
-              <div className="text-center md:text-left">
+              <div className="text-center md:text-start">
                 <h4 className="font-semibold text-gray-900 text-2xl mb-2">
                   {t("secure_purchase.h1")}
                 </h4>
@@ -88,7 +88,7 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-center xl:justify-start space-x-4">
+            <div className="flex flex-col md:flex-row justify-center xl:justify-start gap-4">
               <div className="px-8 h-20 mx-auto md:mx-0 bg-gray rounded-lg flex items-center justify-center mb-5 md:mb-0">
                 <svg
                   className="w-6 h-6 text-green-900"
@@ -112,7 +112,7 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
                 </svg>
               </div>
 
-              <div className="text-center md:text-left">
+              <div className="text-center md:text-start">
                 <h4 className="font-semibold text-gray-900 text-2xl mb-2">
                   {t("low_cost.h1")}
                 </h4>

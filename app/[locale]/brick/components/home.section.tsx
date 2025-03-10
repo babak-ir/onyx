@@ -9,7 +9,7 @@ const HomeSection: FunctionComponent<HomeSectionProps> = async () => {
 
   return (
     <div className="flex flex-col-reverse lg:flex-row items-center justify-center xl:justify-start">
-      <div className="mt-28 text-center xl:text-left">
+      <div className="mt-28 text-start">
         <h1 className="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6">
           {t("h")}
         </h1>
@@ -23,7 +23,7 @@ const HomeSection: FunctionComponent<HomeSectionProps> = async () => {
         </button>
       </div>
 
-      <div className="z-0 top-0 right-0">
+      <div className="z-0 top-0 start-0">
         <Image
           src="/image/Refractory-bricks.webp"
           alt="image"

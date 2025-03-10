@@ -20,12 +20,12 @@ const NavbarMenu = () => {
           <div className="hidden md:flex gap-36">
             <Link
               href="/"
-              className="hidden md:flex items-center space-x-3 rtl:space-x-reverse"
+              className="hidden md:flex items-center gap-3 rtl:gap-reverse"
             >
               <LogoSVG width={140} height={48} />
             </Link>
             <div className="hidden w-full my-auto md:block md:w-auto text-secondary text-base font-normal">
-              <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
+              <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:flex-row md:gap-8 rtl:space-x-reverse md:mt-0">
                 <li>
                   <Link
                     href="#home"
