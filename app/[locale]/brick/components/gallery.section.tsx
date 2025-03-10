@@ -2,7 +2,7 @@
 import { FunctionComponent } from "react";
 import { IBricksProduct } from "../brickProduct.interfaces";
 import Shimmer from "@/components/img/Shimmer";
-import { useCurrentLocale } from "@/locales/client";
+import { useCurrentLocale, useScopedI18n } from "@/locales/client";
 import { useRouter } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import { getBricksList } from "../bricks.api";
@@ -12,6 +12,7 @@ interface GallerySectionProps {}
 const GallerySection: FunctionComponent<GallerySectionProps> = () => {
   const router = useRouter();
   const locale = useCurrentLocale();
+  const t = useScopedI18n("brick.gallery");
 
   const goToDetailes = (patch: string) => {
     router.push(`/brick/products/${patch}`);
@@ -20,9 +21,7 @@ const GallerySection: FunctionComponent<GallerySectionProps> = () => {
   const bricksList = useQuery({
     queryKey: ["bricksProductsList"],
     queryFn: async () => {
-      const list = await getBricksList();
-      console.log(list);
-      return list;
+      return await getBricksList();
     },
   });
 
@@ -30,7 +29,7 @@ const GallerySection: FunctionComponent<GallerySectionProps> = () => {
     <section className="bg-white py-10 md:py-16">
       <div className="container max-w-screen-xl mx-auto px-4">
         <h1 className="font-semibold text-gray-900 text-4xl text-center mb-10">
-          Our Gallery
+          {t("h1")}
         </h1>
 
         <div className="flex flex-wrap justify-center">

@@ -1,18 +1,20 @@
+import { getScopedI18n } from "@/locales/server";
 import Image from "next/image";
 import { FunctionComponent } from "react";
 
 interface TestimoniSctionProps {}
 
-const TestimoniSction: FunctionComponent<TestimoniSctionProps> = () => {
+const TestimoniSction: FunctionComponent<TestimoniSctionProps> = async () => {
+  const t = await getScopedI18n("brick.testimoni");
   return (
     <section className="bg-white py-10 md:py-16">
       <div className="container max-w-screen-xl mx-auto px-4 xl:relative">
         <p className="font-normal text-gray-400 text-lg md:text-xl text-center uppercase mb-6">
-          Testimonial
+          {t("p")}
         </p>
 
         <h1 className="font-semibold text-gray-900 text-2xl md:text-4xl text-center leading-normal mb-14">
-          What People Say About Refractory bricks
+          {t("h1")}
         </h1>
 
         <div className="hidden xl:block xl:absolute top-0">
@@ -52,9 +54,7 @@ const TestimoniSction: FunctionComponent<TestimoniSctionProps> = () => {
             </div>
 
             <p className="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8">
-              I recommend anyone to purchase refractory bricks from us. I
-              received excellent customer service from the specialists who
-              assisted me.
+              {t("r1.p")}
             </p>
 
             <h3 className="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">
@@ -80,8 +80,7 @@ const TestimoniSction: FunctionComponent<TestimoniSctionProps> = () => {
             </div>
 
             <p className="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8">
-              We are the best supplier of refractory bricks. I received
-              excellent customer service from our expert team.
+              {t("r2.p")}
             </p>
 
             <h3 className="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">

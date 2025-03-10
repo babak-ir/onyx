@@ -84,5 +84,68 @@ export default {
       p: "What specific type of refractory bricks do you need for your project?",
       contactUs: "Contact us",
     },
+    navbar: {
+      landing: "Landing",
+      products: "Products",
+      contact: "Contact",
+      about: "About",
+    },
+    feature: {
+      header: {
+        h1: "Which type of refractory brick are you considering: fireclay, high alumina, silica, magnesia, or insulating bricks?",
+        p: "We offer a wide selection of refractory brick types, allowing you to choose the best option for your specific high-temperature needs.",
+      },
+      best_refactory: {
+        h1: "Best Refractory Quality Guarantee",
+        p: "We guarantee the quality of the refractory bricks you purchase from us.",
+      },
+      secure_purchase: {
+        h1: "Secure Purchase Guarantee",
+        p: " We guarantee the quality of the refractory bricks you purchase from us.",
+      },
+      low_cost: {
+        h1: "Low-Cost Refractory Brick Prices",
+        p: "Your transactions will always remain confidential, and you will receive a discount.",
+      },
+    },
+    gallery: {
+      h1: "Our Gallery",
+    },
+    testimoni: {
+      p: "Testimonial",
+      h1: "What People Say About Refractory bricks",
+      r1: {
+        p: "I recommend anyone to purchase refractory bricks from us. I received excellent customer service from the specialists who assisted me.",
+      },
+      r2: {
+        p: "We are the best supplier of refractory bricks. I received excellent customer service from our expert team.",
+      },
+    },
+    book: {
+      h1: "Talk to us to discuss",
+      p: " Need more time to discuss? Don&apos;t worry, we&apos;re here to help. You can fill in the form on the right to schedule a meeting with us—completely free.",
+      form: {
+        h3: "Book a meeting",
+        full_name: "Full Name",
+        email: "Email",
+        date: "Date",
+        virtual_meeting: "Virtual Meeting",
+        booking: "Book Now",
+      },
+    },
+    footer: {
+      sitemap: "Sitemap",
+      home: "Home",
+      features: "Features",
+      gallery: "Gallery",
+      testimoni: "Testimoni",
+      book: "Book a meeting",
+      landing: "Landing",
+      mobile_app: "Mobile App",
+      property: "Property",
+      utility: "Utility",
+      faq: "FAQ",
+      terms: "Terms & Conditions",
+    },
   },
 } as const;

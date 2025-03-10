@@ -3,7 +3,6 @@ import FeatureSection from "./components/feature.section";
 import GallerySection from "./components/gallery.section";
 import TestimoniSction from "./components/testimoni.section";
 import BookSection from "./components/book.section";
-import FooterSection from "./components/footer.section";
 
 export default async function brick() {
   return (

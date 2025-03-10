@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { getScopedI18n } from "@/locales/server";
 import { FunctionComponent } from "react";
 
 interface FooterSection {}
 
-const FooterSection: FunctionComponent<FooterSection> = () => {
+const FooterSection: FunctionComponent<FooterSection> = async () => {
+  const t = await getScopedI18n("brick.footer");
   return (
     <footer className="bg-white py-10 md:py-16">
       <div className="container mx-auto px-4">
@@ -48,110 +49,82 @@ const FooterSection: FunctionComponent<FooterSection> = () => {
 
           <div className="text-center lg:text-left mb-10 lg:mb-0">
             <h4 className="font-semibold text-gray-900 text-2xl mb-6">
-              Sitemap
+              {t("sitemap")}
             </h4>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Home
+              {t("home")}
             </a>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Features
+              {t("features")}
             </a>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Gallery
+              {t("gallery")}
             </a>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Testimoni
+              {t("testimoni")}
             </a>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Book a meeting
+              {t("book")}
             </a>
           </div>
 
           <div className="text-center lg:text-left mb-10 lg:mb-0">
             <h4 className="font-semibold text-gray-900 text-2xl mb-6">
-              Landing
+              {t("landing")}
             </h4>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Mobile App
+              {t("mobile_app")}
             </a>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Property
-            </a>
-
-            <a
-              href="#"
-              className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >
-              Personal Website
-            </a>
-
-            <a
-              href="#"
-              className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >
-              Web Developer
-            </a>
-
-            <a
-              href="#"
-              className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >
-              Online Course
-            </a>
-
-            <a
-              href="#"
-              className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >
-              Donation
+              {t("property")}
             </a>
           </div>
 
           <div className="text-center lg:text-left">
             <h4 className="font-semibold text-gray-900 text-2xl mb-6">
-              Utility
+              {t("utility")}
             </h4>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              FAQ
+              {t("faq")}
             </a>
 
             <a
               href="#"
               className="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
             >
-              Terms & Conditions
+              {t("terms")}
             </a>
           </div>
         </div>

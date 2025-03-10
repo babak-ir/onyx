@@ -1,9 +1,12 @@
+import { getScopedI18n } from "@/locales/server";
 import Image from "next/image";
 import { FunctionComponent } from "react";
 
 interface FeatureSectionProps {}
 
-const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
+const Featuresection: FunctionComponent<FeatureSectionProps> = async () => {
+  const t = await getScopedI18n("brick.feature");
+
   return (
     <section className="bg-white py-10 md:py-16 xl:relative">
       <div className="container max-w-screen-xl mx-auto px-4">
@@ -20,14 +23,11 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
 
           <div className="">
             <h1 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-              Which type of refractory brick are you considering: fireclay, high
-              alumina, silica, magnesia, or insulating bricks?
+              {t("header.h1")}
             </h1>
 
             <p className="font-normal text-gray-400 text-md md:text-xl text-center mb-16">
-              We offer a wide selection of refractory brick types, allowing you
-              to choose the best option for your specific high-temperature
-              needs.
+              {t("header.p")}
             </p>
 
             <div className="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
@@ -51,11 +51,10 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
 
               <div className="text-center md:text-left">
                 <h4 className="font-semibold text-gray-900 text-2xl mb-2">
-                  Best Refractory Quality Guarantee
+                  {t("best_refactory.h1")}
                 </h4>
                 <p className="font-normal text-gray-400 text-xl leading-relaxed">
-                  We guarantee the quality of the refractory bricks you purchase
-                  from us.
+                  {t("best_refactory.p")}
                 </p>
               </div>
             </div>
@@ -81,11 +80,10 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
 
               <div className="text-center md:text-left">
                 <h4 className="font-semibold text-gray-900 text-2xl mb-2">
-                  Secure Purchase Guarantee
+                  {t("secure_purchase.h1")}
                 </h4>
                 <p className="font-normal text-gray-400 text-xl leading-relaxed">
-                  Your transactions will always remain confidential, and you
-                  will receive a discount.
+                  {t("secure_purchase.p")}
                 </p>
               </div>
             </div>
@@ -116,11 +114,10 @@ const Featuresection: FunctionComponent<FeatureSectionProps> = () => {
 
               <div className="text-center md:text-left">
                 <h4 className="font-semibold text-gray-900 text-2xl mb-2">
-                  Low-Cost Refractory Brick Prices
+                  {t("low_cost.h1")}
                 </h4>
                 <p className="font-normal text-gray-400 text-xl leading-relaxed">
-                  By purchasing refractory bricks from us, you will receive a
-                  discount.
+                  {t("low_cost.p")}
                 </p>
               </div>
             </div>

@@ -61,13 +61,15 @@ export default function RootLayout({
         <Suspense>
           <Providers>
             <SubLayout params={{ locale }}>
-              <NabvarMenu />
+              <>
+                <NabvarMenu />
+                <div className="flex min-h-screen flex-col items-center justify-between mt-32">
+                  {children}
+                </div>
+                <Toaster position="top-left" />
+                <FooterSection />
+              </>
             </SubLayout>
-            <div className="flex min-h-screen flex-col items-center justify-between mt-32">
-              {children}
-            </div>
-            <Toaster position="top-left" />
-            <FooterSection />
           </Providers>
         </Suspense>
       </body>

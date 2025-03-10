@@ -84,5 +84,68 @@ export default {
       p: "Projeniz için hangi özel tip refrakter tuğlalara ihtiyacınız var?",
       contactUs: "Bize Ulaşın",
     },
+    navbar: {
+      landing: "İniş",
+      products: "Ürünler",
+      contact: "Temas etmek",
+      about: "Hakkında",
+    },
+    feature: {
+      header: {
+        h1: "Hangi tür refrakter tuğlayı düşünüyorsunuz: ateş kili, yüksek alümina, silika, manyezit veya yalıtım tuğlaları?",
+        p: "Yüksek sıcaklık ihtiyaçlarınıza en uygun seçeneği seçebilmeniz için geniş bir refrakter tuğla yelpazesi sunuyoruz.",
+      },
+      best_refactory: {
+        h1: "En İyi Refrakter Kalite Garantisi",
+        p: "Bizden satın aldığınız refrakter tuğlaların kalitesini garanti ediyoruz.",
+      },
+      secure_purchase: {
+        h1: "Güvenli Satın Alma Garantisi",
+        p: "Bizden satın aldığınız refrakter tuğlaların kalitesini garanti ediyoruz.",
+      },
+      low_cost: {
+        h1: "Düşük Maliyetli Refrakter Tuğla Fiyatları",
+        p: "İşlemleriniz her zaman gizli kalacak ve indirim alacaksınız.",
+      },
+    },
+    gallery: {
+      h1: "Galeriimiz",
+    },
+    testimoni: {
+      p: "Müşteri Yorumları",
+      h1: "İnsanlar Refrakter Tuğlalar Hakkında Ne Diyor?",
+      r1: {
+        p: "Herkese refrakter tuğlaları bizden satın almalarını tavsiye ederim. Bana yardımcı olan uzmanlardan mükemmel müşteri hizmeti aldım.",
+      },
+      r2: {
+        p: "Biz en iyi refrakter tuğla tedarikçisiyiz. Uzman ekibimizden mükemmel müşteri hizmeti aldım.",
+      },
+    },
+    book: {
+      h1: "Bizimle Görüşün",
+      p: "Daha fazla zamana mı ihtiyacınız var? Endişelenmeyin, size yardımcı olmak için buradayız. Bizimle bir toplantı planlamak için sağdaki formu doldurabilirsiniz—tamamen ücretsiz.",
+      form: {
+        h3: "Toplantı Ayarla",
+        full_name: "Tam Ad",
+        email: "E-posta",
+        date: "Tarih",
+        virtual_meeting: "Sanal Toplantı",
+        booking: "Hemen Rezervasyon Yap",
+      },
+    },
+    footer: {
+      sitemap: "Site Haritası",
+      home: "Ana Sayfa",
+      features: "Özellikler",
+      gallery: "Galeri",
+      testimoni: "Müşteri Yorumları",
+      book: "Toplantı Ayarla",
+      landing: "Açılış Sayfası",
+      mobile_app: "Mobil Uygulama",
+      property: "Mülk",
+      utility: "Hizmetler",
+      faq: "SSS",
+      terms: "Şartlar ve Koşullar",
+    },
   },
 } as const;
