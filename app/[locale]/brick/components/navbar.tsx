@@ -7,6 +7,7 @@ import WhatsappSVG from "@/components/svg/Whatsapp.SVG";
 import LogoSVG from "@/components/svg/Logo.SVG";
 import MobileNavbarBrick from "./MobileNavbarBrick";
 import { useScopedI18n } from "@/locales/client";
+import { SwitchLocal } from "../../(home)/switch";
 
 const NavbarMenu = () => {
   const [openMobileNavbarDrawer, setOpenMobileNavbarDrawer] = useState(false);
@@ -101,7 +102,7 @@ const NavbarMenu = () => {
                                 <InstagramSVG width={24} height={24} />
                             </Link> */}
             </div>
-            {/* <SwitchLocal /> */}
+            <SwitchLocal />
           </div>
         </div>
       </nav>

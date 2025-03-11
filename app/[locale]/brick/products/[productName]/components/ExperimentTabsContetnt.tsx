@@ -12,7 +12,7 @@ const ExperimentTabsContetnt = ({ brickExperiments }: IProp) => {
   return (
     <div className="flex flex-col gap-6 py-6 w-full">
       <div className="w-full flex flex-col justify-between lg:flex-row">
-        <div className="flex flex-row justify-center items-center gap-4 w-full">
+        <div className="flex flex-row justify-center items-center gap-4 w-full" dir="ltr">
           {brickExperiments &&
             brickExperiments.content.map((experiment, index) => (
               <div

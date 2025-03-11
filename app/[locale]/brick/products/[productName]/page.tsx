@@ -39,8 +39,17 @@ export default function ProductPage({ params }: Props) {
         />
         {product.data?.content.map((content: IContent, index) => (
           <div className="flex flex-col gap-2" key={index}>
-            <h1 className="text-2xl font-semibold">{content.title[locale]}</h1>
-            <p>{content.text[locale]}</p>
+            <h1 className="text-2xl font-semibold">
+              {content.title && content.title[locale]}
+            </h1>
+            <p>{content.text && content.text[locale]}</p>
+            {content.bullets && (
+              <ul className="list-disc list-inside space-y-2 ms-8">
+                {content.bullets.map((bullet, index) => (
+                  <li key={index}>{bullet[locale]}</li>
+                ))}
+              </ul>
+            )}
           </div>
         ))}
         {product.data?.experiments && (
