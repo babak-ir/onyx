@@ -1,0 +1,205 @@
+{
+  "title": {
+    "fa": "مواد اولیه",
+    "en": "Raw Materials",
+    "zh": "原材料",
+    "ru": "Сырьевые материалы",
+    "hi": "कच्चा माल",
+    "tr": "Hammadde"
+  },
+  "imageUrl": "/bricks/raw_materials/large.jpg",
+  "content": [
+    {
+      "title": {
+        "fa": "مواد اولیه",
+        "en": "Raw Materials",
+        "zh": "原材料",
+        "ru": "Сырьевые материалы",
+        "hi": "कच्चा माल",
+        "tr": "Hammadde"
+      },
+      "text": {
+        "fa": "مواد اولیه نسوز به دو گروه عمده طبیعی یا سنتزی (مصنوعی) دسته بندی می شوند. مواد سنتزی موادی هستند که به روشهای صنعتی تولید میشوند. در تهیه انواع مختلف نسوز، این مواد به صورت ترکیبی یا تنهایی استفاده میشوند. انواع خاکهای نسوز، بوکسیت، منیزیت، کرومیت، دولومیت، کوارتزیت و … جز مواد اولیه طبیعی هستند. انواع آلومینا، اکسید کروم، گرافیت، مولایت، اسپینل، زیرکونیا و سیمانهای نسوز به عنوان مواد اولیه سنتزی هستند.",
+        "en": "Refractory raw materials are classified into two main groups: natural and synthetic. Synthetic materials are produced through industrial processes. In the production of different types of refractories, these materials are used either individually or in combination. Natural raw materials include various refractory clays, bauxite, magnesite, chromite, dolomite, quartzite, and more. Synthetic raw materials include alumina, chromium oxide, graphite, mullite, spinel, zirconia, and refractory cements.",
+        "zh": "耐火原材料分为两大类：天然材料和合成材料。 合成材料是通过工业工艺生产的。 在生产不同类型的耐火材料时，这些材料可以单独或组合使用。 天然原材料包括各种耐火粘土、铝土矿、菱镁矿、铬铁矿、白云石、石英岩等。 合成原材料包括氧化铝、氧化铬、石墨、莫来石、尖晶石、氧化锆和耐火水泥。",
+        "ru": "Огнеупорные сырьевые материалы делятся на две основные группы: природные и синтетические. Синтетические материалы производятся с помощью промышленных процессов. В производстве различных видов огнеупоров эти материалы используются как по отдельности, так и в сочетании. К природным сырьевым материалам относятся различные огнеупорные глины, боксит, магнезит, хромит, доломит, кварцит и др. К синтетическим сырьевым материалам относятся глинозем, оксид хрома, графит, муллит, шпинель, цирконий и огнеупорные цементы.",
+        "hi": "अग्निरोधी कच्चे माल को दो मुख्य समूहों में वर्गीकृत किया जाता है: प्राकृतिक और सिंथेटिक। सिंथेटिक सामग्री औद्योगिक प्रक्रियाओं के माध्यम से उत्पादित की जाती हैं। विभिन्न प्रकार की अग्निरोधी सामग्री के उत्पादन में इन सामग्रियों का उपयोग व्यक्तिगत रूप से या संयोजन में किया जाता है। प्राकृतिक कच्चे माल में विभिन्न प्रकार की अग्निरोधी मिट्टी, बॉक्साइट, मैग्नेसाइट, क्रोमाइट, डोलोमाइट, क्वार्टजाइट आदि शामिल हैं। सिंथेटिक कच्चे माल में एल्युमिना, क्रोमियम ऑक्साइड, ग्रेफाइट, मुलाइट, स्पिनल, ज़िरकोनिया और अग्निरोधी सीमेंट शामिल हैं।",
+        "tr": "Refrakter hammaddeler iki ana gruba ayrılır: doğal ve sentetik. Sentetik malzemeler endüstriyel süreçler ile üretilir. Farklı türde refrakterlerin üretiminde bu malzemeler tek başına veya kombinasyon halinde kullanılır. Doğal hammaddeler arasında çeşitli refrakter killer, boksit, manyezit, kromit, dolomit, kuvarsit ve diğerleri bulunur. Sentetik hammaddeler arasında alümina, krom oksit, grafit, mullit, spinel, zirkonya ve refrakter çimentolar yer alır."
+      }
+    },
+    {
+      "title": {
+        "fa": "ویژگیهای مواد اولیه نسوز",
+        "en": "Characteristics of Refractory Raw Materials",
+        "zh": "耐火原材料的特性",
+        "ru": "Характеристики огнеупорного сырья",
+        "hi": "अग्निरोधी कच्चे माल की विशेषताएँ",
+        "tr": "Refrakter Hammaddelerin Özellikleri"
+      },
+      "text": {
+        "fa": "مواد اولیه آلومینوسیلیکاتی عمدتا از Al2O3 و SiO2 تشکیل شده اند و مواد اولیه براساس میزان آلومینای موجود به صورت زیر دسته بندی میشوند.",
+        "en": "Aluminosilicate raw materials mainly consist of Al2O3 and SiO2. These materials are categorized based on their alumina content as follows.",
+        "zh": "铝硅酸盐原材料主要由 Al2O3 和 SiO2 组成，并根据其氧化铝含量进行如下分类。",
+        "ru": "Алюмосиликатное сырье в основном состоит из Al2O3 и SiO2 и классифицируется по содержанию глинозема следующим образом.",
+        "hi": "एलुमिनोसिलिकेट कच्चे माल मुख्य रूप से Al2O3 और SiO2 से बने होते हैं, और इन्हें उनकी एल्युमिना सामग्री के आधार पर निम्नलिखित वर्गों में विभाजित किया जाता है।",
+        "tr": "Alüminosilikat hammaddeleri esas olarak Al2O3 ve SiO2'den oluşur ve alümina içeriğine göre aşağıdaki şekilde sınıflandırılır."
+      },
+      "bullets": [
+        {
+          "fa": "خاکهای نسوز یا شاموت- %45-25 آلومینا",
+          "en": "Fireclay or chamotte - 25%-45% alumina",
+          "zh": "耐火粘土或熟料 - 25%-45% 氧化铝",
+          "ru": "Огнеупорная глина или шамот - 25%-45% глинозема",
+          "hi": "फायरक्ले या शेमोट - 25%-45% एल्युमिना",
+          "tr": "Şamot veya ateş kili - %25-%45 alümina"
+        },
+        {
+          "fa": "سیلیمانیتی- %65-45 آلومینا",
+          "en": "Sillimanite - 45%-65% alumina",
+          "zh": "硅线石 - 45%-65% 氧化铝",
+          "ru": "Силлиманит - 45%-65% глинозема",
+          "hi": "सिलिमेनाइट - 45%-65% एल्युमिना",
+          "tr": "Sillimanit - %45-%65 alümina"
+        },
+        {
+          "fa": "مولایتی- %75-65 آلومینا",
+          "en": "Mullite - 65%-75% alumina",
+          "zh": "莫来石 - 65%-75% 氧化铝",
+          "ru": "Муллит - 65%-75% глинозема",
+          "hi": "मुलाइट - 65%-75% एल्युमिना",
+          "tr": "Mullit - %65-%75 alümina"
+        },
+        {
+          "fa": "بوکسیتی- %90-75 آلومینا",
+          "en": "Bauxite - 75%-90% alumina",
+          "zh": "铝土矿 - 75%-90% 氧化铝",
+          "ru": "Боксит - 75%-90% глинозема",
+          "hi": "बॉक्साइट - 75%-90% एल्युमिना",
+          "tr": "Boksit - %75-%90 alümina"
+        },
+        {
+          "fa": "کوراندومی- %100-90 آلومینا",
+          "en": "Corundum - 90%-100% alumina",
+          "zh": "刚玉 - 90%-100% 氧化铝",
+          "ru": "Корунд - 90%-100% глинозема",
+          "hi": "कोरंडम - 90%-100% एल्युमिना",
+          "tr": "Korund - %90-%100 alümina"
+        }
+      ]
+    },
+    {
+      "title": {
+        "fa": "انواع مواد اولیه",
+        "en": "Types of Raw Materials",
+        "zh": "原材料类型",
+        "ru": "Виды сырья",
+        "hi": "कच्चे माल के प्रकार",
+        "tr": "Hammadde Türleri"
+      },
+      "text": {
+        "fa": "مواد اولیه آلومینوسیلیکاتی عمدتا از Al2O3 و SiO2 تشکیل شده اند و مواد اولیه براساس میزان آلومینای موجود به صورت زیر دسته بندی میشوند.",
+        "en": "Aluminosilicate raw materials mainly consist of Al2O3 and SiO2. These materials are categorized based on their alumina content as follows.",
+        "zh": "铝硅酸盐原材料主要由 Al2O3 和 SiO2 组成，并根据其氧化铝含量进行如下分类。",
+        "ru": "Алюмосиликатное сырье в основном состоит из Al2O3 и SiO2 и классифицируется по содержанию глинозема следующим образом.",
+        "hi": "एलुमिनोसिलिकेट कच्चे माल मुख्य रूप से Al2O3 और SiO2 से बने होते हैं, और इन्हें उनकी एल्युमिना सामग्री के आधार पर निम्नलिखित वर्गों में विभाजित किया जाता है।",
+        "tr": "Alüminosilikat hammaddeleri esas olarak Al2O3 ve SiO2'den oluşur ve alümina içeriğine göre aşağıdaki şekilde sınıflandırılır."
+      },
+      "bullets": [
+        {
+          "fa": "خاکهای نسوز یا شاموت- %45-25 آلومینا",
+          "en": "Fireclay or chamotte - 25%-45% alumina",
+          "zh": "耐火粘土或熟料 - 25%-45% 氧化铝",
+          "ru": "Огнеупорная глина или шамот - 25%-45% глинозема",
+          "hi": "फायरक्ले या शेमोट - 25%-45% एल्युमिना",
+          "tr": "Şamot veya ateş kili - %25-%45 alümina"
+        },
+        {
+          "fa": "سیلیمانیتی- %65-45 آلومینا",
+          "en": "Sillimanite - 45%-65% alumina",
+          "zh": "硅线石 - 45%-65% 氧化铝",
+          "ru": "Силлиманит - 45%-65% глинозема",
+          "hi": "सिलिमेनाइट - 45%-65% एल्युमिना",
+          "tr": "Sillimanit - %45-%65 alümina"
+        },
+        {
+          "fa": "مولایتی- %75-65 آلومینا",
+          "en": "Mullite - 65%-75% alumina",
+          "zh": "莫来石 - 65%-75% 氧化铝",
+          "ru": "Муллит - 65%-75% глинозема",
+          "hi": "मुलाइट - 65%-75% एल्युमिना",
+          "tr": "Mullit - %65-%75 alümina"
+        },
+        {
+          "fa": "بوکسیتی- %90-75 آلومینا",
+          "en": "Bauxite - 75%-90% alumina",
+          "zh": "铝土矿 - 75%-90% 氧化铝",
+          "ru": "Боксит - 75%-90% глинозема",
+          "hi": "बॉक्साइट - 75%-90% एल्युमिना",
+          "tr": "Boksit - %75-%90 alümina"
+        },
+        {
+          "fa": "کوراندومی- %100-90 آلومینا",
+          "en": "Corundum - 90%-100% alumina",
+          "zh": "刚玉 - 90%-100% 氧化铝",
+          "ru": "Корунд - 90%-100% глинозема",
+          "hi": "कोरंडम - 90%-100% एल्युमिना",
+          "tr": "Korund - %90-%100 alümina"
+        }
+      ]
+    },
+    {
+      "title": {
+        "fa": "مواد اولیه شاموتی",
+        "en": "Chamotte Raw Materials",
+        "zh": "熟料原材料",
+        "ru": "Шамотное сырье",
+        "hi": "शेमोट कच्चा माल",
+        "tr": "Şamot Hammaddeleri"
+      },
+      "text": {
+        "fa": "در طبیعت به صورت رسهای نسوز (fire clay) موجود می باشند که پس از عملیات پخت و تکلیس به عنوان شاموت شناخته میشوند و برای تهیه آجرهای نسوز تا 45% آلومینا بکار میروند. رسهای نسوز کلسینه شده در اروپا شاموت (chamotte) و در آمریکا grog نامیده میشوند. رسهای نسوز شاید اولین مواد نسوزی بوده که بشر به عنوان مواد دیرگداز استفاده کرده است. این مواد اولیه خاصیت پلاستیسیته نیز دارند که با افرایش آلومینا این خاصیت افت پیدا میکند.",
+        "en": "In nature, they exist as fire clays, which, after firing and calcination, are known as chamotte and are used to produce refractory bricks with up to 45% alumina. Calcined fire clays are called chamotte in Europe and grog in the United States. Fire clays may have been the first refractory materials that humans used for high-temperature applications. These raw materials also possess plasticity, which decreases as the alumina content increases.",
+        "zh": "在自然界中，它们以耐火粘土的形式存在，经过煅烧和烧结后被称为熟料（Chamotte），用于生产含氧化铝高达 45% 的耐火砖。 在欧洲，煅烧耐火粘土被称为 Chamotte，而在美国则称为 Grog。 耐火粘土可能是人类最早使用的耐火材料之一。 这些原材料还具有可塑性，但随着氧化铝含量的增加，这种特性会降低。",
+        "ru": "В природе они существуют в виде огнеупорных глин, которые после обжига и кальцинирования становятся известны как шамот и используются для производства огнеупорного кирпича с содержанием глинозема до 45%. Кальцинированные огнеупорные глины в Европе называют шамотом (chamotte), а в США – грогом (grog). Огнеупорные глины, возможно, были первыми огнеупорными материалами, использованными человеком. Эти сырьевые материалы также обладают пластичностью, которая уменьшается с увеличением содержания глинозема.",
+        "hi": "प्राकृतिक रूप से, वे फायर क्ले के रूप में पाए जाते हैं, जो पकने और कैल्सीनेशन के बाद शेमोट के रूप में जाने जाते हैं और 45% तक एल्युमिना वाली अग्निरोधी ईंटों के उत्पादन के लिए उपयोग किए जाते हैं। यूरोप में कैल्सीनेटेड फायर क्ले को शेमोट (chamotte) और अमेरिका में ग्रोग (grog) कहा जाता है। फायर क्ले संभवतः सबसे पहले उपयोग की जाने वाली अग्निरोधी सामग्री थी जिसका उपयोग मानव ने उच्च तापमान अनुप्रयोगों के लिए किया था। ये कच्चे माल प्लास्टिसिटी भी रखते हैं, जो एल्युमिना की मात्रा बढ़ने पर कम हो जाती है।",
+        "tr": "Doğada, pişirme ve kalsinasyon işlemlerinden sonra şamot olarak bilinen ve %45'e kadar alümina içeren refrakter tuğlaların üretiminde kullanılan ateş killeri olarak bulunurlar. Kalsine edilmiş ateş killeri Avrupa'da şamot (chamotte), Amerika'da ise grog olarak adlandırılır. Ateş killeri, insanların yüksek sıcaklık uygulamalarında kullandığı ilk refrakter malzemeler olabilir. Bu hammaddeler ayrıca plastisite özelliğine sahiptir, ancak alümina içeriği arttıkça bu özellik azalır."
+      }
+    },
+    {
+      "title": {
+        "fa": "مواد سیلیمانیتی",
+        "en": "Sillimanite Materials",
+        "zh": "硅线石材料",
+        "ru": "Силлиманитовые материалы",
+        "hi": "सिलिमेनाइट सामग्री",
+        "tr": "Sillimanit Malzemeleri"
+      },
+      "text": {
+        "fa": "شامل آندولوزیت، کیانیت و سیلیمانیت هستند که برای تهیه آجرهای 45 تا 65% آلومینا بکار میروند. این مواد خاصیت چسبندگی نداشته و همراه مواد چسبنده اعم از چسبهای آلی یا خاکهای چسبنده استفاده می شوند. مولایت به صورت طبیعی وجود ندارد و اکثرا آن را با روشهای سنتزی تهیه می کنند. اگر مخلوط آلومینا و سیلیس (با نسبت سه به دو) تا دمای بالا حرارت داده شود مولایت بدست می آید. مولایت مصنوعی برای تهیه آجرها با 75-65 درصد آلومینا همراه با چسب های آلی و دیگر آلومیناها و خاکهای رسی استفاده میشود. بوکسیت سنگی است که اصولا شامل مخلوطی از کانیهای هیدروکسید آلومینیوم مانند بوهمیت، دیاسپور (Al2O3.H2O) و ژیپسیت (Al2O3.3H2O) همراه با ناخالصی هایی نظیر اکسیدهای آهن، تیتانیوم، سیلیس و کانی های رسی می باشد. بوکسیت کلسینه رایج ترین ماده در ترکیب دیرگدازها مخصوصا جرم های ریختنی با سیمان پایین می‌باشد چرا که دسترسی به درصد بالای آلومینا با قیمت منطقی را فراهم میکند. ماده اولیه سیلیس سنگ سیلیس می باشد که عمدتا متشکل از SiO2 میباشد که در سه فاز کریستالی کوارتز، تریدیمیت و کریستوبالیت و کوارتز شیشه ای وجود دارد. این فازها دو شکل بلوری آلفا و بتا در دماهای مختلف دارند که قابل تبدیل به یکدیگر هستند. مواد اولیه سیلیسی مصرفی در صنعت نسوز باید حداقل دارای %97 SiO2 با حداقل آلومینا، تیتانیوم و اکسیدهای قلیایی باشد.",
+        "en": "Sillimanite materials include andalusite, kyanite, and sillimanite, which are used to produce refractory bricks containing 45% to 65% alumina. These materials do not have adhesive properties and are used with binders such as organic adhesives or clay-based binders. Mullite does not occur naturally and is mostly synthesized. When a mixture of alumina and silica (in a 3:2 ratio) is heated to high temperatures, mullite is formed. Synthetic mullite is used in bricks with 65%-75% alumina along with organic binders, other aluminas, and clays. Bauxite is a rock that primarily consists of a mixture of aluminum hydroxide minerals, including boehmite, diaspore (Al2O3·H2O), and gibbsite (Al2O3·3H2O), along with impurities such as iron oxides, titanium, silica, and clay minerals. Calcined bauxite is the most commonly used material in refractory compositions, especially in low-cement castables, as it provides high alumina content at a reasonable cost. The primary silica raw material is silica stone, which is mainly composed of SiO2 and exists in three crystalline phases: quartz, tridymite, and cristobalite, as well as in amorphous quartz. These phases have two crystal forms, alpha and beta, which can transform into each other at different temperatures. The silica raw materials used in the refractory industry must contain at least 97% SiO2 with minimal alumina, titanium, and alkaline oxides.",
+        "zh": "硅线石材料包括红柱石、蓝晶石和硅线石，用于生产含 45% 至 65% 氧化铝的耐火砖。 这些材料不具有粘附性，需与有机粘合剂或粘土基粘合剂一起使用。 莫来石在自然界中不存在，通常是合成的。 当氧化铝和二氧化硅 (按 3:2 的比例) 混合并加热到高温时，会形成莫来石。 合成莫来石用于含 65%-75% 氧化铝的耐火砖，通常与有机粘合剂、其他氧化铝和粘土一起使用。 铝土矿是一种主要由铝的氢氧化物矿物（如水铝石、一水硬铝石 (Al2O3·H2O) 和三水铝石 (Al2O3·3H2O)）组成的岩石，其中还含有铁氧化物、钛、二氧化硅和粘土矿物等杂质。 煅烧铝土矿是耐火材料中最常用的成分，特别是在低水泥可浇注材料中，因为它可以提供高含量的氧化铝，并且价格合理。 硅质原料主要是硅石，主要由 SiO2 组成，并以三种晶相存在：石英、鳞石英和方石英，以及无定形石英。 这些相在不同温度下可转变为 α 和 β 两种晶体形态。 耐火行业使用的硅质原料应至少含有 97% SiO2，并且铝、钛和碱性氧化物含量最低。",
+        "ru": "Силлиманитовые материалы включают андалузит, кианит и силлиманит, которые используются для производства огнеупорного кирпича с содержанием глинозема от 45% до 65%. Эти материалы не обладают адгезионными свойствами и применяются вместе со связующими веществами, такими как органические клеи или глинистые связующие. Муллит в природе не встречается и в основном синтезируется. Если смесь глинозема и диоксида кремния (в соотношении 3:2) нагреть до высокой температуры, образуется муллит. Синтетический муллит используется для производства кирпича с содержанием глинозема 65%-75% вместе с органическими связующими, другими видами глинозема и глинами. Боксит - это порода, состоящая в основном из смеси минералов гидроксида алюминия, таких как бёмит, диаспор (Al2O3·H2O) и гиббсит (Al2O3·3H2O), с примесями железных оксидов, титана, диоксида кремния и глинистых минералов. Обожженный боксит - наиболее распространенный материал в составе огнеупоров, особенно в литейных смесях с низким содержанием цемента, поскольку он обеспечивает высокий процент глинозема по разумной цене.",
+        "hi": "सिलिमेनाइट सामग्री में एंडालूसाइट, कियानाइट और सिलिमेनाइट शामिल होते हैं, जिनका उपयोग 45% से 65% एल्यूमिना वाले अग्निरोधी ईंटों के उत्पादन में किया जाता है। इन सामग्रियों में चिपकने के गुण नहीं होते हैं और इन्हें कार्बनिक चिपकने वाले या मिट्टी-आधारित चिपकने वाले के साथ उपयोग किया जाता है। मुलाइट प्राकृतिक रूप से नहीं पाया जाता है और आमतौर पर इसे संश्लेषित किया जाता है। यदि एल्यूमिना और सिलिका के मिश्रण (3:2 अनुपात) को उच्च तापमान तक गरम किया जाए तो मुलाइट बनता है। संश्लेषित मुलाइट का उपयोग 65%-75% एल्यूमिना वाली ईंटों के लिए किया जाता है।",
+        "tr": "Sillimanit malzemeleri, andaluzit, kyanit ve sillimanit içerir ve %45 ila %65 alümina içeren refrakter tuğlaların üretiminde kullanılır. Bu malzemeler yapışkanlık özelliğine sahip değildir ve organik yapıştırıcılar veya kil bazlı bağlayıcılarla birlikte kullanılır. Mullit doğal olarak bulunmaz ve genellikle sentetik olarak üretilir. Alümina ve silika karışımı (3:2 oranında) yüksek sıcaklıklara ısıtıldığında mullit oluşur."
+      }
+    },
+    {
+      "title": {
+        "fa": "کاربرد مواد اولیه نسوز",
+        "en": "Applications of Refractory Raw Materials",
+        "zh": "耐火原材料的应用",
+        "ru": "Применение огнеупорного сырья",
+        "hi": "अग्निरोधी कच्चे माल का उपयोग",
+        "tr": "Refrakter Hammaddelerin Kullanımı"
+      },
+      "text": {
+        "fa": "انواع مواد اولیه نسوز اشاره شده در شرکت آذرشهاب برای تهیه آجرها و جرمهای نسوز با محدوده آلومینای 96%~40% مورد استفاده قرار می‌گیرند.",
+        "en": "Various refractory raw materials mentioned are used at Azarshahab Company for the production of refractory bricks and masses with alumina content ranging from 40% to 96%.",
+        "zh": "在 Azarshahab 公司，提到的各种耐火原材料用于生产氧化铝含量范围为 40%~96% 的耐火砖和耐火材料。",
+        "ru": "Различные упомянутые огнеупорные материалы используются в компании Azarshahab для производства огнеупорного кирпича и масс с содержанием глинозема от 40% до 96%.",
+        "hi": "Azarshahab कंपनी में उल्लिखित विभिन्न अग्निरोधी कच्चे माल का उपयोग 40% से 96% एल्यूमिना सामग्री वाले अग्निरोधी ईंटों और पदार्थों के उत्पादन के लिए किया जाता है।",
+        "tr": "Azarshahab Şirketi'nde belirtilen çeşitli refrakter hammaddeler, %40 ile %96 arasında alümina içeriğine sahip refrakter tuğlalar ve kütlelerin üretiminde kullanılmaktadır."
+      }
+    }
+  ]
+}

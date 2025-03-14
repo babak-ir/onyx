@@ -1,57 +1,67 @@
 {
   "title": {
-    "fa": "آجرهای نسوز سنگین",
-    "en": "heavy Refractory Bricks",
-    "zh": "重炉耐火砖",
-    "ru": "Огнеупорные кирпичи",
-    "hi": "अग्नि ईंट मुखौटे",
-    "tr": "Ateş tuğlası cephe"
+    "fa": "ماستیک ها",
+    "en": "Mastics",
+    "zh": "耐火胶泥",
+    "ru": "Мастики",
+    "hi": "मास्टिक्स",
+    "tr": "Mastikler"
   },
-  "imageUrl": "/bricks/heavy_refractory_bricks/large.jpg",
+  "imageUrl": "/bricks/mastic/large.jpg",
   "content": [
     {
       "title": {
-        "fa": "",
-        "en": "",
-        "zh": "",
-        "ru": "",
-        "hi": "",
-        "tr": ""
+        "fa": "ماستیک ها",
+        "en": "Mastics",
+        "zh": "耐火胶泥",
+        "ru": "Мастики",
+        "hi": "मास्टिक्स",
+        "tr": "Mastikler"
       },
       "text": {
-        "fa": "",
-        "en": "",
-        "zh": "",
-        "ru": "",
-        "hi": "",
-        "tr": ""
-      },
-      "bullets": [
-        {
-          "fa": "",
-          "en": "",
-          "zh": "",
-          "ru": "",
-          "hi": "",
-          "tr": ""
-        }
-      ]
-    }
-  ],
-  "tabs": [
+        "fa": "ماستیک‌ها چسب نسوزی است که حالت تقریبا مایع داشته و پس از اجرا و استفاده حالت الاستیکی داشته و مهمترین کاربرد آن برای درزبندی سطوح مختلف است. پس از خشک شدن به صورت لایه مقاوم و ثابت به سطح چسبیده و برای اتصالات دائمی و موقت بکار میرود",
+        "en": "Mastics are refractory adhesives that have a semi-liquid consistency and remain elastic after application. Their primary function is sealing various surfaces. Once dried, they form a strong and stable layer that adheres to surfaces, making them suitable for both permanent and temporary connections.",
+        "zh": "耐火胶泥是一种具有半液态稠度的粘合剂，使用后仍保持弹性。其主要功能是密封各种表面。干燥后，它们形成坚固稳定的涂层，附着在表面上，可用于永久性和临时性连接。",
+        "ru": "Мастики — это огнеупорные клеи, которые имеют полужидкую консистенцию и сохраняют эластичность после нанесения. Их основная функция — герметизация различных поверхностей. После высыхания они образуют прочный и стабильный слой, который прочно сцепляется с поверхностью, обеспечивая как постоянные, так и временные соединения.",
+        "hi": "मास्टिक्स अग्निरोधी चिपकने वाले पदार्थ होते हैं जो अर्ध-तरल स्थिरता बनाए रखते हैं और उपयोग के बाद लचीले रहते हैं। इनका मुख्य कार्य विभिन्न सतहों की सीलिंग करना होता है। सूखने के बाद, वे एक मजबूत और स्थिर परत बनाते हैं जो सतहों से चिपक जाती है, जिससे उन्हें स्थायी और अस्थायी दोनों कनेक्शन के लिए उपयुक्त बनाती है।",
+        "tr": "Mastikler, yarı sıvı kıvama sahip ve uygulamadan sonra elastikiyetini koruyan refrakter yapıştırıcılardır. Ana işlevleri çeşitli yüzeyleri sızdırmaz hale getirmektir. Kuruduktan sonra, yüzeye yapışan güçlü ve stabil bir tabaka oluştururlar ve hem kalıcı hem de geçici bağlantılar için uygundurlar."
+      }
+    },
     {
-      "title": "",
-      "content": [
-        {
-          "title": "",
-          "properties": [
-            {
-              "key": "",
-              "value": ""
-            }
-          ]
-        }
-      ]
+      "title": {
+        "fa": "ویژگیهای ماستیک‌ها",
+        "en": "Properties of Mastics",
+        "zh": "耐火胶泥的特性",
+        "ru": "Свойства мастик",
+        "hi": "मास्टिक्स के गुण",
+        "tr": "Mastiklerin Özellikleri"
+      },
+      "text": {
+        "fa": "کار با ماستیکها به دلیل رفتار تیکسوتراپی انها راحت بوده و امکان کار در سطح عمودی نیز بدون شره ریزی وجود دارد و لذا نصب آنها آسان و سریع است. بعد از سخت شدن مقاومت به حرارتی بالا نشان میدهند. ماستیکها از ذرات رسی، کائولن، اگریگیتهای حاوی آلومینا، عوامل پلاستی سایزر، بایندر و افزودنی ها تشکیل میشوند.",
+        "en": "Mastics are easy to work with due to their thixotropic behavior, allowing application on vertical surfaces without dripping, making installation fast and efficient. Once hardened, they exhibit high thermal resistance. Mastics are composed of clay particles, kaolin, alumina-containing aggregates, plasticizers, binders, and additives.",
+        "zh": "耐火胶泥具有触变性，因此易于施工，可用于垂直表面而不会滴落，从而加快安装过程并提高效率。硬化后，它们表现出高耐热性。其成分包括粘土颗粒、高岭土、含氧化铝骨料、增塑剂、粘合剂和添加剂。",
+        "ru": "Мастики легко использовать благодаря их тиксотропному поведению, что позволяет наносить их на вертикальные поверхности без подтеков, обеспечивая быструю и эффективную установку. После затвердевания они обладают высокой термостойкостью. В состав мастик входят глинистые частицы, каолин, содержащие глинозем агрегаты, пластификаторы, связующие вещества и добавки.",
+        "hi": "मास्टिक्स को उनके थिक्सोट्रोपिक व्यवहार के कारण काम में लेना आसान होता है, जिससे इन्हें ऊर्ध्वाधर सतहों पर बिना टपके लगाया जा सकता है, जिससे स्थापना तेज़ और कुशल हो जाती है। कठोर होने के बाद, वे उच्च तापीय प्रतिरोध प्रदर्शित करते हैं। इनका निर्माण मिट्टी के कणों, काओलिन, एल्यूमिना युक्त एग्रीगेट्स, प्लास्टिसाइज़र, बाइंडर और एडिटिव्स से किया जाता है।",
+        "tr": "Mastikler, tiksotropik yapıları sayesinde dikey yüzeylere damlamadan uygulanabilir, bu da hızlı ve verimli bir kurulum sağlar. Sertleştikten sonra yüksek ısı direnci gösterirler. Mastikler, kil parçacıkları, kaolin, alümina içeren agregalar, plastifiyanlar, bağlayıcılar ve katkı maddelerinden oluşur."
+      }
+    },
+    {
+      "title": {
+        "fa": "کاربرد ماستیک‌ها",
+        "en": "Applications of Mastics",
+        "zh": "耐火胶泥的应用",
+        "ru": "Применение мастик",
+        "hi": "मास्टिक्स के उपयोग",
+        "tr": "Mastiklerin Kullanım Alanları"
+      },
+      "text": {
+        "fa": "ماستیک نسوز برای درزبندی و تعمیر ترکها و شکافهای بین اجر در بویلرها و دودکشها و استفاده میشود. در شرکت ONYX ماستیکها به صورت چسب مایع آماده مصرف قابل ارائه هستند. ماستیک‌ها از اجزای اصلی در اتصال قطعات پیش‌ساخته نسوز و پوشش‌دهی سطوح کوره‌ها هستند. این محصولات با جرم‌های نسوز بهینه‌سازی شده‌اند تا در شرایط سخت، مقاومت حرارتی و دوام بالایی داشته باشند.",
+        "en": "Refractory mastics are used for sealing and repairing cracks and gaps between bricks in boilers and chimneys. At ONYX, mastics are available as ready-to-use liquid adhesives. They are essential for bonding prefabricated refractory parts and coating furnace surfaces. These products are optimized with refractory masses to ensure high thermal resistance and durability under extreme conditions.",
+        "zh": "耐火胶泥用于密封和修复锅炉和烟囱中砖块之间的裂缝和间隙。 在 ONYX，公司提供即用型液态粘合剂形式的耐火胶泥。 它们是连接预制耐火部件和涂覆炉膛表面的关键组件。 这些产品经过耐火材料优化，以确保在极端条件下具有高耐热性和耐久性。",
+        "ru": "Огнеупорные мастики используются для герметизации и ремонта трещин и зазоров между кирпичами в котлах и дымоходах. В компании ONYX мастики доступны в виде готовых к использованию жидких клеев. Они являются важными компонентами для соединения предварительно изготовленных огнеупорных деталей и покрытия поверхностей печей. Эти продукты оптимизированы с огнеупорными массами для обеспечения высокой термостойкости и долговечности в экстремальных условиях.",
+        "hi": "अग्निरोधी मास्टिक्स का उपयोग बॉयलरों और चिमनियों में ईंटों के बीच दरारों और अंतरालों को सील करने और मरम्मत के लिए किया जाता है। ONYX में, मास्टिक्स तैयार-उपयोग के लिए तरल चिपकने वाले के रूप में उपलब्ध हैं। वे पूर्व-निर्मित अग्निरोधी भागों को जोड़ने और भट्टियों की सतहों को कोटिंग करने के लिए आवश्यक घटक हैं। इन उत्पादों को अत्यधिक परिस्थितियों में उच्च तापीय प्रतिरोध और स्थायित्व सुनिश्चित करने के लिए अनुकूलित किया गया है।",
+        "tr": "Refrakter mastikler, kazanlar ve bacalardaki tuğlalar arasındaki çatlakları ve boşlukları sızdırmaz hale getirmek ve onarmak için kullanılır. ONYX'te mastikler, kullanıma hazır sıvı yapıştırıcılar olarak sunulmaktadır. Önceden üretilmiş refrakter parçaları birleştirmek ve fırın yüzeylerini kaplamak için kritik bileşenlerdir. Bu ürünler, zorlu koşullarda yüksek termal direnç ve dayanıklılık sağlamak için refrakter kütleler ile optimize edilmiştir."
+      }
     }
   ]
 }

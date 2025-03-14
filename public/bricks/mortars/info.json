@@ -1,0 +1,67 @@
+{
+  "title": {
+    "fa": "ملات ها",
+    "en": "Refractory Mortars",
+    "zh": "耐火砂浆",
+    "ru": "Огнеупорные растворы",
+    "hi": "अग्निरोधी मोर्टार",
+    "tr": "Refrakter Harçlar"
+  },
+  "imageUrl": "/bricks/mortars/large.jpg",
+  "content": [
+    {
+      "title": {
+        "fa": "ملات ها",
+        "en": "Refractory Mortars",
+        "zh": "耐火砂浆",
+        "ru": "Огнеупорные растворы",
+        "hi": "अग्निरोधी मोर्टार",
+        "tr": "Refrakter Harçlar"
+      },
+      "text": {
+        "fa": "ملات دیرگداز ماده‌ای است که توسط ماله کشی، غوطه وری، ریختن بین درزهای اجر و یا برای اتصال دادن اشکال دیرگداز استفاده میشود. وظیفه ملات پر کردن درزهای بین اجرها و متصل کردن آنها به یکدیگر است تا انها را از حمله توسط سرباره مذاب و سایر عوامل حفظ کرده و یکپارچگی و سلامت کل سازه را حفظ کند.",
+        "en": "Refractory mortar is a material used for troweling, dipping, pouring between brick joints, or bonding refractory shapes together. The primary function of mortar is to fill the joints between bricks and bond them together to protect them from molten slag and other aggressive agents, ensuring the integrity and durability of the entire structure.",
+        "zh": "耐火砂浆是一种用于抹灰、浸涂、砖缝之间浇注或粘结耐火形状的材料。砂浆的主要功能是填充砖缝并将其粘结在一起，以保护它们免受熔渣和其他侵蚀性因素的影响，从而确保整个结构的完整性和耐久性。",
+        "ru": "Огнеупорный раствор - это материал, используемый для нанесения шпателем, окунания, заливки между кирпичными швами или соединения огнеупорных форм. Основная функция раствора заключается в заполнении швов между кирпичами и их соединении для защиты от расплавленного шлака и других агрессивных воздействий, обеспечивая целостность и долговечность всей конструкции.",
+        "hi": "अग्निरोधी मोर्टार एक सामग्री है जिसका उपयोग ट्रॉवेलिंग, डिपिंग, ईंट जोड़ों के बीच डालने या अग्निरोधी आकृतियों को जोड़ने के लिए किया जाता है। मोर्टार का मुख्य कार्य ईंटों के जोड़ों को भरना और उन्हें जोड़ना है ताकि उन्हें पिघले हुए स्लैग और अन्य आक्रामक तत्वों से बचाया जा सके, जिससे संपूर्ण संरचना की अखंडता और स्थायित्व सुनिश्चित हो सके।",
+        "tr": "Refrakter harç, mala ile sürme, daldırma, tuğla derzleri arasına dökme veya refrakter şekilleri birbirine bağlamak için kullanılan bir malzemedir. Harcın temel işlevi, tuğlalar arasındaki derzleri doldurmak ve onları birbirine bağlayarak erimiş cüruf ve diğer aşındırıcı etkenlere karşı korumak, böylece tüm yapının bütünlüğünü ve dayanıklılığını sağlamaktır."
+      }
+    },
+    {
+      "title": {
+        "fa": "ویژگیهای ملات ها",
+        "en": "Characteristics of Mortars",
+        "zh": "砂浆的特性",
+        "ru": "Характеристики растворов",
+        "hi": "मोर्टार की विशेषताएँ",
+        "tr": "Harçların Özellikleri"
+      },
+      "text": {
+        "fa": "ملات نیز باید از لحاظ فیزیکی و شیمیایی با ترکیب اجر سازگار باشد. ملات باید دارای پایداری حرارتی بوده و نبایستی در حین خشک شدن یا حرارت انقباض زیاد و یا بادکردگی داشته باشد. انبساط حرارتی ملات باید بصورت تقریبی همانند آجر و یا شکل دیرگدازی باشد که برای اتصال آن استفاده میشود. درجه دیرگدازی ملات همچنین باید در حدی باشد که در دمای بالا ذوب نشود و یا از میان درزهای اتصالی روان نشود. ملات های دیرگداز معمولا به دو دسته تقسیم میشوند: ملات با گیرش حرارتی و ملات با گیرش در هوا. ملات با گیرش حرارتی فقط هنگامی که تا دمای کوره حرارت داده می‌شوند اتصال سرامیکی مستحکم را ایجاد می کنند. ملات با گیرش در هوا از مواد دیرگداز مناسب با انتخاب ترکیب صحیح تهیه میشوند و بعد از خشک شدن بسیار سخت میشوند. چسب های شیمیایی خواص گیرش در هوا را ایجاد می کنند و استحکام اتصال را تا دمایی که اتصال سرامیکی موثر واقع شود حفظ میکند.",
+        "en": "The mortar must also be physically and chemically compatible with the composition of the bricks. It should have thermal stability and should not undergo excessive shrinkage or swelling during drying or heating. The thermal expansion of the mortar should be approximately similar to that of the refractory brick or shape used for bonding. The refractory degree of the mortar should be such that it does not melt or flow through the joints at high temperatures. Refractory mortars are generally classified into two types: heat-setting mortar and air-setting mortar. Heat-setting mortar forms a strong ceramic bond only when heated to furnace temperatures. Air-setting mortar is prepared from suitable refractory materials with a correct composition and becomes very hard after drying. Chemical binders provide air-setting properties and maintain bond strength until the ceramic bond becomes effective.",
+        "zh": "砂浆在物理和化学上也必须与砖的成分兼容。 它应具有热稳定性，并且在干燥或加热过程中不应发生过度收缩或膨胀。 砂浆的热膨胀应大致与用于粘合的耐火砖或形状相似。 砂浆的耐火度应足够高，以便在高温下不会熔化或从接缝中流出。 耐火砂浆通常分为两种类型：热固化砂浆和空气固化砂浆。 热固化砂浆仅在加热至炉温时才能形成牢固的陶瓷结合。 空气固化砂浆由合适的耐火材料和正确的配比制成，干燥后会变得非常坚硬。 化学粘合剂提供空气固化特性，并保持结合强度，直到陶瓷结合发挥作用。",
+        "ru": "Раствор также должен быть физически и химически совместим с составом кирпича. Он должен обладать термостойкостью и не должен чрезмерно сжиматься или разбухать во время сушки или нагрева. Тепловое расширение раствора должно быть примерно таким же, как у огнеупорного кирпича или формы, используемой для соединения. Огнеупорная способность раствора должна быть такой, чтобы он не плавился и не вытекал через соединительные швы при высоких температурах. Огнеупорные растворы обычно делятся на два типа: термозатвердевающие и воздушнозатвердевающие растворы. Термозатвердевающий раствор образует прочное керамическое соединение только при нагреве до температур печи. Воздушнозатвердевающий раствор изготавливается из подходящих огнеупорных материалов с правильным составом и становится очень твердым после высыхания. Химические связующие вещества обеспечивают свойства воздушного затвердевания и сохраняют прочность соединения до тех пор, пока не станет эффективным керамическое соединение.",
+        "hi": "मोर्टार को भौतिक और रासायनिक रूप से ईंटों की संरचना के साथ संगत होना चाहिए। इसमें थर्मल स्थिरता होनी चाहिए और सुखाने या गरम करने के दौरान अत्यधिक संकुचन या सूजन नहीं होनी चाहिए। मोर्टार का थर्मल विस्तार ईंट या जिस आग प्रतिरोधी आकार के लिए इसका उपयोग किया जा रहा है, उसके समान होना चाहिए। मोर्टार की अग्नि रोधक क्षमता इतनी होनी चाहिए कि यह उच्च तापमान पर न पिघले और न ही जोड़ के माध्यम से बह निकले। अग्निरोधी मोर्टार आमतौर पर दो प्रकार के होते हैं: हीट-सेटिंग मोर्टार और एयर-सेटिंग मोर्टार। हीट-सेटिंग मोर्टार केवल तब एक मजबूत सिरेमिक बॉन्ड बनाता है जब इसे भट्टी के तापमान तक गरम किया जाता है। एयर-सेटिंग मोर्टार उपयुक्त अग्निरोधी सामग्री और सही मिश्रण से तैयार किया जाता है और सूखने के बाद बहुत कठोर हो जाता है। रासायनिक बाइंडर एयर-सेटिंग गुण प्रदान करते हैं और तब तक बंधन की ताकत बनाए रखते हैं जब तक कि सिरेमिक बॉन्ड प्रभावी न हो जाए।",
+        "tr": "Harç, tuğlanın bileşimiyle fiziksel ve kimyasal olarak uyumlu olmalıdır. Termal kararlılığa sahip olmalı ve kuruma veya ısıtma sırasında aşırı büzülme veya şişme yapmamalıdır. Harcın termal genleşmesi, bağlanma için kullanılan refrakter tuğla veya şekille yaklaşık olarak aynı olmalıdır. Harcın refrakter derecesi, yüksek sıcaklıklarda erimemesi veya bağlantı derzlerinden akmaması için yeterince yüksek olmalıdır. Refrakter harçlar genellikle iki türe ayrılır: ısı ile sertleşen harç ve hava ile sertleşen harç. Isı ile sertleşen harç, yalnızca fırın sıcaklıklarına ısıtıldığında güçlü bir seramik bağ oluşturur. Hava ile sertleşen harç, doğru bileşime sahip uygun refrakter malzemelerden hazırlanır ve kuruduktan sonra çok sert hale gelir. Kimyasal bağlayıcılar, hava ile sertleşme özellikleri sağlar ve seramik bağ etkili hale gelene kadar bağlantı mukavemetini korur."
+      }
+    },
+    {
+      "title": {
+        "fa": "کاربرد ملات ها",
+        "en": "Applications of Mortars",
+        "zh": "砂浆的应用",
+        "ru": "Применение растворов",
+        "hi": "मोर्टार का उपयोग",
+        "tr": "Harçların Kullanım Alanları"
+      },
+      "text": {
+        "fa": "ملاتهای نسوز قابل استفاده در تمامی صنایع هستند و شرکت ONYX تولید کننده ملات با درصد آلومینای 80%-20% با قابلیت گیرش حرارتی و گیرش در هوا می باشد. ملات‌ها از اجزای اصلی در اتصال قطعات پیش‌ساخته نسوز و پوشش‌دهی سطوح کوره‌ها هستند. این محصولات با جرم‌های نسوز بهینه‌سازی شده‌اند تا در شرایط سخت، مقاومت حرارتی و دوام بالایی داشته باشند.",
+        "en": "Refractory mortars are used across all industries, and ONYX produces mortars with 20%-80% alumina content, offering both heat-setting and air-setting properties. Mortars are essential components for bonding prefabricated refractory parts and coating furnace surfaces. These products are optimized with refractory masses to ensure high thermal resistance and durability under extreme conditions.",
+        "zh": "耐火砂浆可用于所有行业，ONYX 生产的砂浆含有 20%-80% 的氧化铝，具备热固化和空气固化特性。砂浆是粘结预制耐火部件和涂覆炉膛表面的关键组成部分。这些产品经过耐火材料优化，以确保在极端条件下具有高耐热性和耐久性。",
+        "ru": "Огнеупорные растворы используются во всех отраслях промышленности, а компания ONYX производит растворы с содержанием глинозема 20%-80%, обладающие термозатвердевающими и воздушнозатвердевающими свойствами. Растворы являются ключевыми компонентами для соединения предварительно изготовленных огнеупорных деталей и покрытия поверхностей печей. Эти продукты оптимизированы с огнеупорными массами для обеспечения высокой термостойкости и долговечности в экстремальных условиях.",
+        "hi": "अग्निरोधी मोर्टार का उपयोग सभी उद्योगों में किया जाता है, और ONYX कंपनी 20%-80% एल्युमिना सामग्री वाले मोर्टार का उत्पादन करती है, जिसमें गर्मी और हवा में सख्त होने की क्षमता होती है। मोर्टार, पूर्व-निर्मित अग्निरोधी भागों को जोड़ने और भट्टियों की सतहों को कोटिंग करने के लिए आवश्यक घटक हैं। इन उत्पादों को अत्यधिक परिस्थितियों में उच्च तापीय प्रतिरोध और स्थायित्व सुनिश्चित करने के लिए अनुकूलित किया गया है।",
+        "tr": "Refrakter harçlar tüm endüstrilerde kullanılmaktadır ve ONYX, %20-%80 alümina içeriğine sahip, hem ısı ile sertleşen hem de hava ile sertleşen özelliklere sahip harçlar üretmektedir. Harçlar, önceden üretilmiş refrakter parçaları birleştirmek ve fırın yüzeylerini kaplamak için temel bileşenlerdir. Bu ürünler, zorlu koşullarda yüksek termal direnç ve dayanıklılık sağlamak için refrakter kütleler ile optimize edilmiştir."
+      }
+    }
+  ]
+}

@@ -12,7 +12,7 @@ export const getBricksList = async () => {
 export const getBrickInfo = async (
   path: string,
 ): Promise<IBrickProductDetail> => {
-  const res = await http.get(`/bricks/${path}/info.json`).then((res) => {
+  const res = await http.get(`/bricks/${path}/info.json`,{params: { time: Date.now() }}).then((res) => {
     return res;
   });
 
