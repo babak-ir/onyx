@@ -63,5 +63,292 @@
         "tr": "Refrakter mastikler, kazanlar ve bacalardaki tuğlalar arasındaki çatlakları ve boşlukları sızdırmaz hale getirmek ve onarmak için kullanılır. ONYX'te mastikler, kullanıma hazır sıvı yapıştırıcılar olarak sunulmaktadır. Önceden üretilmiş refrakter parçaları birleştirmek ve fırın yüzeylerini kaplamak için kritik bileşenlerdir. Bu ürünler, zorlu koşullarda yüksek termal direnç ve dayanıklılık sağlamak için refrakter kütleler ile optimize edilmiştir."
       }
     }
+  ],
+  "experiments": [
+    {
+      "id": "0",
+      "title": "ARMASTIC A50",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Alumina Mastic"
+            },
+            {
+              "key": "Description",
+              "value": "Ceramic & Chemical Bonded Mastic"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "25 kg net weight multi proof Gallon"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-0.1"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "50"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "40"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "ARMASTIC A60",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mastic"
+            },
+            {
+              "key": "Description",
+              "value": "Ceramic & Chemical Bonded Mastic"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "25 kg net weight multi proof Gallon"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-0.1"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "60"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "30.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "ARMASTIC A70",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mastic"
+            },
+            {
+              "key": "Description",
+              "value": "Ceramic & Chemical Bonded Mastic"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "25 kg net weight multi proof Gallon"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-0.1"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "20"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1640"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "ARMASTIC A80",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mastic"
+            },
+            {
+              "key": "Description",
+              "value": "Ceramic & Chemical Bonded Mastic"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "25 kg net weight multi proof Gallon"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-0.1"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "78"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "12"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1680"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "ARMASTIC A90",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mastic"
+            },
+            {
+              "key": "Description",
+              "value": "Ceramic & Chemical Bonded Mastic"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "25 kg net weight multi proof Gallon"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-0.1"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "90"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "3.3"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1800"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

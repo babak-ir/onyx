@@ -63,5 +63,983 @@
         "tr": "Refrakter harçlar tüm endüstrilerde kullanılmaktadır ve ONYX, %20-%80 alümina içeriğine sahip, hem ısı ile sertleşen hem de hava ile sertleşen özelliklere sahip harçlar üretmektedir. Harçlar, önceden üretilmiş refrakter parçaları birleştirmek ve fırın yüzeylerini kaplamak için temel bileşenlerdir. Bu ürünler, zorlu koşullarda yüksek termal direnç ve dayanıklılık sağlamak için refrakter kütleler ile optimize edilmiştir."
       }
     }
+  ],
+
+  "experiments": [
+    {
+      "id": "0",
+      "title": "ARMOR 20A",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Siliceous Chamotte Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Air Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Siliceous Chamotte"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-50"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "20"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "74"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1260"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "ARMOR 20H",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Siliceous Chamotte Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Heat Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Siliceous Chamotte"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-50"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "20"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "76"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1260"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "ARMOR 27A",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": " Chamotte Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Air Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-50"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "27"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "67"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1260"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "ARMOR 27H",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": " Chamotte Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Heat Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-50"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "27"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "70"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1.2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1375"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "ARMOR 40A",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": " Chamotte Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Air Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-50"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "40"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "50"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1410"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "ARMOR 40H",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": " Chamotte Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Heat Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-40"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "40"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "52"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1410"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "ARMOR 50A",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": " Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Air Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-40"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "50"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "34"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "ARMOR 50H",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": " Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Heat Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-50"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "50"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "40.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "ARMOR 60A",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Air Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-40"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "60"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "30"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "ARMOR 60H",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Heat Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "30-40"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "60"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "32"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "ARMOR 70A",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Air Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "25-35"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "21"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1660"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "ARMOR 70H",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Heat Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "25-35"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "23"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1660"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "ARMOR 80A",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Air Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "20-25"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "77"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "13.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "ARMOR 80H",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Heat Setting Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "20-25"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "79"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "14"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "ARMOR 80SP",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Mortar"
+            },
+            {
+              "key": "Description",
+              "value": "Chemical bonded Mortar"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Packaging",
+              "value": "30 kg net weight multi proof sacks"
+            },
+            {
+              "key": "Storage Life (Month)",
+              "value": "Unlimited"
+            },
+            {
+              "key": "Grain Size (μ)",
+              "value": "0-150"
+            },
+            {
+              "key": "Water Required (%)",
+              "value": "20-25"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "80"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "13"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Limit Temperature (ºC)",
+              "value": "1700"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

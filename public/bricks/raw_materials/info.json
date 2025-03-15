@@ -201,5 +201,303 @@
         "tr": "Azarshahab Şirketi'nde belirtilen çeşitli refrakter hammaddeler, %40 ile %96 arasında alümina içeriğine sahip refrakter tuğlalar ve kütlelerin üretiminde kullanılmaktadır."
       }
     }
+  ],
+  "experiments": [
+    {
+      "id": "0",
+      "title": "ARBauxite A75",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "73-77"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "17-20"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1.5-2"
+            },
+            {
+              "key": "TiO2 (%)",
+              "value": "3.5-4"
+            },
+            {
+              "key": "Na2O (%)",
+              "value": "≤0.5"
+            },
+            {
+              "key": "K2O (%)",
+              "value": "≤0.5"
+            },
+            {
+              "key": "L.O.I (%)",
+              "value": "≤1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.85-2.95"
+            },
+            {
+              "key": "Water Absorption (%)",
+              "value": "3-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "ARBauxite Arg 60",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "58-62"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "31-33"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2-3"
+            },
+            {
+              "key": "TiO2 (%)",
+              "value": "2.5-3.5"
+            },
+            {
+              "key": "Na2O (%)",
+              "value": "≤0.5"
+            },
+            {
+              "key": "K2O (%)",
+              "value": "≤0.5"
+            },
+            {
+              "key": "L.O.I (%)",
+              "value": "≤1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.50-2.70"
+            },
+            {
+              "key": "Water Absorption (%)",
+              "value": "5-7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "ARBauxite Bk40",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Bauxite"
+            },
+            {
+              "key": "Description",
+              "value": "Abration Resistance Raw Materials"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "40-42"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "46-48"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1.8-2.8"
+            },
+            {
+              "key": "TiO2 (%)",
+              "value": "6.5-7.5"
+            },
+            {
+              "key": "Na2O (%)",
+              "value": "≤0.2"
+            },
+            {
+              "key": "K2O (%)",
+              "value": "≤1"
+            },
+            {
+              "key": "L.O.I (%)",
+              "value": "≤0.5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.25-2.45"
+            },
+            {
+              "key": "Water Absorption (%)",
+              "value": "5-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "ARBauxite LI42",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "42-44"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "50-52"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.8-1.5"
+            },
+            {
+              "key": "TiO2 (%)",
+              "value": "0.5-1.5"
+            },
+            {
+              "key": "Na2O (%)",
+              "value": "≤0.5"
+            },
+            {
+              "key": "K2O (%)",
+              "value": "≤0.5"
+            },
+            {
+              "key": "L.O.I (%)",
+              "value": "≤1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.1-2.30"
+            },
+            {
+              "key": "Water Absorption (%)",
+              "value": "5-7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "ARCristobalite",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Cristobalite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "1-2"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "96"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.01"
+            },
+            {
+              "key": "TiO2 (%)",
+              "value": "1.23"
+            },
+            {
+              "key": "Na2O (%)",
+              "value": "0.4"
+            },
+            {
+              "key": "K2O (%)",
+              "value": "0.21"
+            },
+            {
+              "key": "L.O.I (%)",
+              "value": "≤0.5"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

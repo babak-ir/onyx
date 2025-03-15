@@ -29,8 +29,8 @@ const ExperimentTabsContetnt = ({ brickExperiments }: IProp) => {
                         key={index}
                         className="flex justify-between gap-4 w-full"
                       >
-                        <span className="font-medium">{property.key}</span>
-                        <span className="text-xs md:text-sm font-normal">
+                        <span className="font-medium text-start">{property.key}</span>
+                        <span className="text-xs md:text-sm font-normal text-end">
                           {property.value}
                         </span>
                       </div>

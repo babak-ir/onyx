@@ -97,5 +97,659 @@
         "tr": "Ön döküm refrakter parçalar veya prefabrik bileşenler, başlıca çelik üretimi, alüminyum, bakır, çimento, kimya endüstrileri ve ısıl işlem gibi çeşitli endüstrilerde kullanılır. Ön döküm parçaların en önemli uygulamalarından bazıları elektrik ark ocakları için delta tavanı, pota kuyu blokları, hava nozulları, petrokimya endüstrilerinde lento blokları ve fırın brülörleridir. ONYX Şirketi'nde, ön döküm parçalar farklı şekillerde üretilmektedir, bunlar arasında kuyu blokları, haddehanelerde ergimiş döküm için yedek parçalar, alüminyum döküm hunileri ve brülör blokları bulunmaktadır."
       }
     }
+  ],
+  "experiments": [
+    {
+      "id": "0",
+      "title": "ARBLOCK A45",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Chamotte"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "44-45"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "33"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1350"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "5-2.25"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "250-350"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "ARBLOCK A50",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Low Iron Chamotte / Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "50"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "42.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1.7"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1500"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.35-2.45"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "600-800"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "ARBLOCK A60AD",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Andalusite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "60"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "36"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1640"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.55-2.75"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "650-850"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "ARBLOCK A70",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "24"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1640"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.45-2.65"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "600-800"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "ARBLOCK A70AD40",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "Bauxite / Andalusite"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "70"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "24"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1640"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.50-2.70"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "700-900"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "ARBLOCK A80",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "80"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "11.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1720"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.65-2.85"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "750-950"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "ARBLOCK A85",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Bauxite"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "84"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "9.5"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1760"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.70-2.90"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "750-950"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "ARBLOCK A90",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Tabular Alumina"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "90"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "6.8"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1800"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.75-2.95"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "800-1000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "ARBLOCK A94",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Tabular Alumina"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "94"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "4"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1860"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.90-3.10"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "850-1050"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "ARBLOCK A95-Delta",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block for Arc Furnace Delta"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Tabular Alumina"
+            },
+            {
+              "key": "Additional Information",
+              "value": "Containing Steel needles and Chrome Oxide"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "95"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "2"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.1"
+            },
+            {
+              "key": "CaO (%)",
+              "value": "0.9"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1880"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.95-3.15"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "900-1100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "ARBLOCK A96",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Tabular Alumina"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "96"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "2"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1830"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.80-3.00"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "800-1000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "ARBLOCK A96-Delta",
+      "content": [
+        {
+          "title": "General Properties",
+          "properties": [
+            {
+              "key": "Classification",
+              "value": "High Alumina Block for Arc Furnace Delta"
+            },
+            {
+              "key": "Description",
+              "value": "Non Cement Chemical Bonded Refractory Block"
+            },
+            {
+              "key": "Raw Material Basis",
+              "value": "Tabular Alumina"
+            },
+            {
+              "key": "Additional Information",
+              "value": "Containing Steel needles and Chrome Oxide"
+            }
+          ]
+        },
+        {
+          "title": "Main Chemical Component",
+          "properties": [
+            {
+              "key": "Al2O3 (%)",
+              "value": "96"
+            },
+            {
+              "key": "SiO2 (%)",
+              "value": "2"
+            },
+            {
+              "key": "Fe2O3 (%)",
+              "value": "0.1"
+            }
+          ]
+        },
+        {
+          "title": "Physical & Thermal Properties",
+          "properties": [
+            {
+              "key": "Maximum Service Temperature (ºC)",
+              "value": "1800"
+            },
+            {
+              "key": "Bulk Density (gr/cm³)",
+              "value": "2.90-3.10"
+            },
+            {
+              "key": "Cold Crushing Strength (kg/cm²)",
+              "value": "900-1100"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
