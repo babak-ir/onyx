@@ -26,7 +26,7 @@ export default function ProductPage({ params }: Props) {
 
   useEffect(() => {
     product.refetch();
-  }, [productName]);
+  }, [productName, product]);
 
   if (!product) {
     notFound(); // Render the 404 page if the product is not found
