@@ -1,0 +1,66 @@
+{
+  "title": {
+    "fa": "آجر های الومینایی سیلیکاتی ",
+    "en": "Alumina Silicate Bricks",
+    "zh": "硅酸铝砖",
+    "ru": "Алюмосиликатные кирпичи",
+    "hi": "एल्युमिना सिलिकेट ईंटें",
+    "tr": "Alümina Silikat Tuğlalar"
+  },
+  "imageUrl": "/bricks/alumina_silicate_bricks‫/‬large.jpeg",
+  "content": [
+    {
+      "title": {
+    "fa": "آجر های الومینایی سیلیکاتی ",
+    "en": "Alumina Silicate Bricks",
+    "zh": "硅酸铝砖",
+    "ru": "Алюмосиликатные кирпичи",
+    "hi": "एल्युमिना सिलिकेट ईंटें",
+    "tr": "Alümina Silikat Tuğlalar"
+      },
+      "text": {
+        "fa": "مخلوطی از الومینا و سیلیس (Sio2),(Al2o3)",
+        "en": " A mix of alumina (Al₂O₃) and silica (SiO₂)",
+        "zh": ": 氧化铝 (Al₂O₃) 和二氧化硅 (SiO₂) 的混合物。 ",
+        "ru": " Смесь оксида алюминия (Al₂O₃) и диоксида кремния (SiO₂).",
+        "hi": "अल्युमिना (Al₂O₃) और सिलिका (SiO₂) का मिश्रण।",
+        "tr": "Alümina (Al₂O₃) ve silika (SiO₂) karışımı ."
+      }
+    },
+    {
+      "title": {
+        "fa": "انواع اصلی",
+        "en": "Types",
+        "zh": "类型",
+        "ru": "Типы",
+        "hi": "प्रकार",
+        "tr": "Türler"
+      },
+      "text": {
+        "fa": "کواندومی , مولایت فیوز, مولایتی, بوکسیتی, آندالوزیتی, شاموتی , ضد اسیدی و ‫...‬ ",
+        "en": "Silica-alumina composite brick, Fused mullite brick, Mullite brick, Bauxite brick, Andalusite brick, Fireclay brick, Acid-proof brick ...",
+        "zh": " 硅铝复合砖 (guī lǚ fùhé zhuān), 熔融莫来石砖 (róngróng mò lái shí zhuān), 莫来石砖 (mò lái shí zhuān), 矾土砖 (fán tǔ zhuān), 红柱石砖 (hóng zhù shí zhuān), 耐火粘土砖 (nài huǒ nián tǔ zhuān), 耐酸砖 (nài suān zhuān)...",
+        "ru": "Кремнезёмисто-глинозёмистый кирпич, Плавленый муллитовый кирпич, Муллитовый кирпич, Бокситовый кирпич, Андалузитовый кирпич, Шамотный кирпич, Кислотоупорный кирпич ...",
+        "hi": " सिलिका-अल्यूमिना मिश्रित ईंट, संगलित मुलाइट ईंट, मुलाइट ईंट, बॉक्साइट ईंट, एंडालूसाइट ईंट, फायरक्ले ईंट, अम्लरोधी ईंट...",
+        "tr": "Silika-alümina kompozit tuğla, Eritilmiş mullit tuğlası, Mullit tuğlası, Boksit tuğlası, Andaluzit tuğlası, Şamot tuğlası, Asit dayanıklı tuğla", 
+      }
+    },
+    {
+      "title": {
+        "fa": "ویژگی های کلیدی ",
+        "en": "Properties",
+        "zh": "特性",
+        "ru": "Свойства",
+        "hi": "गुण: ",
+        "tr": "Özellikler:"
+      },
+      "text": {
+        "fa":  مقاومت حرارتی بالا تا ۱۸۰۰ درجه سانتی گراد و پایداری شیمیایی و انبساط حرارتی کم ",
+        "en": "High heat resistance (up to 1800°C), chemical stability, low thermal expansion.", 
+        "zh": "耐高温（达 1800°C）、化学稳定性好、低热膨胀 .",
+        "ru": "Огнеупорность (до 1800°C), химическая стабильность.",
+        "hi": "अत्यधिक ताप-सहनशीलता, रासायनिक स्थिरता। .",
+        "tr": "Yüksek ısı direnci, kimyasal stabilite."
+      }
+    }
+‫{‬,

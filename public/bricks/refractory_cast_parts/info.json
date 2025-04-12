@@ -1,0 +1,52 @@
+{
+  "title": {
+    "fa": "قطعات ریختنی نسوز ",
+    "en": "Refractory cast parts",
+    "zh": "耐火铸件",
+    "ru": "Огнеупорные литые детали ",
+    "hi": "अग्निरोधक ढलवां भाग",
+    "tr": "Döküm refrakter parçalar"
+  },
+  "imageUrl": "/bricks/refractory_cast_parts/large.jpeg ",
+  "content": [
+    {
+      "title": {
+        "fa": "قطعات ریختنی نسوز ",
+        "en": "Refractory cast parts",
+        "zh": "耐火浇注料部件包括：",
+        "ru": "Огнеупорные литые детали включают:",
+        "hi": "अग्निरोधक ढलवां भागों में शामिल हैं:",
+        "tr": "Dökülebilir refrakter parçalar şunları içerir:",
+      },
+      "text": {
+        "fa": "  قطعات ریختنی نسوز به قطعاتی که از مواد نسوز تولید می شوند ‫.‬ این فطعات به دلیل مقاومت حرارتی در صنایعی ساخته شده و از طریق فرایند ریختهگری متالوژی ,سیمان ,شیشه ,پتروشیمی و نیروگاه ها استفاده می شوند ‫.‬ .",
+        "en": "Refractory cast parts are heat-resistant components made from refractory materials (like alumina, silica, or zirconia) through casting processes. They are used in high-temperature applications such as furnaces, kilns, and reactors in industries like steel, cement, and glass manufacturing.",
+        "zh": "耐火铸件 (Nàihuǒ zhùjiàn) 是由耐火材料（如氧化铝、硅酸盐或锆石）通过铸造工艺制成的高温耐热部件，用于冶金、水泥、玻璃等行业的高温炉窑和反应器中。",
+        "ru": "Огнеупорные литые детали изготавливаются из тугоплавких материалов (например, глинозема, кремнезема или циркония) методом литья. Они применяются в высокотемпературных промышленных установках, таких как печи, реакторы и цементные вращающиеся печи.",
+        "hi": "अग्निरोधक ढलवां भाग (Agnirōdhak ḍhalvāṅ bhāg) ऊष्मा-प्रतिरोधी सामग्री (जैसे अल्युमिना, सिलिका या ज़िरकोनिया) से ढलाई प्रक्रिया द्वारा बनाए जाते हैं। ये स्टील, सीमेंट और कांच उद्योगों में भट्टियों, किल्न और रिएक्टरों में उपयोग किए जाते हैं।",
+        "tr": "Döküm refrakter parçalar, alümina, silika veya zirkonya gibi refrakter malzemelerden döküm yöntemiyle üretilen yüksek ısıya dayanıklı parçalardır. Çelik, çimento ve cam endüstrilerinde fırınlar, kireç ocakları ve reaktörlerde kullanılır."
+      }
+    },
+    {
+      "title": {
+        "fa": "قطعات ریختنی نسوز شامل ‫:‬",
+        "en": "Refractory castable parts include:",
+        "zh": "耐火材料的组成",
+        "ru": "Компоненты огнеупорных масс",
+        "hi": "अग्निरोधी पदार्थों के घटक",
+        "tr": "Refrakter Kütlelerin Bileşenleri"
+      },
+      "text": {
+        "fa": "دلتا, ول بلوک , انواع تاندیش دام , تاندیش کاور , ضربه گیر تاندیش, لنس ,بلوک جایگزین , فیوزکست , برتر بلوک ها و ‫...‬ .",
+        "en": "Delta , Well Block ,Types of Tundish Dams ,Tundish Cover ,Tundish Shock Absorber ,Lance ,Replacement Block ,Fuse Cast ,Superior Blocks...",
+        "zh": "角砖  ,中间包块  ,中间包挡渣墙类型  ,中间包盖  , 中间包缓冲器  , 喷枪  ,替换块  ,熔铸料 ,优质块 ... ",
+        "ru": "Дельта ,Блок колодца ,Типы запруд для промежуточного ковша ,Крышка промежуточного ковша ,Амортизатор промежуточного ковша ,Ланцет ,
+Сменный блок ,Литейный предохранитель ,Превосходные блоки ",
+        "hi": "डेल्टा ,वेल ब्लॉक ,टंडिश डैम के प्रकार ,टंडिश कवर ,टंडिश शॉक अवशोषक ,लांस ,प्रतिस्थापन ब्लॉक ,फ्यूज कास्ट ,श्रेष्ठ ब्लॉक ... ",
+        "tr": "Delta,Kuyu Bloğu,Tandiş Barajı Çeşitleri,Tandiş Kapağı,Tandiş Şok Emici,Lans,Yedek Blok,Sigorta Dökümü,Üstün Bloklar ve ...",
+
+    
+      }
+    }
+  ]
+}

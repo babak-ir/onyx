@@ -82,5 +82,29 @@
       "tr": "Temel malzemeler"
     },
     "imageUrl": "/bricks/raw_materials/small.jpg"
-  }
+  },
+  {
+    "path": "refractory_cast_parts",
+    "title": {
+      "en": "Refractory cast parts",
+      "fa": "قطعات ریختنی نسوز ",
+      "zh": "耐火铸件",
+      "ru": "Огнеупорные литые детали включают",
+      "hi": "अग्निरोधक ढलवां भाग",
+      "tr": "Döküm refrakter parçalar"
+    },
+    "imageUrl": "/bricks/raw_materials/small.jpg"
+  },
+  {
+    "path": "alumina_silicate_bricks",
+    "title": {
+      "en": "Alumina Silicate Bricks",
+      "fa": " آجر های الومینایی سیلیکاتی ",
+      "zh": "硅酸铝砖",
+      "ru": "Алюмосиликатные кирпичи",
+      "hi": "एल्युमिना सिलिकेट ईंटें",
+      "tr": "Alümina Silikat Tuğlalar"
+    },
+    "imageUrl": "/bricks/raw_materials/small.jpg"
+    }
 ]

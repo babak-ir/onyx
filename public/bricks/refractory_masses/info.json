@@ -81,14 +81,34 @@
         "tr": "Refrakter kütlelerde bağlanma türleri arasında hidrolik, kimyasal ve organik bağlar bulunur. Soğuk bağlanma, ısıtılmamış sistemlerde gerçekleşirken, seramik bağlanma sıcak bağ olarak kabul edilir ve kurulum sırasında ısıtma ile oluşur. Soğuk bağlanma, 200-600°C sıcaklık aralığında malzemeyi güçlendirirken, sıcak bağlanma 800°C'nin üzerinde gerçekleşir. En yaygın soğuk bağlayıcılar arasında yüksek alümina çimentosu (hidrolik), alümina bağlayıcı (kalsiyumsuz ve hidrolik), fosfat bağlayıcı (kimyasal), sodyum silikat (kimyasal) ve organik bağlayıcılar bulunur. Hidrolik bağlayıcıların en büyük grubu çimento esaslı bağlayıcılardan oluşmaktadır."
       }
     },
+    { 
+       "title": {
+         "fa": "ملات های نسوز ",
+        "en": "Refractory mortars.",
+        "zh": "耐火泥浆 ",
+        "ru":   "Огнеупорные растворы.",
+        "hi": "दुर्दम्य मोर्टार.",
+        "tr": "Refrakter harçlar ."
+        },
+
+      "text": {
+        "fa": "سخت شونده در هوا-سخت شوتده در حرارت - سخت شوتده شیمیایی ",
+        "en": "Air-setting/Heat-setting/Chemical-bonded.",
+        "zh": "气硬性/热硬性/化学结合型.",
+        "ru":   "Воздушного/Термического/Химического отверждения.",
+        "hi": "वायु-सेटिंग/ताप-सेटिंग/रासायनिक-बंधितर.",
+        "tr": "Hava ile sertleşen/Isı ile sertleşen/Kimyasal bağlı."
+          }
+        },
+            
     {
       "title": {
         "fa": "طبقه بندی جرم های نسوز باند هیدرولیک",
-        "en": "Classification of Hydraulic Bonded Refractory Masses",
-        "zh": "液压结合耐火材料的分类",
-        "ru": "Классификация огнеупорных масс с гидравлическим связующим",
-        "hi": "हाइड्रोलिक बंधन अग्निरोधी पदार्थों का वर्गीकरण",
-        "tr": "Hidrolik Bağlı Refrakter Kütlelerin Sınıflandırılması"
+        "en": "Classification of hydraulically bonded refractory castables.",
+        "zh": "水硬性结合耐火浇注料的分类 。",
+        "ru": "Классификация гидравлически связанных огнеупорных смесей.",
+        "hi": "हाइड्रोलिक बंधन वाले दुर्दम्य कास्टेबल्स का वर्गीकरण .",
+        "tr": "Hidrolik bağlayıcılı refrakter dökme malzemelerin sınıflandırılması ."
       },
       "text": {
         "fa": "با توجه به میزان سیمان موجود در ترکیب، جرم‌های نسوز به صورت جرم ریختنی معمولی (CaO>2.5%)، جرم ریختنی کم سیمان (1%<CaO<2.5%)، جرم ریختنی خیلی کم سیمان (0.2%<CaO<1%) و جرم ریختنی بدون سیمان (CaO<0.2%) دسته بندی می‌شوند.",
@@ -109,12 +129,12 @@
         "tr": "Kurulum Yöntemlerine Göre Refrakter Kütlelerin Sınıflandırılması"
       },
       "text": {
-        "fa": "براساس نوع روش استفاده جرمهای نسوز (جرم های بی شکل) در دسته بندی های: جرمهای عایق نسوز، جرم های ریختنی، پاششی، ماله کشی، کوبیدنی و سیلیکون کار باید، در شرکت فراورده های نسوزONYX تبریز تولید می‌شوند.",
-        "en": "Based on the type of application, refractory masses (monolithic refractories) are classified into categories such as insulating refractories, castables, gunning materials, trowelable materials, ramming masses, and silicon-based products, which are produced by ONYX Refractory Products in Tabriz.",
-        "zh": "根据应用类型，耐火材料（整体耐火材料）分为隔热耐火材料、可浇注材料、喷涂材料、抹涂材料、捣打材料和硅基产品，由Tabriz的ONYX耐火产品公司生产。",
-        "ru": "В зависимости от типа применения огнеупорные массы (монолитные огнеупоры) классифицируются на категории, такие как изоляционные огнеупоры, литейные массы, торкрет-массы, шпаклевочные массы, набивные массы и кремниевые продукты, производимые компанией ONYX Refractory Products в Тебризе.",
-        "hi": "आवेदन के प्रकार के आधार पर, अग्निरोधी पदार्थों (एकल ब्लॉक अग्निरोधी) को इन्सुलेटिंग रेफ्रैक्टरीज़, कास्टेबल्स, गनिंग सामग्री, ट्रॉवेल योग्य सामग्री, रैमिंग मास और सिलिकॉन आधारित उत्पादों जैसी श्रेणियों में वर्गीकृत किया जाता है, जिन्हें तबरीज़ में ONYX रेफ्रैक्टरी उत्पादों द्वारा उत्पादित किया जाता है।",
-        "tr": "Uygulama türüne bağlı olarak, refrakter kütleler (monolitik refrakterler) yalıtım refrakterleri, dökülebilir malzemeler, püskürtme malzemeleri, mala ile uygulanabilir malzemeler, tokmaklama kütleleri ve silikon bazlı ürünler gibi kategorilere ayrılır ve Tabriz'deki ONYX Refrakter Ürünleri tarafından üretilir."
+        "fa": " (CC-MCC-LCC-ULCC-NCC) جرم های نسوز شامل ریختنی , ماله کشی, خودروان, پاشیدنی و کوبیدنی می باشند ",
+        "en": "Refractory materials include castables (CC), trowelables (MCC), self-flowing (LCC), gunnables (ULCC), and ramming mixes (NCC).",
+        "zh":"耐火材料包括浇注料 (CC)、涂抹料 (MCC)、自流料 (LCC)、喷涂料 (ULCC) 和捣打料 (NCC)。",
+        "ru": "Огнеупорные материалы включают литьевые (CC), намазываемые (MCC), самотечные (LCC), напыляемые (ULCC) и трамбовочные смеси (NCC).",
+        "hi":"दुर्दम्य सामग्री में कास्टेबल (CC), ट्रोवेलेबल (MCC), सेल्फ-फ्लोइंग (LCC), गन्नेबल (ULCC), और रैमिंग मिक्स (NCC) शामिल हैं।",
+        "tr": "Refrakter malzemeler; dökülebilir (CC), mala ile sürülebilir (MCC), kendiliğinden yayılan (LCC), püskürtmeli (ULCC) ve dövme karışımları (NCC) içerir."
       }
     }
   ]
