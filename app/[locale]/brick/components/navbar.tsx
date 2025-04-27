@@ -8,6 +8,7 @@ import LogoSVG from "@/components/svg/Logo.SVG";
 import MobileNavbarBrick from "./MobileNavbarBrick";
 import { useScopedI18n } from "@/locales/client";
 import { SwitchLocal } from "../../(home)/switch";
+import { SwitchPlatform } from "../../(home)/switchPlatform";
 
 const NavbarMenu = () => {
   const [openMobileNavbarDrawer, setOpenMobileNavbarDrawer] = useState(false);
@@ -81,6 +82,7 @@ const NavbarMenu = () => {
             </svg>
           </button>
           <div className="hidden gap-6 lg:flex">
+            <SwitchPlatform />
             <div className="flex gap-4">
               <Link
                 className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
